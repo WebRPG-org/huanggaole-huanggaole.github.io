@@ -134,21 +134,25 @@ function smoothScroll05(){
 /*-------------------------
         TYPED JS
 -------------------------*/
+// 在文件末尾添加
+// 导入多语言功能
+// 注意：需要确保i18n.js在aras.js之前加载
+
+// 修改typedJS函数，使其支持多语言
 function typedJS() {
+  "use strict";
 
-    "use strict";
-
-    var $element = $(".element");
-    if($element.length){
-        var options = {
-            strings: $element.attr('data-elements').split(','),
-            typeSpeed: 100,
-            backDelay: 2000,
-            backSpeed: 20,
-            loop: true
-        };
-        var typed = new Typed(".element", options);
-    }
+  var $element = $("#hero .element");
+  if($element.length){
+    var options = {
+      strings: $element.attr('data-elements').split(','),
+      typeSpeed: 100,
+      backDelay: 2000,
+      backSpeed: 20,
+      loop: true
+    };
+    window.typed = new Typed(".element", options);
+  }
 }
 
 /*-----------------------------
