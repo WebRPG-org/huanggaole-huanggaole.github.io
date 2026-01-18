@@ -20,7 +20,6 @@ $(document).ready(function () {
     sidebarToggler();
     smoothScroll();
     smoothScroll05();
-    typedJS();
     sliderOwlCarousel();
     swiperSlider();
     portfoliocarousel();

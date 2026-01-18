@@ -219,7 +219,7 @@ const translations = {
     'portfolio_item2_meta': '2018  Orange Game',
     'portfolio_item2_title': 'A Gay\'s Life',
     'portfolio_item3_meta': 'GGJ2020 (Repair)  RMMV',
-    'portfolio_item3_title': 'Scrapped World',
+    'portfolio_item3_title': 'Disabled World',
     'portfolio_item4_meta': 'Project1  4th Story Challenge  RMMV',
     'portfolio_item4_title': 'The Adventures of Tou Xiaoming',
     'portfolio_item5_meta': '2022  Cocos Creator',
@@ -378,6 +378,15 @@ function updatePageContent() {
       motivationImg.src = 'assets/img/motivation_en.png';
     } else {
       motivationImg.src = 'assets/img/motivation.png';
+    }
+  }
+
+  const portfolioItem3Link = document.getElementById('portfolio-item3-link');
+  if (portfolioItem3Link) {
+    if (currentLang === 'en' || currentLang === 'ja') {
+      portfolioItem3Link.href = 'https://huanggaole.github.io/disabledworld/';
+    } else {
+      portfolioItem3Link.href = 'https://huanggaole.github.io/baofei/';
     }
   }
 
