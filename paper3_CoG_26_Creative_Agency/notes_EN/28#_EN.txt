@@ -1,0 +1,213 @@
+T1(00:00:18): Hello, can you hear my voice?
+
+28#(00:00:22): Hello Teacher, can you hear me speaking?
+
+T1(00:00:25): You can start screen sharing! I can hear you.
+
+28#(00:00:30): Please wait a moment, I will share my screen. Hello Teacher, can you see my screen? I will first play the demo of my game.
+
+28#(00:01:30): OK. This is the interface after success. In the case of failure, the final game over screen looks like this.
+
+28#(00:02:11): This game’s worldview is that it is a 2D pixel-style side-scrolling single-player level-clearing game.
+
+28#(00:02:30): The worldview is that the player is a mercenary sent by a giant multinational military corporation. So the character design looks like this. It is detected that there is energy on the tropical rainforest island, so the player is sent to collect this energy. On this island, there are forces nourished by this energy guarding it to stop the player from advancing. The main enemy characters are ninjas and heavily armored warriors. The core gameplay is single-player level clearing through shooting.
+
+28#(00:03:23): In the upper right corner of the interface, there is a gameplay guide, which is shooting by aiming like this.
+
+28#(00:03:30): Then, in the upper left corner of the screen, as seen in the previous video, there is the player’s health bar. When in healthy status with full health, it is green.
+
+28#(00:03:42): For example, whether being attacked in close combat by the heavily armored warrior or shot at from a distance by the ninja, the health bar decreases. The lost portion turns red. When the health bar is empty, it turns completely red. When your health drops to half or below, the remaining portion turns yellow to give you a warning.
+
+28#(00:04:13): In the level, there will also be items like first aid kits and medical packs, which serve to provide players with a form of error tolerance. In case you get unexpectedly knocked out in the middle, it helps improve the user experience.
+
+28#(00:04:30): The protagonist has an idle animation. It might not be fully visible here, but in the level, there is an idle animation with an up-and-down movement, likely achieved through the knee joint area. This is a demonstration of his jumping action, and this is a demonstration of his shooting action.
+
+28#(00:05:05): Then, the heavily armored warrior in this game is designed to use close-range attacks by swinging the large scythe in his hand. The ninja’s attack method is to raise a gun, similar to the player, using ranged shooting. When hit by the heavily armored warrior, there is a blood-splattering hit animation like this.
+
+28#(00:05:26): This is the display after obtaining a first aid kit in the level, where green numbers indicating health increase appear. There is a certain amount of health replenishment, providing feedback. When hit by the ninja, the character flickers between visible and invisible states to indicate being hit. This is the protagonist’s death animation, where he falls to the ground. These are the death animations for the ninja and the heavily armored warrior, respectively. The ninja’s walking and idle animations both show him holding a gun like this, and this is his shooting action. When he is hit, similarly to when you obtain a first aid kit, white numbers appear. I’m not sure of the technical term, but it provides the player with feedback that the ninja’s health has decreased after being hit.
+
+28#(00:06:47): Before falling and dying, there is a blood-splattering feedback animation. After this action, he falls to the ground.
+
+28#(00:07:03): This is the design of the heavily armored warrior’s model. When he encounters the player, he swings his scythe.
+
+28#(00:07:18): This is the success screen for clearing a level, which uses this yellow color scheme to guide the player. The failure screen looks like this. The main area for future optimization is that I might want to add more items beyond just the first aid kit, such as upgrading the weapon in the player’s hand. Also, I plan to add more types of enemies, since currently there are only ninjas and heavily armored warriors. Possibly, other enemy types will be introduced later.
+
+T1(00:08:09): I think the completeness of the finished product is very high. However, I have a slight concern. Could you open the pages showing the AI platforms you used for preparing materials during the game development process, including your interactions with the AI, so I can take a look?
+
+28#(00:08:36): Here’s the situation: for the final completion, when I initially assigned this task, I actually wanted to create some casual puzzle mini-games, similar to games like Link Link or spot the difference. I invested a lot of effort trying to see if I could find something. But in my communication process, there were many bugs. The AI tools I initially used were mainly Gemini, Google AI Studio, and Gamble, plus Jimeng AI for generating raw images. At first, when I wanted to make a spot-the-difference game based on that game logic, the initial output it generated was a...
+
+28#(00:09:27): Let me find it!
+
+28#(00:09:39): It might be that in Google AI Studio, it’s like a temporary conversation; it may not save my previous records. When I was making that game, it would take the original image and the spot-the-difference image, and it would basically use two placeholders to hold the place for me, then preset several points in advance. When I was making that game, I saved these codes.
+
+28#(00:10:05): Just put them into a text file on the desktop.
+
+T1(00:10:07): So, in your game, you used some small animations, and these animations were generated by AI. Now, can you use AI tools to generate them again? If you can’t find the previous ones, like AI-generated battle character animations, shooting animations, or handstand animations, can you generate one for me on the spot? I want to take a look.
+
+T1(00:10:33): How did you generate them?
+
+28#(00:10:38): For my final project, I used Gamble. It’s kind of like one-click generation. I talked with it, and I’m looking for my... something like this.
+
+T1(00:10:58): No.
+
+T1(00:11:13): Let me see your chat records. Gamble.AI one-click generation.
+
+28#(00:11:21): Why?
+
+28#(00:11:35): This interface looks like...
+
+T1(00:12:10): Is the chat record on the left?
+
+28#(00:12:13): Right.
+
+T1(00:12:14): You can scroll to the very top, let me take a look.
+
+28#(00:12:19): Just the style, then roughly tell Gemini what kind of style I want, and then have it help me generate the prompt, which I then feed into it. The style!
+
+T1(00:12:35): OK. Actually, it’s like I’m thinking. You can’t really control the controllability; for example, if you want it to build a new level, you might not be able to control the details of that level.
+
+28#(00:12:54): Actually, I want to download its source code and then keep feeding it to Gemini, asking it to help me, to see how to improve it. But on its website, if you want to download the source code, you need to pay.
+
+T1(00:12:55): No. Then don’t download it; it’s a waste.
+
+28#(00:13:13): It’s like this. I once wanted to get the source code. Because when I was making that casual puzzle mini-game before, Google AI Studio gave me the source code, which I could directly download and then feed to Gemini to help me modify it, and then I would make changes accordingly. But the webpage this time doesn’t allow me to download it.
+
+28#(00:13:47): But if I want to take this game further, I actually have some ideas.
+
+28#(00:13:54): I’m considering getting the membership to download it.
+
+T1(00:13:57): You better not take that step. What I’m actually quite interested in is your previous experience using AI to generate relatively poor spot-the-difference games. Could you talk about that?
+
+28#(00:14:11): OK, I can still find the spot-the-difference game. I generated an image through Jimeng AI, then I used it to redraw the parts I wanted to change within Jimeng, setting the points I wanted, and had Jimeng help me.
+
+28#(00:14:28): I'll look for it briefly. After Jimeng redrew the parts I wanted to change, the initial code it gave me already preset several points. I need to adjust because the preset points differ from the points I changed. Using the method Teacher T taught me with Gemini, you open a drawing tool, place the image there, then hover the mouse over the points you want to differentiate. The coordinates will show at the bottom left. I then input those coordinates into the code string to replace that section, generate the image, and insert it.
+
+28#(00:15:12): Maybe because the sizes or resolutions differ, it caused a significant bug where I clicked the wrong spot.
+
+T1(00:15:15): It's okay.
+
+28#(00:15:23): It didn't respond.
+
+T1(00:15:25): It's okay. The experience you gain from this might be more than just generating with one click because with one-click generation, many details are unclear. I actually can't ask about them, and even if I asked you, you might not be able to answer. So it's better to find something you've actually done but has issues so we can discuss it.
+
+28#(00:15:31): Right. I'll look for mine.
+
+28#(00:16:20): Right, I was looking for different image versions at that time.
+
+T1(00:16:27): Alright. OK, let's analyze this work together. The reason you couldn't complete it during production is because there were difficulties.
+
+28#(00:16:30): Right.
+
+28#(00:16:40): Right, I have already fed the code back into Gemini to help me figure out what the problem is. Let me find my error; I should be able to locate it.
+
+28#(00:17:10): Also, I had Google Studio generate a game for me, but I’m not very good at modifying it because its movement speed is too fast. I’m not sure how to adjust it; the movement speed and the jumping feel a bit heavy.
+
+T1(00:17:27): For example, you experimented with many games, including match-three puzzles, geometric action levels, and spot-the-difference games.
+
+28#(00:17:31): Right. Yes, and I also tried a motion-sensing game that uses the camera, but it had some bugs, so I was out of options and ended up using Gamble.
+
+T1(00:17:35): I understand. I get you, because your undergraduate major definitely wasn’t computer science, so programming is a bit challenging. Actually, if you had studied computer science, you could quickly fix any issues. What was your undergraduate major?
+
+28#(00:17:50): Right.
+
+28#(00:18:03): My undergraduate major was Environmental Design.
+
+T1(00:18:04): Got it!
+
+28#(00:18:06): Right.
+
+T1(00:18:10): OK. Because you at least completed a shooting game with a fairly high degree of completion, but I don’t recommend relying too much on this tool, Gamble, which generates games with one click. You can use it at work, but it’s not ideal right now. Actually, my suggestion is, if you want to make a spot-the-difference game, I recommend manually drawing two sketches.
+
+28#(00:18:29): Right. Because.
+
+T1(00:18:40): This sketch might not look as good as it does now. You might manually draw a few geometric shapes, drag a circle, drag a square, then manually adjust the fill colors inside to create two images with the same layout but different colors for use.
+
+T1(00:19:03): You know how to use Photoshop, so it’s simple for you.
+
+28#(00:19:06): Right.
+
+T1(00:19:07): Right, then find another placeholder image. Teacher T should have mentioned in class that a placeholder image is a template, and you might manually create these two images where certain areas differ. Then you use this difference-based placeholder image and input it into tools like Gemini or similar code-generating tools like DeepSeek, telling it you want to make a spot-the-difference game.
+
+T1(00:19:38): In the placeholder image, the darker areas represent the correct answers. If you can find, say, five different spots, you win the game. Then upload the two spot-the-difference images as well. Using this method, you can try again to see if you can make a spot-the-difference mini-game. Because, perhaps, Teacher T’s course itself is being revised, since many of Teacher T’s students really don’t know programming. In my view, your assignment does not truly train you to make games or to combine AI for game development skills.
+
+T1(00:20:17): Judging only by these two images, you have used AI to generate different images for the spot-the-difference game. I think the game’s assets are basically complete. At least from the two images I have seen, I already see the differences.
+
+28#(00:20:47): Then maybe when you click on the spots I set as different points, there is no response. I don’t know why it doesn’t respond there.
+
+T1(00:20:58): OK, no problem!
+
+28#(00:21:00): It might correspond to a certain position, it seems like— I don’t know exactly— but I definitely...
+
+T1(00:21:06): Let me see your hand. You showed me two pictures, let me find them. The differences are the blue bird. The blue bird is located slightly to the left of the center at the top of the screen, and then the feathers on the white bird's head. The feathers on the other white bird's head.
+
+28#(00:21:32): Its beak.
+
+T1(00:21:34): The beaks of these two birds are different, and the shape of the feathers on their heads is also different.
+
+28#(00:21:41): Because it’s jumping urgently, sometimes you might only draw this small area, but other parts will also change.
+
+T1(00:21:43): So how many differences are there in this picture in total?
+
+28#(00:21:52): Three.
+
+T1(00:21:54): I found four. Since you used Jimeng AI to generate this pair of pictures, which are indeed usable for a spot-the-difference game, I will raise your score a bit.
+
+T1(00:22:14): When making games, as long as you can create a playable board game, it counts as a game. You don’t need programming either. I will raise your score a bit more. Do you have any other questions? Anything you want to ask me?
+
+28#(00:22:34): Regarding this question, I actually still don’t know how to solve this. I completely rewrote the code and asked Gemini what exactly is wrong, and I described my problem. I don’t understand why there is feedback on the side.
+
+T1(00:22:53): My suggestion for you is that since you don’t know programming, even if I tell you to ask Gemini using the placeholder image method, if the generation is not good, you won’t be able to tell. So my advice is that you simply make a tabletop board game.
+
+T1(00:23:14): You could create, for example, a spot-the-difference book or document. Then write the answers on the back, just like those brain teaser books we read as kids, where the front has the puzzles and the back has the answers. If you make such a PDF file, I think you have also made a game book. For this assignment, many people don’t know how to code, so my suggestion for them is to make board games—using AI to generate cards or puzzle book illustrations. Because games are not only video games. If you don’t know how to code, the current AI coding tools are still quite difficult for people who don’t know coding. So we want to find ways so that students who don’t know coding can still make games using other methods, not relying heavily on code. That’s my idea!
+
+28#(00:24:23): OK, thank you, Teacher!
+
+T1(00:24:26): No problem. Any other questions?
+
+28#(00:24:30): Right. It seems there are more, but let me see if I can... Another game I generated is...?
+
+28#(00:25:01): I want to ask... Never mind, I’ll give up. I don’t understand programming.
+
+T1(00:25:09): No problem, go ahead!
+
+28#(00:25:13): I want to make a tower defense game similar to something like Carrot Fantasy.
+
+28#(00:25:22): Then... if I can copy this string of code, can I replace the textures inside?
+
+T1(00:25:44): It’s a tower defense game like Carrot Fantasy, and if you’re not satisfied with its textures, you want to replace the images.
+
+28#(00:25:54): Right.
+
+T1(00:25:56): You might need it in your prompt.
+
+T1(00:26:03): Can prompts upload images? In AI Studio.
+
+28#(00:26:13): It seems possible.
+
+T1(00:26:15): There are two approaches. If the prompt allows you to upload images, you can directly attach the image in the prompt and then tell it how to change which image into the one you want. Another way is to upload the image you want to a website and expose the URL of that image. Then you tell AI Studio to replace the image with the one at that URL.
+
+T1(00:26:44): Both methods work. However, I still recommend that the premise of using AI to learn programming is that you should first know how to program yourself. Don’t trust vibe coding or ambient programming. If you don’t have a programming foundation, you will encounter many similar problems later and won’t know how to solve them.
+
+T1(00:27:08): So I will report to Teacher T that in the future, his course should allow students to create desktop or paper prototypes, rather than limiting them to video games only. Especially for students who don’t know programming, it’s actually unfair if the assignment only requires making video games!
+
+T1(00:27:35): If you are really interested in programming video games, I suggest you first learn something like what digital media majors study, such as Unity C# or C# programming language, or JavaScript scripting under Node.js.
+
+28#(00:27:55): I actually learned a little U3D after the semester started, but I haven’t gotten into C# programming yet. I only know the interface and general functions, but haven’t touched programming itself.
+
+T1(00:28:13): Developing video games at a high level is indeed very difficult.
+
+T1(00:28:20): Putting myself in your shoes, it really is difficult. OK, let’s leave it at that for now.
+
+28#(00:28:20): Thank you, Teacher!
+
+T1(00:28:28): It's nothing. Your workload is actually quite heavy, but I am not optimistic about the levels generated by gamble because its controllability is too poor. You can't even control what the levels should look like. I do not recommend students submit assignments using this method.
+
+T1(00:28:46): Alright, alright, let's leave it at that for now.
+
+28#(00:28:48): OK, Teacher, I will stop sharing on my end.
+
+T1(00:28:48): Goodbye, keep up the good work!
+
+28#(00:28:51): Goodbye, Teacher!
+
+T1(00:28:53): Goodbye!

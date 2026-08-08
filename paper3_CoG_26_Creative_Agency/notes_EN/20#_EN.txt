@@ -1,0 +1,115 @@
+20#(00:00:39): Teacher, can you hear me?
+
+T1(00:00:42): I can hear you!
+
+20#(00:00:44): I'll share my screen, please wait a moment, teacher. How do I share the screen?
+
+20#(00:01:14): Teacher, I haven't learned programming before, and I used to study liberal arts. Now that I'm coming into the gaming field, I might be a bit clueless.
+
+T1(00:01:26): What is the name of your course? The full name.
+
+20#(00:01:37): It's called AIGC Game Creation.
+
+T1(00:01:37): AIGC Game Creation.
+
+20#(00:01:43): Right.
+
+T1(00:01:44): Is Teacher T's course called AIGC Game Creation?
+
+20#(00:01:44): Right.
+
+T1(00:01:51): Then indeed, game literacy needs to be considered in the grading, there's really no way around it. Right, because in this course, right, if it's AIGC, for example, multimedia creation, then actually it's OK without game elements. Right, but if there are games, then we need to consider the final presentation effect of the game, mm-hm.
+
+20#(00:02:15): I understand that definitely those who have made games before, or students whose research direction is also games, the effect they produce will definitely be much better than ours, so I know this is taken into consideration, just passing is fine, but I have already tried my best.
+
+T1(00:02:33): Right, basically the difference between the highest score and the lowest score is only about ten points, so it shouldn't have a big impact. I mainly want to give everyone some suggestions, mm-hm.
+
+20#(00:02:40): Then. Thank you, teacher. Let me first talk about my concept when making this game, because I am someone who doesn't make games, and even I don't really play competitive games or traditional board games and the currently popular games on the market. The reason I can't play them is that I am not the kind of person who can get satisfaction from competitive games. And then for those small games, like matching games and parkour, I also can't really accept failure and death. It makes me very nervous. I personally think a game should be very relaxing. I have always been committed to finding an unrestricted, relaxing game, where you don't have to be nervous, and things won't die or game over. So I took advantage of this course, and I just lightly implemented this lightweight game.
+
+20#(00:03:55): The first aspect is my design explanation, I mainly. I put my main workload on the visual design, that is, I hope its final presentation effect is a very warm feeling of light and shadow. And this feeling of light and shadow, I originally wanted to achieve it through AI, but later found that the effect achieved by AI is actually not very good, so I mostly used hand-drawn backgrounds, and this. These are all some hand-drawn background images, these are all its backgrounds.
+
+20#(00:04:37): My game mechanism only has two buttons, one is the spacebar, which allows it to run forward at a constant speed, and Enter triggers its jump. And there is no failure. Its game mechanism is that when it touches a picture frame, the protagonist will trigger a mechanism of this picture frame, and its background will change light and shadow, and an image of a cat will be generated in its picture frame.
+
+20#(00:05:12): Then my initial idea was to hope to achieve automatic generation of the background through image-to-image, but found out.. it's impossible to achieve. That is, I initially gave it an image to generate such a game, its background was still pure white, and it was its initial feeling, because I also put this cat in, and then this picture frame and this table are quite simple, which fits my idea, but it has no background. Then later after I put in some pictures, I felt these two backgrounds also didn't quite fit my idea, so my solution was to make 20 to 30 pictures myself, and tell it to randomly connect and transition after touching the picture frame. But because the amount of picture frame design is relatively large, I still used image-to-image generation, explicitly telling it to connect to the nano banana model here. And up to this step, it's considered quite good. Then when I was making the second version, I found that this cat turned orange, that is, it triggered the mechanism, but when it was very far from this picture frame, it triggered the mechanism, which was not expected, it should be very close to it. Then I downloaded that code, I also wanted to ask, I just found a student to ask why this happened, later. Indeed he helped me adjust that cat, it seems it can be very close to the picture frame, and it will trigger the mechanism. Then this is my kitten's design, and these are some of my key visuals, and this is the third version and the final code, and I'll demonstrate this video.
+
+20#(00:08:03): Then some bugs appeared here, that is, no matter how it jumps into the picture frame, there is no way to trigger it, but it suddenly got better later.
+
+20#(00:08:42): My game is roughly such an idea, because I also roughly know. A game might indeed need to have some competition and mechanisms in it, I don't have much experience in this regard.
+
+T1(00:09:06): A game doesn't necessarily need to have competition. Among the four types of games, only one type needs competition, the conqueror type.
+
+T1(00:09:16): Right, right, Bartle's four classifications: competition, exploration, socializing.
+
+T1(00:09:24): There is also one called creation. Right, your type is actually more similar to creation-type players or exploration-type players.
+
+T1(00:09:39): Your assignment is a high-scoring assignment.
+
+T1(00:09:44): Let me explain to you why, scroll up yours?
+
+T1(00:09:51): Just take this video for example, although you don't know how to program, the gameplay you constructed for this game, if given to, say, someone who knows how to program, they can definitely implement it. There is no difficulty in its implementation. And then your creative concept is actually quite interesting, which is controlling a cat in parkour, bumping into a picture frame, and then it will appear like unlocking or collecting achievements, or collecting postcards. Even if you don't bump into the picture frame, the cat can still pass, right?
+
+20#(00:10:30): Right, because at the beginning I.
+
+T1(00:10:34): Here you give the player an implicit goal, which is although the cat can pass even if you don't bump into this picture frame, if it bumps into the frame, it can see a new picture. It's actually very gamified. I think your assignment is a high-scoring assignment.
+
+20#(00:10:54): Really, thank you, teacher. Because when I was designing at the beginning, I wondered if I should let it hit some obstacles, and then slow down a bit when it hits the picture frame, but my own experience playing it wasn't very good. I felt that the waiting process would make me quite impatient. And then I felt, the picture generated by this cat's picture frame at the beginning wasn't that good-looking either, it was also me. After hand-drawing four to five reference images, it could produce an effect like this. I am quite satisfied with the current effect, that is, each one is quite good-looking, I will stop and take a look every time I hit one.
+
+T1(00:11:37): Even if your assignment is put on a website, or your social media account, I guess it can attract a lot of people to watch.
+
+20#(00:11:37): OK.
+
+T1(00:11:46): It indeed has, like when I first saw it, I felt it was a little bit interesting.
+
+20#(00:11:53): Thank you, teacher, then would you want to play it a bit.
+
+T1(00:11:56): I would, if you can make it.
+
+T1(00:12:02): Actually it's suitable for participating in game competitions, for example, if you students have that kind of game production competition, you can take this one, just find a student who knows how to program to help you implement this effect. Actually the theory is not difficult, it's just parkour, then making a trigger, and then displaying a picture.
+
+20#(00:12:25): Right, because teacher, actually I had an idea at the beginning, but I felt it was not easy to implement, that is, you see my kitten, it crosses behind this table and becomes a silhouette of a piano. I actually matched the background with piano music, but that music was added manually by me. But actually I hoped that the background sound would be a kind of ambient sound feeling, and when it jumps onto the piano, it will trigger a piano sound. I couldn't test it out using Gemini, it even had many bugs. Is it easy to implement in programming?
+
+T1(00:13:00): Just make it into a parkour game, like if it's a music game that's also fine, that is, if it hits a correct piano key at the right time, it can play the appropriate note at that moment.
+
+20#(00:13:14): This is really great.
+
+T1(00:13:14): Or the picture frame, every time it hits the picture frame it can also pop up a note.
+
+20#(00:13:17): Thank you. Right, I thought, at that time because there was one, I thought at the beginning I wanted to have some picture frames, they could trigger that kind of guitar sound, and when hitting the piano it's a piano sound, and those that hit the picture frame without triggering a picture would trigger music, but I felt this might be too complicated, and Gemini couldn't implement it. I tried many times, even tried until it crashed, and it still couldn't implement it.
+
+T1(00:13:51): It's okay, I think your concept can still be expanded, it's a very expandable rule, very elegant.
+
+20#(00:14:02): Thank you, teacher.
+
+T1(00:14:04): Do you have any other questions?
+
+20#(00:14:07): Not at the moment.
+
+T1(00:14:11): Scroll to the very top, let me take a look at the name of your assignment.
+
+20#(00:14:16): My name is Candle Shadow, that is, at the beginning I wanted to make this Candle Shadow, but actually my initial design was too complicated, and it couldn't be implemented. The name is Candle Shadow. What I thought at the beginning was, teacher, have you ever seen that kind of leaf? And its leaf is not that kind, that is, if a beam of light hits the leaf, the leaf will print different shapes on the wall, and some players might control the changing direction of the leaf, and then on the wall there will be bags or foxes, various similar shadows. What I thought at the beginning was, just let there be such irregular objects, for example, paper balls or leaves, and then under the light, and then the player will first manually slide it through a 3D way, let it show a correct shadow on the wall, and then this shadow will start to run, but it couldn't be done.
+
+T1(00:15:18): This gameplay already exists in Moncage, basically it's also such an idea. I think your talent is actually leaning towards introversion and intuition, you shouldn't make puzzle games, to be honest. I think you just, if you, eh, is your undergraduate degree also in digital media art?
+
+20#(00:15:37): No, for my undergraduate I studied film and television advertising production at [Institute Name].
+
+T1(00:15:43): No wonder the media effect of the game is very good, good media nature. Then what is your current direction?
+
+20#(00:15:57): I haven't decided on a direction yet, because I am now. Exploring my possible directions.
+
+T1(00:16:07): OK, advertising games are also a relatively popular category in big companies in recent years. For example, Douyin, every time during the New Year or holidays, they have to make that kind of red envelope grabbing game. Your game is actually very suitable, for example, to be made into a special effect for Douyin. To be honest.
+
+T1(00:16:35): OK, then I have no other questions. If you also have no questions, we'll stop here for now.
+
+20#(00:16:44): OK, teacher, I need to take a picture of that, it seems I need to take a picture. A picture to show that I have arrived.
+
+20#(00:16:53): Teacher, by the way, I feel your voice sounds very nice.
+
+T1(00:16:58): Thank you.
+
+20#(00:17:00): I'm good on my side, thank you, teacher!
+
+T1(00:17:03): Goodbye everyone, no need to take pictures, because I'm recording all this.
+
+20#(00:17:04): Right. OK, thank you, teacher!
+
+T1(00:17:08): OK, OK, OK, goodbye!

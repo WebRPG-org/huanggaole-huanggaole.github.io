@@ -1,0 +1,185 @@
+T1(00:07:42): Okay. 30#. Then I won't stop the recording; we'll just start directly.
+
+30#(00:07:50): Teacher, can you see it?
+
+T1(00:08:03): You can see it? Yeah.
+
+30#(00:08:15): I made a mini-game called "Star Fighter." Next is my report, which will cover the introduction, system architecture, item system, enemy system, level system, development challenges, AI involvement, and finally, the results display. In the first part, the project introduction, this is a vertical-scrolling shooter game that combines classic arcade gameplay with modern game system design. Players control the fighter jet with the mouse, which automatically fires bullets to shoot down enemy planes. Picking up items can change the bullet type. The game features infinite levels, and its core innovation lies in the item system and enemy system.
+
+30#(00:09:01): And the combination of the level system. It's a fast-paced combat game with dense bullet patterns and a constant stream of enemies, creating an exhilarating combat experience. Players can experience four types of bullets: double-shot, spread shot, and laser shot. Players can flexibly switch combat strategies based on the situation. The level system continuously advances to the next level as points accumulate, and the challenges become harder. The target audience is casual players who want to play during fragmented time, requiring no complex learning, as well as some...
+
+30#(00:10:00): ...shooter game enthusiasts. This is the system architecture diagram for the game. And this is the core code structure. In the item system, the four bullet designs are as follows: they have different damage and speed, and their colors also vary. These visual distinctions allow players to identify them at a glance. In terms of settings, I set the double-shot bullet for ten seconds, the spread shot for eight seconds, and the laser for six seconds, to balance their strength and rarity. The item generation mechanism is one item every five seconds. The item drop coordinates are random, but generally, they fall from the top of the screen downwards. This bullet item is designed in a diamond shape, and the health item is a heart shape. For the enemy system, there are three types of enemies: normal, high-speed, and heavy. Their generation probabilities are 60% for normal, and 20% each for high-speed and heavy. Their sizes also differ. Movement speed is defined according to their type. Heavy enemies are different from the first two; they might require three hits to destroy. Different feedback mechanisms are provided to players through color distinctions and varying scores. The level system advances to the next level every 100 points, offering infinite levels to play. This can provide players with an immersive experience where they feel like they can't get enough and end up playing for a long time without realizing it.
+
+30#(00:12:33): These are some development challenges, such as collision detection. Game state management, which has four states: start, pause, end, and restart. And bullet type switching.
+
+30#(00:12:56): Finally, it's... I made a poster for this game, which fits the elements of a space-themed mini-game and has a down-to-earth style.
+
+30#(00:13:14): And this is how AI was applied in game development. It helped me with code generation, such as game logic code and algorithms for the bullet system. It also provided suggestions for performance optimization and color schemes for visuals. And for levels... optimization of item drops, and so on. AI provided suggestions during the requirements analysis, coding, testing, and optimization phases. Specifically, during the coding phase, it provided code templates. Then, this lists the advantages of the game: it's instant play, multi-platform adaptable, and there's also the idea of social sharing later on. Personally, I think there's room for innovation in art resources and art design; currently, the visual expressiveness is still in a relatively rudimentary stage. Also, more sound effects could be added to enrich the auditory experience.
+
+30#(00:14:41): These are the tech stack and toolchain. Thank you for watching. Here's the game demo.
+
+30#(00:14:52): I'll play it now.
+
+T1(00:14:58): Thank you.
+
+30#(00:15:39): If you're hit by an enemy plane about three times, the game ends.
+
+T1(00:15:48): Right. Yeah, yeah. Yeah. Right. The game is really well-made. Are you from a computer science background?
+
+30#(00:16:01): I'm not!
+
+T1(00:16:03): To achieve this level of abstraction is quite impressive. Can I see some of your AI usage records?
+
+30#(00:16:16): Okay, just a moment.
+
+T1(00:16:18): Yeah.
+
+30#(00:16:19): And then.
+
+30#(00:16:37): I can't seem to find it.
+
+T1(00:17:04): Are you using Doubao?
+
+30#(00:17:06): Yes.
+
+T1(00:17:07): I generally understand!
+
+T1(00:17:15): Very standard.
+
+T1(00:17:22): Have you ever thought about, for example, adding some images or animations to it?
+
+30#(00:17:22): In what aspect?
+
+T1(00:17:33): For example, the enemy aircraft are currently made of basic geometric shapes. Is it possible to make some, for instance...
+
+T1(00:17:42): Images of fighter jets, instead of just a rectangle.
+
+30#(00:17:49): Okay... Indeed, that's where the visuals need improvement.
+
+T1(00:17:56): I don't have any more questions. Is there anything you'd like to know or ask me?
+
+30#(00:17:58): Teacher, could you give us some more advice? Haha.
+
+T1(00:18:15): My advice is not to over-rely on AI. Taking your game as an example, while Doubao can generate it with one click, you actually have no control over many aspects. For instance, if I were to ask you right now, how many types of enemy aircraft were generated in this game? What are the characteristics of each type? If I were to ask you to...
+
+T1(00:18:43): ...create a more targeted, customized level. For example, if I wanted four planes to fly towards you at the beginning of the fourth level, and I gave specific requirements for their formation and arrangement, the one-step generated code from Doubao might find it difficult to achieve the fine-grained control I just mentioned.
+
+30#(00:19:10): Indeed, it might require some gradual adjustments.
+
+T1(00:19:13): Right. I think the degree, by "degree" we mean its controllability, or rather, for you, since you're the last student, we've been reviewing everyone's assignments these past few days, and there's definitely a feeling that if you ask AI to generate a common, well-worn game, it actually does a very good job because its training data is extensive.
+
+T1(00:19:39): It has a lot to reference. For example, those less common game types from the FC era. Before you, there was a student who generated a game similar to Contra or Metal Slug, also with one-click generation. But the problem is what I just said: while it generates it, you can't exercise finer control over it. This is also one of its issues. So, we might hope that students can be more proactive.
+
+T1(00:20:18): ...rather than completely treating AI as a hands-off manager, delegating everything to AI. In the future, this approach will have significant limitations. So, if you're interested, I might delve deeper and ask: what methods can you use to involve AI while still maintaining a certain level of control over the game? As I just mentioned, what ways can you...
+
+T1(00:20:43): ...control the number of levels and enemy aircraft in the game, the types of enemy aircraft, their size, collision boxes, and their appearance? How can you allow game designers to participate, giving them more exposure and more available interfaces for AI to generate games? That's probably what I'm more interested in regarding your assignment's completion.
+
+30#(00:21:17): What methods can be used to give game designers more initiative?
+
+T1(00:21:22): That's what I mean.
+
+T1(00:21:25): There's nothing else, because as an assignment, I think the effect you achieved is okay.
+
+30#(00:21:33): So this is indeed something I regret a bit, because I chose the last one precisely because I didn't have enough time. I just wanted to complete a relatively acceptable assignment first, and perhaps didn't focus on better, more attractive visual designs.
+
+T1(00:21:57): It's alright, everyone is pretty much in the same boat. Your standard is still slightly above average.
+
+30#(00:22:00): Okay, I'd like to hear the teacher share some of the games designed by students that you found particularly good.
+
+T1(00:22:05): Right.
+
+T1(00:22:14): I think the games designed by students that were particularly good absolutely did not use just one workflow. Their art also featured very intricate designs. For example, they might have had a message or a theme they wanted to express during the game's development, perhaps a philosophy they particularly wanted to convey, or an experience. Their character designs were meticulously crafted to ensure a high degree of consistency in their game's CGs. For instance, the protagonist maintained a consistent appearance across different CGs. Puzzles and levels were thoughtfully designed. And in this process, AI not only generated image assets, but some even generated code or participated in the game experience. I think even if their works were, for example, posted on social media or presented in a more serious game discussion setting, they would still be well-received. Such works were present in this presentation as well.
+
+30#(00:23:30): I'm curious about AI participating in game design. How was that accomplished?
+
+T1(00:23:39): Let me give you an example. There was a student who made a puzzle game, but they couldn't write any code. So they considered what Teacher T had taught in class about using placeholder images as input prompts, and then had the AI generate the code for clickable areas. They used this method to achieve the effect they wanted.
+
+T1(00:24:06): That's one example. The second is someone who made a detective puzzle game. In the process of making the puzzle game, they might directly ask or use AI to determine how specific characters would react when asked certain questions or put in specific situations. This kind of control over nuance, I think, is acceptable, because the core trajectory of the game's puzzles is still designed by a human. AI's involvement might only be for refinement or assistance, and human agency remains very high. I don't know if I'm explaining this in a way that makes sense to you, but it's essentially like outsourcing tasks that would originally go to, say, their own employees or interns, to AI. If the core work remains in human hands, then I think it's a relatively good application. There are also relatively poor applications, for example, as I just mentioned, there are now very powerful AI tools that can generate certain things with one click. Some traditional games generated this way even have quite high quality. But there's one point: when I ask, for example, how a certain detail in their game was generated, they can't answer. This makes the overall impression a bit worse, meaning they've now become workers for the AI. The core data, the core gameplay, is implemented by AI, and they become AI's game testers—they test the game, find problems, give feedback to the AI, and then the AI makes changes. In the end, humans are serving the AI. This might be one of the relatively disastrous ways to use it.
+
+T1(00:26:02): Right.
+
+30#(00:26:03): Okay, so I think the most important thing is to first have a comprehensive plan for the game, and then clarify what effects the AI needs to achieve within it. This way, the planner's agency in the game development process can be enhanced, right?
+
+T1(00:26:04): Yes, that's right.
+
+T1(00:26:25): Yes, that's actually the case. I usually ask a question: "How did this data come about?" For example, in a simulation management game, why do you get 15 yuan after making a cup of coffee? If the student can explain, for instance, "This is an analytical solution, and I calculated that 15 is the optimal solution to achieve a certain experience," then I would feel that the student has a logical understanding. They haven't become an appendage of the AI. But some students' answers might just be what the AI provided, and they don't know why the AI set it to 15 when writing the program. I feel that kind of answer is weaker; it suggests they might not be seeking a deep understanding, or they have a powerful tool but haven't personally deduced many of the underlying logics and inferences. It's quite, you know, you can sense whether students have a strong or weak grasp of their own work.
+
+30#(00:27:34): I understand!
+
+T1(00:27:38): Right, so as long as students submit a demo, whether it's a video demo or a game demo, they generally get a score with a relatively small variance. Ultimately, Teacher T will likely make the final judgment based on their usual homework performance and class participation. For my part, the difference between the highest and lowest scores is only about ten points.
+
+T1(00:28:04): I will give a trend, which is that I believe this student has indeed thought seriously and worked diligently, so I might give a relatively higher score.
+
+30#(00:28:13): But, teacher... Actually, in terms of my career planning, I want to become a game planner, but I don't have any internship experience in this area. My self-assessment is that I might be more suited to do something like narrative game planning. So, could you give me some advice?
+
+T1(00:28:28): Why? (T1) What makes you feel that narrative game planning and film screenwriting use the same set of skills? It's just that traditional film screenwriters and film directors create linear narratives. Linear narratives also place great emphasis on causality and plot. We generally define plot as irreversible events that have an irreversible impact on a person's growth. So, in the process of screenwriting, we are designing key plot points and the logical relationships between them. We find that in making interactive movies and games—I don't know if that's what you mean by narrative planning—the good screenwriters and directors in interactive movies and games also generally have strong accomplishments or experience in traditional film and television narrative. I think if your future plan is to be a narrative planner, you can try your best to first study the direction of traditional narrative screenwriting.
+
+30#(00:30:08): Mainly, what I originally studied was indeed in the direction of screenwriting, but now I'm in a design major. My courses don't include much screenwriting content, so this might require me to...
+
+30#(00:30:30): ...study outside of class.
+
+T1(00:30:33): I only went to [Institute Name] for a one-year screenwriting advanced course in the literature department after working for some time. I feel that for screenwriters, many of the skills they use are better learned after gaining some work experience. Our teachers told us that many of their undergraduate students didn't really absorb or listen to the lessons in class. Instead, it was adults who had worked in the industry for a while and then returned to school to listen to these teachers' lectures who could truly resonate with the content. I don't think not having studied or not having learned it during graduate school is a regret. On the contrary, I believe that if you truly want to pursue this direction, there will definitely be opportunities to delve into it in the future. I think your direction is OK. What was your undergraduate major?
+
+30#(00:31:31): My undergraduate major was Network and New Media, but I pursued screenwriting for my master's degree.
+
+T1(00:31:39): I think that's fine.
+
+30#(00:31:41): It's fine.
+
+T1(00:31:42): What's your current direction?
+
+30#(00:31:44): I'm studying design now.
+
+T1(00:31:45): What's your current direction, or the direction of your graduation thesis?
+
+30#(00:31:53): Graduation thesis.
+
+30#(00:31:54): Well, we're only in our first year of graduate school, so I haven't quite decided yet...
+
+30#(00:32:07): Right, I actually had doubts before, because the screenwriting industry in our country isn't doing very well. This indeed causes some wavering in my career plans and expectations.
+
+T1(00:32:25): This is a new frontier where everyone is weak. If you're just a little stronger, won't you stand out?
+
+30#(00:32:35): So, teacher, you're currently in a screenwriting advanced training program, and perhaps in the future, you'll be looking to work in areas like film and television, or film and game production?
+
+T1(00:32:52): That's one of my future career directions, because I've actually already completed the advanced training program. Right, so now I'm working on my own game.
+
+T1(00:33:07): I first made a game, then felt I could do well in this area, so I went to study in a screenwriting advanced training program, and then came out to make games again. That's roughly my personal growth path!
+
+30#(00:33:22): So your game is actually quite text-heavy, isn't it? So you would...
+
+T1(00:33:26): It's quite text-heavy.
+
+30#(00:33:29): Is it a solo game you made independently?
+
+T1(00:33:38): It's also a small team, with one main artist!
+
+T1(00:33:42): One UI designer and one implementer, so four people. Right. Later, two left, and by the end, that game was basically completed by just me and the main artist.
+
+30#(00:33:50): But...
+
+T1(00:33:58): Right.
+
+30#(00:33:59): So, how can I play your game? What are the channels?
+
+T1(00:34:06): You should be able to find it by searching my name.
+
+30#(00:34:08): Just search online?
+
+T1(00:34:11): It's on Steam and also on Chenguang. Right.
+
+30#(00:34:13): Okay.
+
+T1(00:34:17): Any other questions?
+
+30#(00:34:20): No, haha, thank you, Teacher!
+
+T1(00:34:21): Keep up the good work! I think you can do it, as a narrative designer!
+
+30#(00:34:27): I'm really embarrassed.
+
+T1(00:34:28): Okay, then I'll. I'll end the recording. Goodbye!
+
+30#(00:34:32): Thank you, Teacher!
+
+T1(00:34:32): Hard work. Goodbye, goodbye!

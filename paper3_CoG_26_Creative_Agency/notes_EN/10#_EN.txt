@@ -1,0 +1,115 @@
+10#(00:00:40): OK, I can hear you.
+
+T1(00:00:41): I can hear you.
+
+10#(00:00:43): Let me share my screen.
+
+T1(00:00:48): Right.
+
+10#(00:00:55): Can you see the PPT?
+
+T1(00:01:02): Yes, I can!
+
+10#(00:01:04): Okay, so this game I made is a pixel-style management simulation mini-game. Teacher, I think I'm hearing an echo from your side.
+
+10#(00:01:17): My core gameplay loop is that when customers come in, I'll have a menu, and customers will order dishes and make selections. They'll have a patience meter, and while I'm cooking, there's a cooking progress bar. If I serve the customers within the allotted time, I get a corresponding reward. If I don't serve them in time, my shop's reputation value decreases. When the reputation value drops to zero, the game ends in failure. Because I felt this core gameplay might be a bit too simple, I added some narrative elements, which include some text-based. C-zone effects, for example, there will be some special characters like police officers, old men, or even murderers coming in, and they will trigger special CG dialogues. This happens normally during operation, and when these special characters enter, a CG dialogue process like this will be triggered.
+
+10#(00:02:21): So, my entire AI empowerment and design process is like this: I initially used Gemini 3 to brainstorm. First, I asked it to provide a planning proposal, and it gave me three options. I chose the management simulation type, similar to "Midnight Diner." Then I asked it to generate a planning table for me, including the core story elements, menus, and so on. Additionally, when we were further optimizing the plan, I asked it to help me balance the numerical values. For example, how to avoid repetition. I asked it to balance the values because initially, when it generated the game, the difficulty was quite low, the customers' patience values were very long, and my cooking speed was very fast. So, the initial version of the game was relatively simple. Later, I asked it to help me increase the difficulty. After that, I had Gemini 3 write a simple piece of code to generate a basic game demo. However, this demo wasn't the final one; the initial version it generated was quite rudimentary.
+
+10#(00:03:43): Then, for the art part, I used Jimeng AI to generate some game icons and UI elements. I used Jimeng to generate some of the UI art. Finally, I took its code and deployed it locally.
+
+10#(00:04:07): And generated the game. I'll just show the game. Please wait a moment while I share the game. Can you see it, teacher? Teacher?
+
+T1(00:04:43): I see it. I also noticed that one image didn't load, the one below "Pixel Time" in the middle.
+
+10#(00:04:51): Right, because when I looked at it, when I woke up this morning, I found that it seemed to be because I hadn't checked it on my end.
+
+10#(00:05:01): My mistake. At first, it's normal operation, and during normal operation, I just feed them normally. Here, a special character is triggered. After entering, there will be a CG animation like this.
+
+10#(00:05:27): Actually, the story I initially set up wasn't like this. I originally set it up so there was a human trafficker, and the police came to their shop, but later... later, Gemini 3 and I didn't reconcile well, and it changed my game to this.
+
+10#(00:05:44): Is this the final version of the story?
+
+10#(00:05:50): No, it's not like that. My initial idea might not have been this way, the initial idea for the game, the story idea, but the game as a whole is pretty much like this.
+
+10#(00:05:59): The story is correct.
+
+10#(00:06:18): That's pretty much it, teacher!
+
+T1(00:06:20): Okay.
+
+T1(00:06:23): What was your undergraduate major?
+
+10#(00:06:24): My undergraduate major was industrial design.
+
+T1(00:06:31): Industrial design, you haven't studied programming?
+
+10#(00:06:35): I might have only learned Python at the time!
+
+T1(00:06:40): That's still impressive.
+
+T1(00:06:44): Very impressive, because I just saw a few other students who also hadn't studied programming, so they didn't provide a demo. You, on the other hand, at least have a demo, which I think is very good.
+
+10#(00:07:02): This demo wasn't made by me; I used Gemini3 to make it and then deployed it locally.
+
+T1(00:07:06): I know many students probably wouldn't use Gemini3.
+
+T1(00:07:15): So they don't have a demo. Okay, I want to ask what questions I have about your current project. It's a bit like "Midnight Diner," there's a game called "Showa Diner."
+
+10#(00:07:21): Right, my art style actually references Stardew Valley.
+
+T1(00:07:30): It's also a bit like "Showa Diner Story." And then it adds a story. The dishes in it are fixed and don't upgrade.
+
+10#(00:07:43): No, they're not fixed, they can be bought.
+
+T1(00:07:46): OK. Yes, but I didn't see a shop page.
+
+10#(00:07:50): Wait a moment, let me find it.
+
+10#(00:07:52): The dishes, they're all displayed at the bottom. Originally, I had set up a shop page, but actually, it's like this: I had some issues in the middle because I didn't coordinate well with Gemini3. In the middle, I did think about setting up a shop page, and also including an item bag, meaning if special characters came, they would drop some items. That's what I thought at the time, but later, every time I communicated with it, as soon as I made a new request, it would generate a new bug. I don't know if it was my problem or its problem, so that led to this current version when I integrated everything.
+
+T1(00:08:33): Actually, this version...
+
+10#(00:08:33): It's because I was tired, actually, it's because I was tired.
+
+T1(00:08:37): OK, OK, alright, I understand. I think it's fine. If you had a programming team without AI, I estimate you could do even better.
+
+10#(00:08:38): Right.
+
+T1(00:08:51): No problem. Another student hasn't come online yet. Do you have any questions? We can chat for a bit first.
+
+10#(00:09:00): Because... I was just thinking, since I might not have much programming background, I was wondering if I should first learn some basic programming. Then, making games would be better, because originally, I...
+
+T1(00:09:19): Learning a bit is best, because you've learned Python before, so it's not like you have no programming background at all.
+
+10#(00:09:32): Do you have any other suggestions for this game?
+
+T1(00:09:35): I think it's very standard, very correct, because it has all the basic elements of a simulation management game. Your work actually has them all, including its economic system, its random mechanisms, its resource pool, and how resources are transferred, exchanged, and how new resources are created and consumed.
+
+T1(00:10:03): Yes, your game actually has all of that, plus a little bit of narrative element, so it should be a work scoring above 90.
+
+10#(00:10:12): Okay, thank you, professor!
+
+T1(00:10:14): No problem. Alright, then I'll ask in the group who the other student is.
+
+10#(00:10:20): Okay, can I leave now?
+
+T1(00:10:21): You can!
+
+10#(00:10:26): End sharing.
+
+T1(00:10:26): You can do it, I can only say "you can do it," alright, alright, then I'll look for it.
+
+T1(00:10:37): If you have other questions, you can also ask. There's another student, 11#, on January 9th at 11:30.
+
+T1(00:10:45): Ask.
+
+10#(00:10:47): Okay. Can I stay here and watch the next student's? Do you mind?
+
+T1(00:10:57): Yes, because it's all one meeting. Is student 11# here?
+
+10#(00:11:00): Okay.
+
+T1(00:11:07): Do you know who student 11# is in the group?
+
+10#(00:11:22): I don't really know, because I don't know them. Let me find them.

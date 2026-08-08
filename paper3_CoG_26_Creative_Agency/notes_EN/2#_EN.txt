@@ -1,0 +1,427 @@
+T1(00:00:13): There’s no video here, he can’t see you. Right. I thought maybe you had video, but you don’t. You don’t? Just like this. Earlier I was watching TV, watching videos, right? No problem, I’ll check and send an invitation now.
+
+T1(00:01:39): Can you hear me?
+
+2#(00:01:41): Yes, I can hear you. Hello, teacher. Then, can I start now?
+
+T1(00:01:51): Wait a moment, I didn’t turn on the sound on my side just now!
+
+2#(00:01:56): OK.
+
+T1(00:01:57): Alright, alright.
+
+T1(00:02:02): Why is there still no sound?
+
+2#(00:02:05): Hello, can you hear me?
+
+T1(00:02:08): Should I turn on the TV sound?
+
+T1(00:02:16): Hello.
+
+2#(00:02:17): Hello, teacher, hello!
+
+T1(00:02:17): Okay, I can hear you now!
+
+T1(00:02:23): Let’s get started!
+
+2#(00:02:23): Hello teacher, I’ll begin my report. This is the game I made.
+
+2#(00:02:37): This is a concept poster. What I want to make is a racing game, but it’s—teacher, can you hear me?
+
+T1(00:02:45): I can hear you. Can you hear me?
+
+2#(00:02:46): Yes.
+
+T1(00:02:48): Good, that’s fine.
+
+2#(00:02:50): What I want to make is a racing game, but its concept is different. It’s about who goes slower. This is a concept poster about it: a reverse racing game. It’s different from traditional racing games. The competition is about who goes slower. On the contrary, if you keep pressing the brake, it will actually—if you brake too much, it will automatically make you move forward.
+
+2#(00:03:27): Then there are some magnetic plates in the middle and some spatial teleportation elements. That’s roughly it. I set five game maps; in the middle there are four: one sheep, one lamb, one turtle, one elephant, and one otter. Four skins to choose from. Then I can demonstrate the gameplay.
+
+2#(00:04:02): The biggest difficulty is because I—
+
+2#(00:04:08): I’m not studying game design; I’m an art student. All of this was done using Gemini, which guided me step by step, including modifying code. That’s how I did it.
+
+T1(00:04:22): What tool did you use?
+
+2#(00:04:24): Gemini.
+
+T1(00:04:26): OK, got it.
+
+2#(00:04:27): Yes. Because I’m purely an art student and haven’t been exposed much to computer coding or those things, so I don’t really understand them.
+
+T1(00:04:38): That’s fine, no problem.
+
+2#(00:04:38): So, that’s roughly it. Now I’ll do a live demonstration. This is the first interface. You can choose skins here. This is the first map. Each skin has a different speed.
+
+T1(00:05:01): Good.
+
+2#(00:05:02): Then you move left and right. You can teleport through certain areas. If you encounter the yellow plate, you get attracted to it, so you need to avoid it. The spacebar pauses the game, but if you brake too much, it will accelerate. That’s roughly how the game works.
+
+T1(00:05:31): Show me what the lamb looks like?
+
+2#(00:05:34): The lamb has a different speed. Among these three, the sloth is the slowest.
+
+2#(00:05:45): The lamb moves at a normal speed.
+
+T1(00:05:49): When you enter the ring, you teleport.
+
+2#(00:05:50): Yes, it jumps to another place. You can’t be attracted by the magnetic force on the road; otherwise, you will accelerate.
+
+T1(00:05:51): Besides speed differences, do the characters have different visual colors?
+
+2#(00:06:11): Yes.
+
+2#(00:06:13): Mainly color differences.
+
+T1(00:06:16): Okay, can you switch to the sloth or elephant now?
+
+2#(00:06:20): Now it’s the next map. Each map has different weather systems, like snow or sandstorms.
+
+T1(00:06:21): Okay. What about the sloth?
+
+2#(00:06:31): Now it’s the elephant. The sloth is purple and moves slower.
+
+T1(00:06:37): I see the distance to the finish line is decreasing. That’s fine. Are there collisions? For example, can you hit trees on the side?
+
+2#(00:06:47): You pass through them.
+
+T1(00:06:54): You pass through? OK. What software did you use for programming?
+
+2#(00:06:56): Because I’m not good at coding, I used Gemini throughout. It tells me where to modify. I tell it my needs, and it tells me where to change and writes the code for me. Then I paste the code into the specified places, and that’s how this game came about.
+
+T1(00:07:25): How many levels did you make in total?
+
+2#(00:07:26): Five levels, five small maps. This one has a sandstorm.
+
+T1(00:07:35): OK, I see your gameplay logic is actually very clear.
+
+T1(00:07:41): It’s like a parkour game, I think. So, what keys make it move forward?
+
+2#(00:07:56): It moves forward automatically. I control pause with the spacebar, A moves left, and D moves right.
+
+T1(00:08:04): I noticed there’s a power gauge below the distance meter. What is it for?
+
+2#(00:08:14): Yes. The power bar is related to pressing the spacebar.
+
+2#(00:08:19): When you press it, the game pauses and stops moving. But since it’s a slow-paced game, you can’t just pause. When it reaches a certain point, it automatically rushes forward. So pausing there actually makes you accelerate.
+
+T1(00:08:19): Right.
+
+T1(00:08:38): OK, I understand. If you run onto the yellow block, do you fail the game or just get stuck?
+
+2#(00:08:44): It accelerates you.
+
+2#(00:08:47): Basically, if you get attracted onto that block, it speeds you up.
+
+T1(00:08:51): So going over it accelerates you.
+
+2#(00:08:52): Yes, it’s like a speed bump but reversed—it’s a speed booster.
+
+T1(00:08:58): Good. What happens if you hit the green blocks?
+
+2#(00:09:06): The green blocks are like the rings; you teleport through them.
+
+T1(00:09:11): So those blocks also allow teleportation!
+
+2#(00:09:12): Yes. Each map is different. For example, the purple map has rings, and the green map has green squares.
+
+T1(00:09:13): I want to give you some feedback on your work. Maybe right now there’s no fail condition; as long as you keep putting in time, you can keep passing.
+
+2#(00:09:37): I thought about adding a time limit concept—like adding a certain number of seconds, and if you’re too fast, you fail. That concept could be added. But I wanted to make a stress-relief game without strict limits or multiplayer competition.
+
+T1(00:09:57): I understand.
+
+2#(00:10:03): Just a pure feeling.
+
+T1(00:10:05): I think one incompleteness of this work—
+
+T1(00:10:13): It feels more like an interactive installation than a game. Because a game should have win or fail conditions. For example, an NPC or AI opponent racing you to see who reaches the finish line first, or a time limit where you must finish all five levels within a minute, or a scoring system where you collect items on the way.
+
+T1(00:10:43): You collect items to gain points, and after five levels, your score is displayed with a leaderboard.
+
+T1(00:10:54): As a game, your current gameplay and mechanics are OK, but it lacks such feedback.
+
+T1(00:11:09): But if you can’t code and have achieved this level, I think it’s OK. It runs and demonstrates without errors, so that’s good. My suggestion is to add a complete game goal or win/lose condition to form a closed loop.
+
+2#(00:11:13): Yes.
+
+T1(00:11:36): So it can evolve from an entertainment or interactive device into a real game with goals and feedback.
+
+2#(00:11:50): Thank you!
+
+T1(00:11:51): Everything else seems fine.
+
+2#(00:11:55): Should it have a competitive game feeling? It feels more like an interactive installation now.
+
+T1(00:12:03): If you submit this to a game jam, I think it’s fine. But as a market product, it feels like a half-finished work. Let’s not talk about the tutorial now, because there is a game instruction box at the start. I think the biggest problem is that among the four game elements, feedback and goals are weak here. But it still meets our assignment requirements.
+
+T1(00:12:57): Do you have any questions for me?
+
+2#(00:12:57): I want to ask, teacher, you mentioned in the group that you’re in a technical role, right?
+
+T1(00:13:00): Yes.
+
+2#(00:13:10): I want to ask, I want to apply for an art position. What kind of collaboration is there between art and technical roles? I haven’t entered a game company environment yet, so I want to ask in advance.
+
+2#(00:13:27): How is it?
+
+T1(00:13:28): My suggestion is, if you want to work in art, your game projects should showcase your professional skills.
+
+T1(00:13:43): Even 2D games, like card games, are fine. What kind of art position are you applying for? 3D or 2D art?
+
+2#(00:13:54): I can show you my current work. I’m probably more inclined toward the anime style.
+
+T1(00:14:00): But I’m not an artist at ByteDance.
+
+T1(00:14:06): As a department head, I can only give you my personal aesthetic judgment.
+
+2#(00:14:11): These are some of my recent works. This is a fan art I drew, and recently I also made a comic. This is a display board I made for an exhibition! It’s a comic I hand-drew and then colored with AI. That’s about it. I feel that after talking with other teachers, they said AI tools impact the art position somewhat, but it still depends on your fundamentals.
+
+T1(00:15:12): I have a question: the content of your comic is narrative—is that your own idea?
+
+2#(00:15:16): Yes.
+
+T1(00:15:25): Let me look at your story.
+
+2#(00:15:28): Teacher, you can take your time. It’s a simple story about me and my daily life.
+
+T1(00:15:36): OK, next page.
+
+T1(00:15:42): Next page again.
+
+T1(00:15:49): What kind of plot do you want to tell in these three pages?
+
+2#(00:15:59): The third page is about me working part-time at a milk tea shop, and then this situation happens: the manager tells me there’s no employee drink, but I worked hard for eight hours.
+
+2#(00:16:17): He said there wasn’t any, which was disappointing. This sets up a more disappointing event later: a scooter helmet was stolen, and then it started raining.
+
+T1(00:16:32): OK, OK.
+
+2#(00:16:39): Then on the second page, I’m ready to ride home, wrapping a scarf around my head, but the scooter runs out of battery. It’s a double blow, creating this scene. Then my mom calls to comfort me. It’s a warm little story like that.
+
+T1(00:16:54): I’ll ask my colleague what she thinks of your drawing.
+
+T2(00:16:58): I think it’s quite good, very warm. It’s like a little baby, haha. At times like this, a mom is really important when you’re feeling down, right?
+
+2#(00:17:27): That’s roughly it.
+
+T1(00:17:29): OK, I get it. You have an emotional progression—from being deceived by the manager, to losing the helmet, then riding in the rain, a series of setbacks.
+
+2#(00:17:42): Then later, comfort.
+
+2#(00:17:48): At the end, my mom sent me a teddy bear as a comforting surprise. This is based on a true story. My teacher said it’s all emotion, not much technique.
+
+T1(00:18:05): Indeed. If AI is involved, just treat it as a very useful tool. I say this because my colleague is more professional. I think in the future, whether making comics or games, the artwork must coordinate well with the narrative. You’re not a screenwriter, so I won’t judge the story now, but having AI to improve efficiency is a very important advantage.
+
+T2(00:18:54): Talking about the comic—
+
+T2(00:19:04): Yes, yours is OK, but it’s a bit broad, not very distinctive or heavily anime-style, more of a normal understanding.
+
+T2(00:19:26): It’s unlike your game, which is reversed, right? The foot on the brake accelerates, like a gas pedal you can’t hold.
+
+T2(00:19:41): Yes. But for the comic, with AI now, it’s not surprising. Stylization is best when it looks more like you—not necessarily beautiful, but more characteristic. It should look like your style, not just pretty.
+
+2#(00:20:11): So is it necessary to align the art style with the project’s style, as some students say?
+
+T2(00:20:25): Yes, the art style must combine with the content. That’s first. Second, it must reflect your personal characteristics. That’s most important. No matter how much AI replaces you, it can’t replace your personality, right?
+
+2#(00:20:38): So personal style is still needed.
+
+T2(00:20:47): Even with the same art style, the difference between your work and someone else’s is whether it has your unique traits. For example, if you’re the lead artist, everyone assumes the modeling, lighting, and color are fine. Why are you the lead? Because you grasp the style appropriately. The style can be more fitting. Right now, your work looks good; composition, lighting, and color are fine—like watercolor style—but it’s not distinctive enough.
+
+T1(00:21:58): I think your narrative feels like a public service ad about family affection. For that, a warm or slightly realistic tone works better than an anime style. Personally, I think the form and content are somewhat disconnected. The current style suits fantasy themes better.
+
+2#(00:22:16): Yes.
+
+T1(00:22:16): These are some suggestions on narrative, visuals, and atmosphere. But I think it’s easy for you to adjust because you have the skills. From my industry experience, after AI accelerated art production, the bottleneck is no longer art but narrative.
+
+T1(00:22:53): For example, in our company, there’s demand for narrative art. With AI assistance, lead artists can match the productivity of a 10- or 20-person team, but there are fewer people who can tell stories well, not fewer artists.
+
+2#(00:23:23): I feel AI can draw better than most people. I want to be a concept artist and want to create a character design portfolio. Teacher, your advice is basically that if I want to make my own portfolio for character design, I should make the characters interesting and distinctive, right?
+
+T1(00:23:55): If you can show personality or use short narrative units to shape one or more small stories or character traits, that’s better than just a design portfolio because it has storytelling.
+
+T1(00:24:18): I suggest you start your own social media.
+
+T1(00:24:22): For example, post your character stories on Xiaohongshu or Douyin accounts. That might be a good start.
+
+2#(00:24:25): Thank you, teacher!
+
+T2(00:24:38): You want to apply as a game concept artist?
+
+2#(00:24:39): Yes.
+
+T2(00:24:42): I think there’s a point Harry mentioned earlier about how art and programming collaborate in games. That kind of interaction probably exists.
+
+T1(00:24:50): Yes, if your project is an AVG game and you use your own art, that might be better. We have some extra things to discuss.
+
+T1(00:25:11): I mean, how to say, a game concept artist—
+
+T2(00:25:17): It’s mostly 2D, as you can see.
+
+2#(00:25:23): Yes.
+
+T1(00:25:23): 2D, with a shoujo manga style.
+
+T1(00:25:28): Her style suits Orange Light games.
+
+2#(00:25:32): But for character design, I lean toward concept art. This style isn’t fully refined because I use the manga style.
+
+T2(00:25:36): That’s fan art, right?
+
+2#(00:25:53): Yes, fan art.
+
+T2(00:25:55): Can you design like this yourself?
+
+2#(00:25:58): Yes, I plan to design during summer and winter breaks.
+
+T1(00:26:05): You can try this direction. Personally, I think the issue is productivity. Pure character design can almost be done by AI now, but designing a character with personality and traits is an IP job. This IP work might be through a series of comics or small events.
+
+T1(00:26:33): Like Tom and Jerry, we may not remember every episode, but through small units, we know Tom’s character, Jerry’s character, and their relationship with the dog.
+
+T1(00:26:57): I suggest you treat character design as IP creation. For example, Mihoyo has only a few games. Even if AI generates endless characters, there aren’t enough stories or worlds to support them. That’s saturation. So we have to find ways to bring our designs to life.
+
+T1(00:27:24): Push your IP out there. If your IP gains some recognition, job hunting won’t be a problem.
+
+2#(00:27:34): Got it. That’s also a job search channel and method.
+
+T1(00:27:42): Also, working in a big company can be draining. Since you’re young, be aware: if big companies hire, you won’t lack jobs, but you might become a cog in the machine, drawing the same things daily. That’s not good because you’ll eventually get exhausted. If you keep doing repetitive, basic element design, your future might be difficult.
+
+2#(00:28:19): Yes, my biggest worry now is my art lacks uniqueness and highlights. I might become a graphic artist—not that it’s bad, but just someone who draws whatever the client asks, like a production line. I don’t want that. People say it’s best to enter R&D in game companies, but I don’t think my art skills are there yet. I don’t really understand the industry, like outsourcing and such. I’m a bit lost but clear about wanting this career, so I asked many questions.
+
+T1(00:29:21): When narrative is scarce in the industry, you can use some learning capacity to improve narrative and build your IP. Your diary-style drawing is good. You might just need to adjust the form. For example, if expressing family warmth, don’t use a shoujo manga style.
+
+T1(00:29:51): Unless you want to express daily life with a girly or romantic theme, then use that style. Add some interesting plots, post on your Xiaohongshu channel, and try to build your personal brand. When your fan base grows, it helps with job hunting.
+
+2#(00:30:21): Besides that, I’m quite familiar with AI. I also made a related video. Do you have time?
+
+T1(00:30:37): Sure, the next session starts at 5 o’clock, no problem. You can play it.
+
+2#(00:30:41): It’s roughly another assignment video I made.
+
+T1(00:30:44): I saw it.
+
+2#(00:30:51): It’s about the story of Nuwa mending the sky. I’m still unsure about the art direction. I did this. Wait a moment. I feel that in school, I studied a lot in my first year of graduate school, and in the second year, I lean toward internships. I want to learn more while at school. I found that AI-related content is quite abundant here. Teacher, can you see it? It’s a VR video from Nuwa mending the sky’s perspective.
+
+2#(00:34:49): That’s about it.
+
+T1(00:34:50): I have two questions. First, are the images in this video generated? Did you use generated images to make the video, or did you draw the images yourself?
+
+2#(00:34:52): The video was generated from images.
+
+T1(00:35:01): The images were AI-generated, right?
+
+2#(00:35:06): Yes.
+
+T1(00:35:06): As a narrative whole, it’s complete. It has voiceover, sound effects, and music. If your position is CG compositor, this is likely a qualified piece to support that role. Its drawback—
+
+T1(00:35:35): Of course, the drawback may not be your fault. The story has no new information; it’s the familiar Nuwa mending the sky story with some added visuals. But some visuals lack quality control. For example, at the start, when the river cracks and people flee, they run into water, which is illogical. Some people blur and blend into the background water, creating a hallucination. Also, Nuwa’s tail shape isn’t controlled well; she has two tails. These issues might be due to limited trials.
+
+2#(00:36:05): That can’t be helped.
+
+T1(00:36:27): Maybe the model you used isn’t strong enough. Overall, I’ve asked my first question. It’s OK. I think getting an offer is not a problem.
+
+T1(00:36:45): Second question: compared to your classmates’ work, where do you think you rank? Are all young graduates at a similar level?
+
+2#(00:37:06): I haven’t publicly seen everyone’s assignments.
+
+T1(00:37:15): OK, you can—
+
+2#(00:37:15): I want to know from your perspective what level my work is, since I haven’t seen others and everyone’s style is different.
+
+T1(00:37:33): Here’s what you can do: upload your work to a public platform, whether Bilibili, Douyin, or Xiaohongshu, and see how many likes you get.
+
+T1(00:37:43): These platforms follow a Pareto distribution. If you reach the top 20%, you’ll get about 10 likes. The top 4% get 100 likes, and the top 0.8% get 1,000 likes. Your likes can roughly indicate your standing among peers.
+
+T1(00:38:21): Ranking in the top percentage is not just compared to your classmates but to all creators on these platforms.
+
+2#(00:38:26): My career goal is—
+
+2#(00:38:36): I don’t know if this helps me, but I feel learning more is better than less, so I keep that mindset.
+
+T1(00:38:52): Honestly, if you apply as a CG compositor, you have more advantage than as a concept artist because there are fewer CG compositors.
+
+T1(00:39:03): For example, your video work might get you a CG compositor job more easily than your comic art would get you a concept artist job. Do you agree?
+
+T2(00:39:14): The drawing style is more visual effects, perspective, and lighting (T1), less narrative or storyboarding (T2). It’s more like a painter’s trait.
+
+2#(00:39:41): That proves I’m somewhat like that.
+
+T2(00:39:51): Yes, as Teacher T1 said.
+
+T2(00:39:55): I also agree with your story.
+
+T2(00:40:00): You want this effect, but the story itself has no effect (T1), no special traits. It’s a conventional story.
+
+2#(00:40:00): Story first. Right.
+
+T2(00:40:12): The quality control is a bit weak, like running into the water.
+
+T2(00:40:22): Yes. You might need a unique visual style and then find a better match between your visuals and narrative (T1).
+
+T2(00:40:33): If your visuals and narrative (T1) fuse better and are more distinctive (T2), that would be better. Right now, it feels like the visuals were made to fit the assignment, with narrative added on, rather than narrative driving the style. These are two different approaches.
+
+T2(00:41:10): Your colors are rich and warm, and the narrative is about Nuwa mending the sky, but how you tell the story can use your color and painting understanding. Generating such images or videos isn’t hard, but the key is making it yours. I don’t know if I’m clear, 2#. It’s about your distinctive traits, your cinematic language and how it matches your content. Right now, these images and videos are common and not special (T1). If you practice, you can make your own animations. Original painters who also animate (T2) are already being surpassed by dynamic animation.
+
+2#(00:42:21): AI animation is already emerging.
+
+T2(00:42:49): Yes, AI animation, whether comics or animations (T1). The problem is lack of personal style (T2). Even narrative painting without a story is narrative, especially with a small story. From a painter’s or professor’s perspective, if you apply for a job, your project’s demands and how you present your traits matter most.
+
+2#(00:43:40): I heard that before entering the industry, you make a portfolio, then if you pass a style test, you get hired. Is that the process?
+
+T2(00:43:41): Treat it like assignments. Submit comics, videos, mini-games—you cover all. Then they give you a test. But your portfolio must show your traits. That’s important.
+
+2#(00:44:23): So I should highlight my work’s features and find a style that clearly expresses what I want.
+
+T2(00:44:25): Yes. How you understand visuals, cinematic language, composition—that’s key. Not the specific style, but your understanding. I hope I’m clear. I’m a painter.
+
+2#(00:45:02): Thank you, teacher. I understand. This opens a new perspective.
+
+T2(00:45:03): Nowadays, concept artist jobs aren’t as competitive as before.
+
+2#(00:45:17): I heard the market is quite saturated now.
+
+T2(00:45:22): Yes, many styles can be realized by AI. But AI can’t create your personal style because it lacks data. You can draw your own storyboards and use them to generate animation, which will have more of your style than AI-generated images directly animated.
+
+2#(00:45:50): I did draw storyboards before, but due to time constraints, I think mine are slightly better. Here’s an example.
+
+T2(00:46:25): I just saw the line art.
+
+2#(00:46:27): This is the line art! I think the emotion is better than others, but I didn’t have time to color, so I left it like this.
+
+T2(00:46:33): Actually, uncolored line art can have some character, especially the line quality.
+
+T2(00:46:56): Imagine if I just drew black and white! Wouldn’t that be interesting?
+
+T2(00:47:04): Black and white emphasizes brush strokes. Composition you already cover, so I won’t mention that.
+
+T2(00:47:15): So that’s a feature.
+
+T2(00:47:22): I saw your rough draft or sketch, and I think it’s quite interesting. Colored versions feel (T1) AI-colored (T2) and flatter.
+
+2#(00:47:34): Maybe. Last time I felt it was too ordinary, lacking personality and feeling.
+
+T2(00:47:49): Yes, your traits were somewhat lost.
+
+T2(00:47:57): This one still has some.
+
+2#(00:48:00): It’s best to develop a stylized approach, show your traits, and then add narrative.
+
+T2(00:48:02): Yes. Look at professional comic artists; they have strong traits. Their coloring isn’t subtle but exaggerated for storytelling.
+
+T2(00:48:28): Or they emphasize expression by exaggerating some actions and weakening others. Understand?
+
+2#(00:48:46): Got it, thank you, teacher!
+
+T1(00:48:49): OK, that’s all for today.
+
+2#(00:48:52): Thanks to all the teachers!
+
+T1(00:48:57): No problem, keep it up!
+
+T1(00:49:01): Goodbye.
+
+2#(00:49:02): Thanks for your trouble, goodbye!
+
+T1(00:49:04): Thank you.

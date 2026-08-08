@@ -1,0 +1,107 @@
+9#(00:11:06): Yes, I’m here. Can you hear me if I share my screen now?
+
+T1(00:11:07): Yes, I can hear you.
+
+9#(00:11:16): Then I’ll play the video first. Can you see it? Please don’t switch away for now. Alright, thank you.
+
+9#(00:12:25): This is the video I made. It’s mainly a stacking block game. There are four different forms of blocks. The basic one is yellow, which is the standard form. As the stacking height increases, it will shake and affect the overall stability of the tower.
+
+9#(00:12:57): Then the green one can split into two clones. After falling down, it becomes larger and can either stabilize or disturb the balance of the stack. The purple one will harden after being placed and stacked.
+
+9#(00:13:24): The pink one works like this: there are three buttons to choose the block color before it drops. The pink block hides its real color at first and only reveals itself as pink after landing.
+
+9#(00:13:40): The whole gameplay is to adjust different colored blocks to maintain stability, stack higher and higher, and gain more points accordingly.
+
+9#(00:14:01): I also designed some game interface layouts.
+
+T1(00:14:06): Alright. Honestly, this is only a PPT and conceptual presentation with no playable demo.
+
+9#(00:14:10): I found it technically difficult to make a real playable version.
+
+T1(00:14:19): May I ask what your undergraduate major was?
+
+9#(00:14:27): Landscape Architecture.
+
+T1(00:14:37): Please speak louder and tell me the full name of your undergraduate major.
+
+9#(00:14:41): Landscape Architecture and Garden Design.
+
+T1(00:14:46): So it’s design-related, right?
+
+9#(00:14:49): Yes, it focuses on landscape and garden design.
+
+T1(00:14:53): I can’t hear clearly.
+
+9#(00:14:58): Can you hear me now?
+
+T1(00:15:00): Yes, speak a bit louder and state your undergraduate major clearly.
+
+9#(00:15:01): Landscape Architecture.
+
+T1(00:15:08): OK. Landscape Architecture. Why didn’t you combine your existing professional knowledge to make a garden decoration game or something similar? Since your current graduate direction is Digital Media Art, right? I need to point out some problems in your design. Please scroll up a little more. Among these four cute little monster designs in different colors, only the green one has a positive buff in my opinion. The other three are mostly negative buffs. Am I understanding this correctly?
+
+9#(00:16:05): That’s right.
+
+T1(00:16:08): The purple one might also be positive. Players can switch monster forms by clicking color buttons, which means no one will choose the yellow one on purpose. They will only pick green and purple, and maybe occasionally pink. In terms of gameplay, the yellow monster almost loses its meaning of existence. Unless you give the yellow form some positive buffs, these four monsters can all be reasonably used in the game. Do you understand my point?
+
+9#(00:17:03): I understand.
+
+T1(00:17:04): Here is my suggestion for you.
+
+T1(00:17:10): Add some positive gains to the yellow block. For example, certain levels require a fixed number of yellow blocks, or yellow blocks grant higher score bonuses. Alternatively, you can change the whole game from a challenge-style stacking game into a casual decoration game. Let players arrange these cute monsters freely and enjoy their interactive performance, without setting a strict stability goal. Once you set a rigid stability requirement, players will definitely avoid choosing the yellow monster entirely.
+
+T1(00:17:54): It’s fine, you can speak louder. Personally, I don’t really approve of PPT-only project reports. In the industry, a pure PPT concept usually looks perfect in design but is extremely hard to implement. For example, your video shows these monsters having lovely interactions, but actual development will face countless practical problems: skeleton animation logic, trigger conditions for different animations, and how animations affect physical collision performance. All of these are undefined and only exist in conceptual imagination. In the game industry, we call this kind of PPT-only work “vaporware presentation”—it looks good on paper but cannot be delivered. That’s why it’s hard for me to grade your work fairly. This is more like a promotional trailer rather than a complete game design.
+
+9#(00:19:20): So you mean I need to actually develop it into a real game?
+
+T1(00:19:28): Exactly. From a technical and development perspective, if a planner submits such a design requirement, it is basically an impossible task for the development team. If you can produce even a simple prototype, I can tell that you understand basic implementable boundaries—even without coding skills, you know what is feasible and what is too difficult to develop. But your current concept is obviously unrealistic and extremely hard to land. Even with an experienced programmer and a large team developing rich monster forms and physical interactions, implementation would still be very challenging. I’m thinking of ways to save your assignment score. Please play your video again; this case is quite tricky for me to evaluate.
+
+T1(00:21:00): Play your video once more, or you can ask me any questions you have. This is indeed a tricky assignment to judge.
+
+9#(00:21:15): Do you want me to play the video again?
+
+T1(00:21:17): Yes, play it one more time.
+
+T1(00:22:27): I can tell this video was first generated by AI and then edited by you yourself. I can see your personal production work inside.
+
+9#(00:22:29): Yes.
+
+T1(00:22:37): For example, some game special effects were manually added by you. Pure AI generation cannot maintain such consistent visual style and detailed performance.
+
+9#(00:22:46): That’s correct.
+
+T1(00:22:48): Alright, I roughly understand your work. There is a common problem among everyone’s assignments. Those whose undergraduate majors are not Digital Media Art or Computer Science tend to design overly imaginative concepts that are difficult to implement in reality.
+
+T1(00:23:13): May I know what score range you would find acceptable for this course?
+
+T1(00:23:29): Alright, let’s leave it here for now. Do you have any questions or anything you want to consult with me?
+
+9#(00:23:46): I made the demo video exactly because I cannot develop a playable version myself. I have no way to judge whether my design is technically feasible or not. I made the video simply because I couldn’t implement the real game.
+
+T1(00:23:59): This situation is totally normal.
+
+9#(00:24:06): I believe you can understand my situation.
+
+T1(00:24:09): If you have never learned computer science or programming, this limitation is not just your personal problem—it is common across non-technical majors. You are actually at a disadvantage when compared with students who can code and turn their ideas into real demos. The gap is obvious in comparison. However, you also have your own strengths. For future career work, you can collaborate with technical students, turning their game planning concepts into high-quality demo videos just like what you did now. By the way, is Teacher T’s course focused on computer graphics or the application of AI tools?
+
+9#(00:25:15): It talks about the principles of AI, not purely hands-on usage. The last few lessons briefly introduced basic AI application methods.
+
+9#(00:25:28): But it’s still quite difficult to actually implement and develop a complete game.
+
+T1(00:25:33): I totally get it. Many other students are in the same situation: they made high-concept demo videos with gorgeous visuals, but the design is fundamentally unimplementable. I need to reconsider the grading standard for students in your situation, since there are clearly two completely different levels of assignment completion among everyone.
+
+9#(00:25:54): Indeed, we ourselves cannot properly judge whether a game design is technically feasible or not.
+
+T1(00:26:05): I will discuss this grading issue with Teacher T later. Do you have any other questions? In your future career, if you work as a product manager or game planner, cooperating with programmers will gradually teach you which designs are impossible to realize. Many aesthetically perfect conceptual designs have to be simplified or revised under Turing-completeness and actual programming constraints. Since you lack this technical background knowledge, it is acceptable to have such problems in your course assignment for now.
+
+T1(00:27:06): Alright.
+
+9#(00:27:07): Is there any way I can learn to judge feasibility by myself?
+
+T1(00:27:10): It’s quite difficult. One way is to learn basic programming yourself, so you can understand which effects rely on special effects and which rely on physical collision logic that needs alternative solutions. Another way is to keep cooperating with technical practitioners. As a game planner, you will inevitably face direct feedback from engineering programmers who will point out unrealistic or flawed designs in your concepts. You can only gradually accumulate experience through such cooperation and setbacks to tell which ideas are practical and which are too idealistic. It is a helpless but realistic process.
+
+9#(00:28:06): But I don’t have the resources to keep collaborating with programmers.
+
+T1(00:28:07): Let’s wrap up our conversation for today. Your promotional video production and overall design are actually quite good. The only obvious flaw is the poor game balance: the yellow monster has no practical value at all, and no player will choose to use it. You need to pay attention to this kind of design rationality in the future. Many concepts look perfect in imagination but face huge difficulties in actual implementation. Apart from this, your overall work is fine.
+
+9#(00:28:46): Thank you very much, Teacher!

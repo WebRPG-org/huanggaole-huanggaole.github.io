@@ -1,0 +1,111 @@
+T1(00:02:26): Hello, can you hear my voice?
+
+22#(00:02:33): Hello, Teacher!
+
+T1(00:02:35): You may share your screen and introduce your project now.
+
+22#(00:02:38): Just a moment please.
+
+22#(00:02:55): Can you see my screen, Teacher?
+
+T1(00:02:57): Yes, I can.
+
+22#(00:03:01): Alright, I’ll start my presentation. It is divided into four parts: design concept, gameplay explanation, game design process, and gameplay video demonstration. First is the design concept. I made a casual mini-game similar to Gold Miner. The core gameplay: the player acts as an underground miner. Each level has a 60-second countdown. Players control and throw a hook to keep collecting points. The game includes small gold pieces, large gold pieces, diamonds, rocks, and bombs.
+
+22#(00:04:17): Small gold gives 100 points, large gold gives 300 points, and diamonds give 500 points. If you catch a bomb, time will be deducted. Players must control time strictly. Each level has a target score; only reaching the target can you advance to the next stage. If the score is insufficient, points will be cleared and the game ends directly. My main reference is the classic Gold Miner, which I really enjoyed playing before, so I followed its core mechanism. Next is the gameplay explanation.
+
+22#(00:05:04): This is the in-game instruction page. At first I made a version without bombs, then I added bombs to make the game more interesting. The goal is to collect enough gold to reach the target score. My version is a little different from the original Gold Miner: my hook swings randomly with no visible trajectory, adding uncertainty. Bombs are also added. Even though the hook direction is random, players can retract the hook in time if it is about to catch a bomb.
+
+22#(00:06:04): This is the operation rule: press the Spacebar to throw the hook.
+
+22#(00:06:12): Accumulate enough points to pass to the next level. Below is my game design process.
+
+22#(00:06:22): The first key difficulty is unbalanced random item spawning. If high-value items like diamonds and gold are always placed in unreachable corners, the game becomes overly luck-based and reduces player motivation.
+
+22#(00:06:50): Therefore I optimized item placement: keeping random spawns for freshness while avoiding extreme resource imbalance.
+
+22#(00:07:12): Then comes the timing of gold spawning. Next point.
+
+22#(00:07:33): Another difficulty is new player operation adaptation. Beginners cannot easily judge the hook’s throwing and retracting speed, and may give up halfway.
+
+22#(00:07:49): My solution: add a beginner guidance phase with slower hook speed. If players catch a diamond, the hook speed increases and they enter the next level faster. If a bomb is hooked, the system gives an immediate reminder and deducts 10 seconds directly. Players can clearly know the remaining time and adjust their point-collecting strategy. The third difficulty is repetition and fatigue in later levels.
+
+22#(00:08:48): If every level plays the same way, players will get bored and quit around the tenth level.
+
+22#(00:09:02): My improvement: add special props and layered gameplay. Starting from Level 5, unlock functional items such as time coins to extend countdown time, and a magnet that can absorb up to three items at once. From Level 5 onward, more strategic mechanics are added, instead of simple repetitive mining. This is the generated game running code.
+
+22#(00:10:00): Next is my gameplay video demonstration.
+
+22#(00:10:34): When the hook is aimed at a bomb ahead, players can retract it in advance to avoid the 10-second time penalty.
+
+22#(00:12:25): If the final score fails to meet the target, the game resets and ends. That’s the general gameplay introduction.
+
+T1(00:12:39): Pretty complete overall, I think.
+
+22#(00:12:40): Thank you, Teacher!
+
+T1(00:12:46): Let me ask a few questions. First, what tool did you use to generate the game image assets?
+
+22#(00:12:57): I first found reference images, then used multiple AI large models. I sent references and descriptions to Doubao for textual refinement, then used GameNei and PPT generation tools to compare effects. I also used Jimeng AI to render effect pictures. After confirming the style, I generated the code and finalized the game.
+
+T1(00:13:34): What tool did you use for code generation?
+
+22#(00:13:37): I used both Gemini and DeepSeek, compared their outputs, and iterated many versions.
+
+T1(00:13:50): Which one worked better in the end?
+
+22#(00:13:54): I finally used DeepSeek for the core code.
+
+T1(00:14:00): Did you learn programming in undergraduate study? Do you have a coding foundation?
+
+22#(00:14:05): No, I don’t.
+
+T1(00:14:07): It’s quite impressive to make such a complete work without a foundation.
+
+22#(00:14:08): Thank you. I have no programming experience, so I also asked some classmates to help check and revise the code.
+
+T1(00:14:20): What was your undergraduate major?
+
+22#(00:14:23): I majored in Animation.
+
+T1(00:14:25): Is your current postgraduate direction still related to animation?
+
+22#(00:14:30): Yes, but I want to develop toward game interaction design.
+
+T1(00:14:37): I see, that’s great. Do you have any questions to ask me now?
+
+22#(00:14:40): Thank you, Teacher. I’m still not fully satisfied with my work. The UI and character effects generated by AI often fail to meet my expectations. I have to regenerate many times, and sometimes the character images look distorted no matter how I adjust the prompts.
+
+T1(00:15:24): Did you generate a static image or an animation sprite?
+
+22#(00:15:29): Just static images, all static.
+
+T1(00:15:29): Static images shouldn’t be distorted like this. I guess you generated vector graphics by mistake.
+
+T1(00:15:43): In real game production, professional artists will control the style and assets manually. This won’t be counted as a major deduction point.
+
+22#(00:15:55): The problem is AI generation is always hard to control the final effect.
+
+T1(00:15:55): That’s true.
+
+T1(00:16:02): AI should only be used for drafts and concept sketches.
+
+T1(00:16:06): We can tell from the draft that you want to design a miner character, and you intend to make an animated throwing action.
+
+22#(00:16:07): Exactly.
+
+T1(00:16:19): I can see you want the miner to have a rope-throwing idle action when casting the hook.
+
+22#(00:16:24): Yes, exactly, Teacher.
+
+T1(00:16:26): In professional production, such character animations must be manually refined and controlled strictly. AI now has a slot-machine effect—you have to generate many times like gacha to get a qualified result. In real projects, we rely on manual art to standardize animations and styles. So even if your AI assets are not perfect, we can recognize your design intention clearly.
+
+22#(00:16:55): I understand now, Teacher!
+
+T1(00:17:05): Alright, keep it up. Goodbye!
+
+22#(00:17:11): Thank you, Teacher, goodbye!
+
+T1(00:17:12): You’re welcome, goodbye!
+
+22#(00:17:16): Goodbye.

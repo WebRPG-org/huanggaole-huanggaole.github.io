@@ -1,0 +1,113 @@
+T1(00:00:08): Hello, can you hear my voice?
+
+6#(00:00:10): I can hear you, Hello Teacher. I'll share my screen!
+
+6#(00:00:16): Can you see this?
+
+T1(00:00:31): Can you see it?
+
+6#(00:00:34): Then let's start the report.
+
+6#(00:00:39): OK, the name of my game is Slash. It's a handheld game based on HTML5 and is a 2D game. The general gameplay involves the player controlling a character who is constantly running forward, similar to a parkour game. The character automatically moves forward, and the player controls two different slashing attacks to clear monsters on the path, accumulate experience and resources, and ultimately fight a boss.
+
+6#(00:01:10): For the character design in the game, I referenced the protagonist from Dead Cells, but without their colorful palette. I mainly used three colors: black, cyan, and bronze, to give a sense of strength. The character wields a large sword, and here are some thumbnails of his attack animations.
+
+T1(00:01:19): Right.
+
+6#(00:01:29): Regarding the character design, here are the monster designs. There are only two types of monsters: one is a small monster with a gothic style similar to Zhang Yun, darker and more sinister. The boss is a spaceship.
+
+6#(00:01:43): I believe one of the core mechanics of my game is that it has more than one level. When the player first enters, they start at the first level. The enemies in this first level have the lowest stats in terms of attack power and health, and this level is at depth zero. On the ground, there are some breakable tiles. If the player breaks these red tiles, they can jump to the next level. 
+
+6#(00:02:11): In the next level, the enemies become stronger. The enemies get stronger, and then when you move to the next level, what's the point? This game has a mechanic where, 30 seconds after the start of each observation phase, the boss appears. If the player is not ready to fight the boss—say the player hasn't developed enough—they can choose to cut the ground beneath their feet and drop down to the next layer. There, they will face stronger minor enemies and experience greater pressure, which allows them to develop themselves further.
+
+6#(00:02:38): Then develop for another 30 seconds, because the boss countdown resets. After another 30 seconds, you check again to see if you can defeat the boss, and you can try to challenge it again.
+
+6#(00:02:49): The core design of this gameplay is my pursuit of the core experience: the monsters grow as we players grow. While the player gains experience fighting monsters, the enemies also grow. This way, both sides remain fair.
+
+6#(00:03:05): For the background, I created a cyberpunk-style street scene, designed as a tileable map. The character runs forward endlessly, creating an infinite extension. This differs from the gothic style of the character, aiming for a mixed effect.
+
+6#(00:03:22): The game also provides various items, such as iron rods on the walls and bombs. When your player level is low—meaning you enter a deeper area but your level is below that of the enemies—these enemies become harder to defeat. However, you can use these items to help turn the situation around.
+
+6#(00:03:41): There are also some props and special mechanisms. These special mechanisms allow players to accumulate resources. When facing a boss, players have no supply replenishment, but before fighting the boss, each level grants 30 seconds to prepare by collecting health packs, acquiring enhancement props, and accumulating ultimate skill bars to prepare for the boss fight. This is a demonstration video.
+
+6#(00:04:14): Players have two main attack methods. The first is the vertical slash, which has a short interval, high damage, and wide coverage angle but short range. The second is a laser-like horizontal slash, which has the advantage of long range that can span the entire screen but has low damage and a longer action interval. Therefore, the vertical slash is suitable for close combat, while the horizontal slash is better for piercing a row of enemies or interacting with distant scene props. The current depth technology can be seen in the upper left corner.
+
+6#(00:04:40): When the player's level does not keep up with the increasing depth, the player may need multiple slashes to kill a small enemy, which is risky. At this point, it is necessary to use scene props to defeat enemies.
+
+6#(00:04:51): There are two types of interactive scene resources: bombs and iron blocks. Bombs can be hit and thrown to explode, while iron blocks can be knocked down to crush enemies. Players can also walk on iron blocks. The game has three types of resources that players can accumulate. The first is health packs; if the player is at full health when collecting a health pack, it is stored for later use. These stored health packs can be used when facing the level boss. The second is the fire pile; destroying the fire pile accumulates enhancement energy bars for consumption.
+
+T1(00:04:51): But. Pretty good. Is he now?
+
+6#(00:05:17): The vertical slash can be enhanced to significantly increase its range. The third type is the ultimate energy, which can only be obtained by defeating minor enemies.
+
+T1(00:05:18): Thank you very much.
+
+6#(00:05:25): Consuming all ultimate energy allows for a collective slash attack. There is a countdown at the top of the screen indicating the boss's appearance. When we break the red floor and fall down, we can see the depth value increase, and the countdown is reset. Reasonably accumulating resources at each depth and adjusting the state before the boss appears can greatly reduce the pressure of the boss fight. Finally, the boss fight is showcased.
+
+6#(00:05:52): That concludes my entire presentation.
+
+T1(00:05:58): OK, please look at your PPT and scroll up to page seven.
+
+T1(00:06:08): This is Gemini because it detected the watermark in the lower right corner, and then you also did some manual operations based on the raw image generated by Gemini, such as turning it into an extended horizontal background image.
+
+6#(00:06:13): Right! Right.
+
+T1(00:06:26): These.
+
+6#(00:06:27): Yes, and on the left and right sides, it’s that kind of tiled image.
+
+T1(00:06:28): Yes. In my view, there is a clear awareness of utilizing AI and performing secondary creation. Moreover, the gameplay logic is complete; it’s no longer just a blank slate but rather a relatively complete level and a full game loop!
+
+T1(00:06:58): Let me take a look at your fifth page. All the images, including the animation sequence frames and spritesheets, were actually generated by AI. Did you design this mechanism yourself?
+
+6#(00:07:15): This was actually my own idea.
+
+T1(00:07:17): OK, moving on to page six.
+
+T1(00:07:23): Regarding the current enemy bosses, such as their level upgrades, did you write this algorithm yourself?
+
+6#(00:07:23): The upgrades don't involve any particularly sophisticated algorithm. Basically, after passing each level, their health and attack power increase by a certain amount, and secondly...
+
+T1(00:07:40): Ok. I understand that its algorithm is discrete; each time you reach the next level, the enemies from the previous level can increase slightly. How is this reflected? For example, if the development in the previous level is insufficient, you can enter the next level and delay progress, because from what I see, your levels are still progressive.
+
+6#(00:07:46): Right, them.
+
+6#(00:08:01): Because.
+
+T1(00:08:01): This is an open world!
+
+6#(00:08:04): Right, after I made it and played it myself, my feeling was that the small monsters in this game, I didn’t give them any ranged attacks or attack animations like slashing with a knife. They just come up to you and you take damage. For these small monsters, I slowed down their movement speed a bit because I can handle them myself. If I speed them up a little, it becomes a bit harder. If you can’t use the melee attack range to slash and kill them, they can easily touch you. I gave them two types of items; with these two items, you can safely eliminate the monsters from a distance, gain experience, and then level up yourself. After that, when you can kill the monsters quickly, your development state is better. You can handle the monsters on this level more easily. Of course, I think this part is not done very well; it’s rather rough and lacks more diverse and richer mechanics. Right.
+
+6#(00:09:15): Actually, what I was thinking is that if it were a bit richer, it could incorporate a roguelike genre, where players, for example, pick up various items or fight different enemies. They can choose their preferences for fighting or collecting items, and from there, develop a playstyle and use that playstyle to...
+
+T1(00:09:39): How was your program generated? Did you write it yourself? Since it is an H5-based page.
+
+6#(00:09:46): Commonly used? It was generated using Google AI Studio; I did not write it myself.
+
+T1(00:09:52): OK, AI Studio, good. Have you studied coding?
+
+6#(00:09:54): Yes, I have studied it.
+
+T1(00:10:00): What was your undergraduate major?
+
+6#(00:10:03): Was it Digital Media Technology?
+
+T1(00:10:05): OK, Digital Media Technology, got it. You should have a semester to study Unity.
+
+6#(00:10:13): Yes, I studied Unreal Engine myself, so I spent more time on that.
+
+T1(00:10:14): OK. Alright, I have no more questions. Do you have any questions?
+
+6#(00:10:26): Not at all, thank you very much for the teacher's comments!
+
+T1(00:10:30): Alright, alright, thank you for your hard work!
+
+T1(00:10:35): Goodbye!
+
+6#(00:10:35): Okay, then let's move on to the next student!
+
+T1(00:10:37): Keep it up.
+
+6#(00:10:40): Right. How did it end? Right.
+
+T1(00:10:47): I'm ending the recording on my end.

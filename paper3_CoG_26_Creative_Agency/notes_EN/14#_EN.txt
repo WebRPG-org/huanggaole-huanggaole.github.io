@@ -1,0 +1,103 @@
+T1(00:00:29): You can turn on mute.
+
+14#(00:00:32): Hello teacher, can you hear me? Is the sound clear?
+
+T1(00:00:35): I can hear your voice, but it's not very clear.
+
+14#(00:00:40): Is it clear now?
+
+T1(00:00:41): Much better now!
+
+14#(00:00:44): Teacher, should I start directly here or wait for Teacher T?
+
+T1(00:00:50): Just start directly, screen casting is fine.
+
+14#(00:00:53): I'm here. Teacher, can you see it?
+
+T1(00:01:01): I see it.
+
+14#(00:01:01): Okay, I'm here!
+
+14#(00:01:06): OK. Let me turn on the alarm. Hello teachers, I am 14#. The project I am reporting on is "Family in Time," a narrative-driven game experience centered on exploring contemporary emotional family dynamics. It does not focus on intense conflicts but rather on a more everyday state where family members coexist yet gradually replace genuine emotional communication with tasks and compensation. The goal is to make players realize through the game experience that companionship itself is the key to repairing relationships. In character design, I simplified the roles into four distinct emotional needs.
+
+14#(00:01:37): The father represents the role of the engine, the son symbolizes the desire for companionship and shared memories, the wife corresponds to the long-neglected emotional labor, and the mother points to the emotional needs of being remembered and connected. Structurally, the project adopts a linear video narrative combined with node-based game interventions. The entire plot progresses through eight consecutive scenes, moving from daily alienation and compensatory motives to the mental space, then unfolding three emotional nodes, and finally returning to reality.
+
+14#(00:02:05): The first half mainly consists of linear video, while the second half involves games, shifting the emotion from being observed to being experienced.
+
+14#(00:02:14): The first game is a little photographer, where players need to manually frame and focus, then wait for the right moment to take the shot. This mechanic uses operational waiting to simulate the time cost required for companionship in real life. The second game, Late Night Kitchen, is related to the wife; players repeatedly drag ingredients to designated areas. However, the objects have noticeable weight, and the operation process requires repeated interaction to let players feel that emotional communication requires long-term effort rather than a one-time action.
+
+14#(00:02:42): The third game is Starry Sky Collector, which is related to the memory album with grandma. The stars do not appear continuously; they can only be collected and stored in the album during brief flashes. This mechanism emphasizes the fleeting and non-repeatable nature of memories, guiding players to realize that emotional connections need to be cherished in a timely manner. Regarding collaboration with AIGC, this project does not use a single tool but integrates the entire suite of AIGC tools throughout the complete design process.
+
+14#(00:03:09): In the early stage of text design, AIGC assisted in breaking down the plot and organizing emotional nodes. Then, in the visual phase, a unified prompt structure was used to address issues such as inconsistent character styles. During the video and dubbing phases, multiple tools were compared to balance emotional expression with production costs. Finally, in the game production phase, Gemini was primarily used for game development. AIGC here played a role in both reducing production costs and amplifying design expression, but it did not replace my personal design judgment. Next is the presentation of the results. It hasn't played yet; please wait a moment on my side.
+
+14#(00:04:07): The family sits quietly... Sorry, I didn't share the sound earlier. The husband stands by the dining table, scrolling on his phone; the child is looking down, thinking about homework; the sound of chopping comes from the kitchen; the mother sits quietly on the sofa. Although the family is all at home, each is busy with their own life. The husband begins to feel that something is missing. At this moment, the familiar home grows silent.
+
+T1(00:04:10): It's nothing.
+
+14#(00:04:34): Light slowly emerges in the space, branching into three directions leading to different rooms, as well as different thoughts. This is the first game, "Little Photographer." Thank you, Dad. I really like this camera, but I want to go out and take more photos with you. Will you go out with me next time? OK. The second game involves collecting ingredients related to the wife. I've been really tired lately; let's sit down and rest for a while. Let me cook you a nice meal. The third is about collecting memories related to grandma. Thank you, son. Mom really likes the photo album. Let's spend more time together as a family and add new memories, okay? What they truly want is never the gift itself, but to be remembered. Everyday life is about being responded to; care is the time a family spends together. When you are willing to pause, love has already been there.
+
+14#(00:06:06): The above are the video results, followed by a screenshot of the class notes and the poster design report. That concludes my presentation. Thank you, teacher!
+
+T1(00:06:16): OK. A good piece of work. Now, the question I want to ask? Your report is already very complete, so what do I want to ask?
+
+T1(00:06:39): I think one good aspect of this work is its interactive style. For example, several mini-games do not feature specific characters. For instance, when you talk about playing with your son, this game is a photo-taking game, and later helping your mother find the beef. There is no depiction of the mother or any specific person. It uses a technique that I think can be considered a montage.
+
+T1(00:07:12): Right. You created an interactive edit, but no clear person appears during the interaction. However, you want the player to feel that this is a family accompanying each other. This technique is actually quite clever. OK, let me look at your PPT, flip forward a bit.
+
+T1(00:07:38): Yeah. Does it have a kind of self-harmony, where even if people don’t look at your PPT, they can still feel the message you want to convey through the process of playing? Let me think, actually, some of your monologue and dialogue scenes in the middle clearly highlight this theme.
+
+T1(00:08:05): Which game did you refer to for these gameplay formats?
+
+14#(00:08:11): My first reference is actually some FPS games that I encounter in daily life. In those games, there are some points with small balls, and I thought about that. Since I am designing the camera for the son, I thought about changing the point-and-click small ball into using the camera to shoot some related small objects. For the wife, I mainly referenced a game I often played as a child called Gold Miner. However, Gold Miner has many props, so I removed the props part and changed it to something related to emotional connection, which is ingredients. The heavier the weight, the longer it takes to drag it back. If you want to drag it back quickly, you need to click continuously to simulate the fatigue in emotional investment, so they need to pay attention to sustaining emotional effort.
+
+14#(00:09:02): The third game also doesn’t have much reference; it was something I came up with on the spot. Initially, I thought of a grandmother figure—she represents someone whose emotions are easily neglected in a family environment. We designed a character item for her, which is a photo album. The album has a collecting function, and I planned to combine it with stars, collecting stars into the album. That’s roughly the idea.
+
+T1(00:09:33): During the entire game development process, for example, after utilizing AI for code generation, approximately how long did it take to complete the whole game?
+
+14#(00:09:43): Because at the beginning, his Gemini—I actually didn’t start with Gemini, it was Codefair. But when I used Codefair back then, it didn’t quite, how to say, fully understand the prompts I gave it. Then I switched to Gemini, and with Gemini, I actually did a lot of debugging on the AI model. It took about two days in total, since I had other courses as well, so altogether it probably required a full day just for debugging. Especially for some elements inside, it couldn’t, for example, understand why the ingredients here needed to be designed with different weights. At that time, the dragging was very fast, so I had to keep telling it or adjusting the speed for it. Also, the stars—the stars were flashing very quickly, and during the game interaction experience, it was difficult to complete the game tasks. Later, I communicated with it and asked it to modify the star flashing duration, making it longer, which made dragging easier. This debugging process took about a full day.
+
+T1(00:10:54): So, what was your major during your undergraduate studies?
+
+14#(00:10:58): Design studies is intelligent interaction design.
+
+T1(00:10:59): So that means you actually didn't study programming during your undergraduate years.
+
+14#(00:11:05): Have had some exposure to programming.
+
+T1(00:11:06): Which programming languages have you learned?
+
+14#(00:11:11): At that time, we studied Python and Java, but we did not learn C language.
+
+T1(00:11:15): Understood. So when you use AI combined with programming, you can also detect issues in the code and make some modifications.
+
+14#(00:11:16): Right, and especially for some of the speeds here, as well as the speed at which these items on the left and right sides fly out, those can also be adjusted, so you can understand what is written.
+
+T1(00:11:42): What is your current direction?
+
+14#(00:11:44): My current focus is digital space, specifically space and artistic creation, and more concretely, it involves AR and VR development and related areas.
+
+T1(00:11:54): OK, that's great. Actually, your work is quite complete, and I don't have any other questions. Do you have anything you'd like to ask me? Any questions for me?
+
+14#(00:12:05): Actually, at the beginning, I wanted to make this work because my focus is on AR and VR development. So initially, I intended to do AR development, or rather VR development. However, due to time constraints and the lack of suitable equipment around me, I wasn't able to complete it. I want to ask, in the future, if we convert some existing classic games into VR development, would there be any particular issues or considerations we need to be aware of?
+
+14#(00:12:31): For example, with a game like Gold Miner, initially, I didn’t really have a clear idea of how to develop it for VR. But when I switched to front-end development, specifically working on the game selection page, I immediately thought it could be made in the style of Gold Miner. However, when focusing on VR development from the start, I wasn’t sure how to approach it. I have some direction now, but I want to ask: if I want to develop for VR, what should I pay attention to with these types of games?
+
+T1(00:13:07): In my opinion, when I was young, games played using computer mice and keyboards as interfaces generally are not very suitable for direct porting to VR devices, because VR interaction methods differ from traditional remote mechanical controls like mouse and keyboard, or even touchscreens later on, which still fundamentally require a tangible input device for control. For example, your Gold Miner game necessarily requires a clicking operation.
+
+T1(00:13:35): If you put it into VR, you will find that VR inherently does not need these things; it leans more towards the most primal form of human interaction, such as using hands or spatial positioning to interact.
+
+T1(00:14:03): The process of throwing out the magnet in Gold Miner with a mouse click actually corresponds more closely to the action of casting a fishing rod when fishing. So rather than thinking about how to incorporate Gold Miner's interaction directly, I think it's better to consider what kind of human action the game originally imitates—what kind of action is performed without relying on such tools. If I were to implement Gold Miner in VR, I would probably treat the controller as a fishing rod.
+
+14#(00:14:35): Got it!
+
+T1(00:14:46): These ores are right beside me, and they might appear in different directions. I need to swing my controller toward that direction. Right.
+
+14#(00:14:58): OK, I understand. Thank you, teacher!
+
+T1(00:15:00): OK, any other questions?
+
+14#(00:15:04): Nothing else!
+
+T1(00:15:06): If there’s nothing else, we’ll end here. Thank you, keep it up, bye!
+
+14#(00:15:10): OK, thank you, teacher!

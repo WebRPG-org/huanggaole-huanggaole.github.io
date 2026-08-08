@@ -1,0 +1,89 @@
+T1(00:01:22): Hello, can you hear my voice? Please unmute yourself.
+
+T1(00:01:33): Screen casting is sufficient.
+
+15#(00:01:40): It seems I forgot to share the computer audio.
+
+15#(00:01:52): Can you see it?
+
+T1(00:01:53): As can be seen.
+
+15#(00:01:55): Hello Teacher, I am student #15. I will introduce my game demo called Storm from five aspects: game concept, story, interaction, production issues, technical approach, and results demonstration. When Teacher T assigned us the final project, there were no restrictions. Therefore, at the initial stage of brainstorming, I set a more specific scope for myself—I wanted to create a warm and healing narrative-based mini-game.
+
+15#(00:02:31): As for what form it would take, I had envisioned several aspects at the time. I imagined its style to resemble that of a picture book—calm and warm. Its inspiration came from some movie scenes I had seen before, as well as narrative-driven mini-games with dialogue. However, I wanted it to differ from those previous mini-games because I set a goal for myself to create something more heartwarming and healing. Therefore, I hoped it would not require me to agonize over what choices to make or what impact they would have. I wanted the game’s story to progress regardless of what the player chooses to do, as long as they take action.
+
+15#(00:03:22): Therefore, the key element might be a small scene where the player tries to escape the storm in the story, ultimately finding their own peace—an allegory for discovering inner calm amid an internal storm.
+
+15#(00:03:41): Next, I will discuss the design of my story and interactions. The story is divided into five chapters, each accompanied by its corresponding animation and text. Here, I included an Easter egg inspired by a movie I watched earlier. In the movie, when the player is lost at sea and unsure of where to go, someone says that as long as they do not stop, there is a chance of success. This conveys an overall encouraging feeling. Therefore, the interaction design is relatively simple, involving mouse clicks or dragging. The interaction serves the narrative and emotional experience rather than presenting difficult challenges.
+
+15#(00:04:31): Then I think that throughout the entire production process, I mainly encountered two relatively difficult problems to overcome. First, I found that coming up with a story is a very challenging task. Although AIGC can provide us with many conveniences now, I believe the core of the story must still be conceived and conveyed by humans in order to make the game a good one. AI cannot provide me with a story that is both easy to understand and profound; the core of the story must be created by myself.
+
+15#(00:05:00): Therefore, under this title, I feel that if it is made too therapeutic, it may come across as overdone. On the other hand, if it is too superficial, it might not be closely related to the theme, which poses a problem.
+
+15#(00:05:25): The second issue is that I believe there are still many limitations in the application process of AIGC. Therefore, in the later stages of my plan, I mentioned that some of the interactions I initially envisioned were not executed particularly well.
+
+15#(00:05:45): Regarding this technical approach, I first had GPT generate the instructions for creating the demo, and then used Gemini to produce the content. However, Gemini could only generate relatively basic vector graphics. Therefore, I supplemented the artistic resources with Jimeng AI, establishing a prompt for the desired style, and then consistently outputted some images and generated several videos accordingly.
+
+15#(00:06:14): Finally, the game prototype originally developed with Gemini was integrated, resulting in the creation of the final demo. I believe this reflects some of the current limitations of AIGC, which requires more flexible utilization. Lastly, a video demonstration was presented.
+
+T1(00:08:17): OK, two points. First, is your undergraduate major related to design, and do you lack a coding background?
+
+15#(00:08:27): You could say that—I completed my undergraduate studies in Intelligent Interaction Design at [Institute Name].
+
+T1(00:08:34): Intelligent interaction design.
+
+15#(00:08:34): Actually, I have learned some coding, but not very deeply.
+
+T1(00:08:36): Right. The second point is that this demonstration video did not achieve practical implementation; it was not truly realized.
+
+15#(00:08:42): Right. Right.
+
+T1(00:08:47): OK, but the video you have is credible. That is, if you have enough programmers, you can actually implement it.
+
+15#(00:08:57): Yes, I think so.
+
+T1(00:08:59): Have you tried using Gemini or other code generation tools during the game development process to generate your final outcome?
+
+15#(00:09:11): I generated content, but initially, I intended to use Gemini to directly create a demo. I wrote many instructions for it at the time, but the final output was a vector graphic—a 2D image—that was relatively simple. So, I did not use that version. The current versions are mostly animations, and I did not know how to integrate these animations into Gemini’s web interface. I asked it to write an HTML file, but I was unsure how to embed the animations into that HTML. Therefore, I pieced it together by incorporating dynamic videos generated with Jimeng AI. Right, but at the beginning, the interaction was intended to be directly implemented in the form of an HTML page.
+
+T1(00:10:10): Your narrative serves a particular theme and contains some personal insights of yours.
+
+15#(00:10:18): Yes, in this story, I want to depict a person waking up in the midst of a storm, encountering many magical sea creatures such as dolphins, jellyfish, and octopuses. However, these creatures may not be entirely real; they exist in a space between reality and illusion, somewhat like the fantasy journey in Life of Pi. Throughout this interactive process, the protagonist is actively trying to save himself, attempting to escape the storm and reach a safer place. Although it may seem that these animals are forcing him to perform certain actions or guiding him, it is essentially his own effort at self-rescue. The message I want to convey is that no matter what, as long as you put in effort and try, you will definitely gain something and achieve a more peaceful inner state. That is the feeling I want to express. However, as I mentioned earlier, I believe this is not a particularly simple task to accomplish. A very short demo might not convey this clearly, but this was my original intention.
+
+T1(00:11:20): Alright, regarding the interactions within the game, such as simple screen dragging or basic puzzle games, do you think the design of these gameplay forms is organically integrated with the content you want to convey, or are they more of a detached, mechanical combination?
+
+15#(00:11:59): What I hope is that these elements are integrated together. At the beginning, in the dolphin scene, I designed the dolphin to leap out of the water in an arc, so the user also draws an arc. Then, in the jellyfish scene, the jellyfish gather, and the player clicks repeatedly, causing the jellyfish to disperse and reveal a path. Similarly, the octopus appears to cast a shadow over the deck of the ship, which actually serves as a reminder to quickly raise the sails and leave. So, I created a puzzle intended to form the shape of a sail. This was part of the original story design, aiming for each element to carry a certain symbolic meaning corresponding to the chapter’s title—indicating when to wait, when to be guided, and when to stand firm and face challenges. There is a correspondence, but implementing it may be somewhat difficult.
+
+T1(00:12:58): Actually, I think this work is relatively complete, and after listening to your explanation, the gameplay is also a well-integrated narrative. The only minor drawback might be the lack of a truly playable demo, and there may be some instances of repeated words in the demonstration video.
+
+15#(00:13:21): There may have been some issues during the export process.
+
+T1(00:13:27): Right, so when I was reviewing your content, I didn’t always fully read through all the dialogues because you have a programming background. Mm-hm. So, if you could use AI to develop it into an actual game, that might be even better. But as it stands, this is already a relatively complete report. I have no further questions. Do you have any questions?
+
+15#(00:13:56): I would like to share some of my insights and also hear if the teacher has any different perspectives from your own explorations. When I use AI, I find two major issues, which I have discussed with some classmates who work in technology. Currently, I feel that AI cannot provide a truly solid core for a story; that part must be thought through by ourselves. We also need to master the communication skills to interact with it; otherwise, it cannot give us the answers or content we want. Regarding AIGC and its image generation, initially, I thought that if it were just an image, it might be relatively simple to embed it into HTML. However, when it comes to video, the workload becomes much larger, and the research feels more difficult. I am not sure if there is a better way to quickly integrate them together.
+
+T1(00:15:09): AIGC not only fails to provide good suggestions in terms of narrative, but it is also quite unsatisfactory in the process of code generation. The images here are also generated by AI, using Jimeng.
+
+15#(00:15:25): Right.
+
+T1(00:15:26): Of course, since I am not a professional artist, if you were to have a professional artist—such as my co-founder—review it, they might also find many issues with the image generation. Therefore, my suggestion is to regard AI solely as a tool for improving efficiency, rather than as a tool that can compete with human creativity. Regarding the implementation you mentioned, I think it is acceptable that you do not have a demo. This is because if you find someone experienced with Unity among humans, they could very quickly turn your design proposal into a fully functional game. Your design case hardly contains any technical challenges that are difficult to implement. Although you use video, the video can be looped. For example, if I were to use Unity, I might simply overlay some narrative text on top of the looping animation. Your animation is actually decoupled from the text. For instance, with the initial small boat, regardless of the dialogue, the boat’s movement remains the same until the animation finishes playing. It does not respond to any specific player actions. Under these circumstances, I believe your design is highly feasible and very easy to realize. Therefore, I would not consider the absence of a complete demo as a significant flaw.
+
+T1(00:17:01): Because, you know, other students may also produce a demonstration video, but when you watch their videos, you can clearly sense that they lack practical implementation. From a professional development perspective, for example, many of their animations heavily rely on physics collision calculations, which makes it apparent that their project is essentially just a PowerPoint presentation.
+
+T1(00:17:25): This can only appear in his description, so one difference between you and them is that you may have a human judgment about under what circumstances a game can be realized and under what circumstances it is more difficult to realize. In this regard, you are already stronger than someone who purely uses AI to generate content, because you manually filter which elements can be included and which cannot. As for AI, my personal view is that in the short term, it may still be similar to an input method—a tool for improving efficiency. You cannot expect that simply having a good input method will enable you to write a great masterpiece or novel. In fact, many things still require a person to gradually perceive, live through, and understand them. This also applies to your theme; perhaps it is related to your current age and the insights you have gained so far. If you were to create such a work again in 10 or 20 years, the philosophical depth of your work would certainly be greater.
+
+T1(00:18:33): Therefore, I do not include everyone's themes and narratives as a crucial part of the evaluation process. If they are good, I am very surprised and pleasantly so; if they are relatively average, I think that is also understandable, since everyone is still quite young.
+
+T1(00:18:53): If AIGC truly participates in game creation, as I just mentioned, you can regard it as an input method with associative functions that, to some extent, helps improve efficiency. The real core still needs to be controlled by humans.
+
+T1(00:19:09): Right.
+
+15#(00:19:09): Thank you, teacher!
+
+T1(00:19:12): No problem. If there are no other questions, let's keep up the good work for now.
+
+15#(00:19:13): OK. Thank you, teacher!
+
+T1(00:19:19): Goodbye.
+
+15#(00:19:21): OK, goodbye.

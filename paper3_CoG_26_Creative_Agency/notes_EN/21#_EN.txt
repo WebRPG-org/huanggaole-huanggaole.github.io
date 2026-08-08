@@ -1,0 +1,187 @@
+T1(00:00:24): Hello, please unmute and share your screen.
+
+21#(00:00:41): Teacher, please wait a moment. I don't know why my computer, since it's Apple, requires some settings to be adjusted.
+
+T1(00:00:44): No problem, you go ahead and set it up first.
+
+21#(00:02:21): Teacher, I don't know why. I already set it up just now, and screen recording and everything else is enabled, but it still doesn't work.
+
+T1(00:02:44): It supports recording the shared screen and the speaker separately.
+
+21#(00:03:00): I followed their solution but still don't know why.
+
+T1(00:03:07): Is it related to Apple?
+
+21#(00:03:07): Yes.
+
+T1(00:03:10): Are you using an Apple computer?
+
+21#(00:03:13): Why?
+
+T1(00:03:16): How about this, you join the meeting using your phone and then film your computer screen to report, that works too.  
+
+T1(00:03:36): Your problem is with screen sharing; you can’t share your screen.  
+
+21#(00:03:40): Yes, this happened a few days ago. I set it up in advance today and searched online, but I don’t know why it still doesn’t work when I join.  
+
+T1(00:03:42): Right.  
+
+21#(00:04:50): Teacher, should I turn on the video and then film my computer?  
+
+T1(00:04:57): Because I need to see your screen.  
+
+21#(00:04:59): Let me check, flipping it.  
+
+21#(00:05:15): Please wait a moment, teacher.  
+
+T1(00:05:22): Hey, for now, just do it like this.  
+
+21#(00:05:26): Can you see clearly, teacher?  
+
+T1(00:05:30): You can start your report now!
+
+21#(00:05:32): This is the poster for the game I made. At the very beginning, um, I, I, I turned off the audio on my phone.
+
+21#(00:05:54): I couldn’t find it, so let’s just leave it like this for now. This is the designed poster. My initial idea for the game interface was to create a feeling similar to that of an old desktop computer with a protruding keyboard. But the mini-game I generated looks like this, and it doesn’t look very good.
+
+T1(00:06:28): It’s fine, this interface works.
+
+21#(00:06:31): Okay, I’ll play it now.
+
+T1(00:06:58): Why can’t I see the Bulbasaur image?
+
+21#(00:07:01): I don’t know. After this didn’t work, I generated another version, but it still didn’t work.
+
+T1(00:07:02): Did you generate it with Gemini?
+
+21#(00:07:10): No, I used DeepSeek.
+
+21#(00:07:22): This game is based on Pokémon, where each character is associated with certain elemental attributes, like the five elements. So when I was designing the game, DeepSeek suggested that each type could counter another, producing different effects. It’s similar to traditional match-three games but integrated into this game. Later, there will also be some social features, including different communities based on these attributes.
+
+21#(00:08:01): But the game generated this way won't be as rich as it was designed to be. Also, there is an issue because the game generation includes audio, but the generated game has no sound effects. I checked the code, and it does have sound, so I talked to it again.
+
+21#(00:08:27): It later said that the web link to the sound effects is inaccessible, and I don't quite understand that, so I wanted to ask you.
+
+T1(00:08:36): It’s also possible that the code references a sound effect file, but you don’t actually have that sound effect locally or in your project. It’s like with Bulbasaur—maybe the code calls for a Bulbasaur image, but if you don’t have that image locally, it won’t display.
+
+T1(00:09:01): You can check if that’s the reason. Your assignment is very standard, with almost no flaws. If AI generates a game project, the assignment would basically look like what you have now, with maybe one or two minor issues, such as the sound effect problem you mentioned that needs fixing, and missing images that need to be loaded.
+
+T1(00:09:32): Once those two issues are resolved, it will basically be a standard process of generating a game using AI tools.
+
+21#(00:09:42): Teacher, how do I insert the audio? I saw it says something about external audio. The code says, when I asked why the sound effect doesn’t play, it said it’s some external sound effect that can’t be inserted. So what do I need to do next?
+
+T1(00:10:02): Can I see your code? Let me look at the parts related to sound effects.
+
+21#(00:10:05): OK, one moment. OK. Is this the code?
+
+T1(00:10:54): Yes, find the files related to sound effects.
+
+T1(00:10:58): What are they called?
+
+21#(00:11:00): Should I look for it in the code?
+
+T1(00:11:02): Because sound effect files are generally files ending with wav, mp4, or mp3, they might be sound effect files.
+
+21#(00:11:14): Okay, let me check.
+
+T1(00:11:18): Right.
+
+T1(00:11:29): Just search for a sound effect.
+
+T1(00:11:32): For example, you can search for the two characters "sound effect" in the code; it might appear.
+
+21#(00:11:39): How do I search?
+
+T1(00:11:41): Control plus F.
+
+21#(00:11:43): What what?
+
+T1(00:11:44): The ctrl key on the keyboard if you are using Windows.
+
+T1(00:11:51): You are using an Apple device, so it’s possible. If you press both at the same time, a search box might appear in the upper right corner of the screen.
+
+21#(00:12:06): I see it.
+
+T1(00:12:07): You can search for the term "sound effects" or search for wav files or mp3 files.
+
+21#(00:12:20): He jumped straight to this point.
+
+T1(00:12:24): Then search for some wav, right, .wav files.
+
+21#(00:12:24): Let me search. Which teacher should I click?
+
+T1(00:12:41): wave Wave WAV.
+
+21#(00:12:46): wave.
+
+T1(00:12:50): No, remove the "e". Its file extension is just three letters, which are the first three letters of "wave": w, a, v. Mm-hm.
+
+T1(00:13:00): Can't find it? If you can't find it, that means they never actually inserted any sound effects into it.
+
+T1(00:13:10): Or if you can't find the MP3 extension either, then it probably means they never actually put any sound effects in there.
+
+T1(00:13:18): Click on the MP3. Let me take a look! Check the audio element, go to this webpage now and see if the sound effect exists. Copy the link to the .mp3, then search for it in the browser.
+
+T1(00:13:47): Make sure to copy the extension as well!
+
+21#(00:13:51): Copy it to the MP3?
+
+T1(00:13:52): Use the browser to check this URL and see if it exists.
+
+21#(00:14:06): It’s not there, what is this?
+
+T1(00:14:08): If it’s not there, it means they used a music file that doesn’t exist. You might need to find a real sound effect yourself. If it’s not on the webpage, then check locally. You need to download an MP3 or OGG file locally, then read it from your local machine. Is your current webpage running locally or...?
+
+T1(00:14:37): Cloud-based configuration.
+
+21#(00:14:38): Teacher, wait a moment, I’ll write it down. I’m afraid I’ll forget later—MP3 and what else, JJ?
+
+T1(00:14:48): OGG or WAV, right.
+
+21#(00:14:49): Teacher, please go ahead.
+
+T1(00:14:59): Regarding the assignment, actually sound effects are not important. For this assignment, even if your music doesn't load, it's not a big deal. But I suggest you find a classmate who knows programming after class and have them help you solve this issue. The problem is that the sound effect or music file referenced in the program has a fake or invalid link.
+
+T1(00:15:24): During the gameplay, if it loads, this is the issue.
+
+T1(00:15:28): Do you have any other questions?
+
+21#(00:15:33): Yes, teacher. At first, I actually wanted to design a detective game because I like watching Hong Kong dramas. So I wanted it to design a game based on Forensic Heroes, but the entire game interface needed to have a full set of storylines, whether virtual characters or real ones.
+
+21#(00:15:55): I talked to it for a long time, but it couldn’t understand what I was saying. In the end, what it generated had no characters, just text telling you to click this, and after clicking everything, the game ended. There was no sense of participation. So I want to ask, is this an AI problem or a problem with how I talked to it?
+
+21#(00:16:24): How should I modify it to make it closer to the effect I originally wanted?
+
+T1(00:16:32): Both AI and creators have some issues. For example, the AI itself lacks the ability for long-chain reasoning. So if you want it to make a criminal case or detective game, the reasoning chain is very long. Current AI cannot handle such long chains of thought. So if you package the whole task for it to do,
+
+21#(00:16:37): Right.
+
+T1(00:17:00): it can’t produce it. Only humans can do the top-level design: how many people are involved in the case, what each person contributes, what the core trajectory of the case is, why initially no one knows who the culprit is. All these need to be designed by humans.
+
+T1(00:17:24): After people design these elements, AI can be used for some trivial polishing. Currently, if we want to create reasoning or mystery games, we still can't fully rely on AI to do it.
+
+21#(00:17:38): Understood.
+
+T1(00:17:39): Right, so for example, a script murder game creator using AI might work faster because even without AI, they can produce such a script. But having AI do everything on its own is still quite difficult now.
+
+21#(00:18:02): If I give it a script now, can it basically produce something like the existing "Who is the hero" or "Who is the murderer" type of game?
+
+T1(00:18:09): Yes. Do you want it to be a single-player game or multiplayer?
+
+21#(00:18:20): Single-player first, like me as a forensic doctor or a witness, something like that for now.
+
+T1(00:18:28): As far as I know, Chenguang is currently working on something like this: you give it a novel, and it creates a game for you. It’s still in internal testing.
+
+T1(00:18:36): Maybe soon it will be possible, but you have to write the script very thoroughly, somewhat like a film scriptwriter. Once the script is well written, the production can proceed smoothly.
+
+21#(00:18:41): OK.
+
+21#(00:18:54): Got it. I haven’t been detailed enough in my conversation with it; it doesn’t understand what I’m saying.
+
+T1(00:18:54): Or you didn't break the task instructions down to atomic level.  
+
+21#(00:19:05): I understand.  
+
+T1(00:19:16): Let's leave it at that for now. Keep it up, goodbye!  
+
+21#(00:19:19): OK, thank you teacher! Goodbye, teacher!

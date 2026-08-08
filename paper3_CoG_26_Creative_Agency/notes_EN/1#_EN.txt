@@ -1,0 +1,101 @@
+T1(00:03:03): Hello.
+
+1#(00:03:03): Hello.
+
+T1(00:03:04): It's your turn.
+
+1#(00:03:07): OK, I'll start sharing my screen.
+
+T1(00:03:10): I'll turn up the volume a bit.
+
+1#(00:03:19): My game is a turn-based strategy game that combines pinball machine gameplay with deck-building mechanics. Players first launch a marble, which bounces randomly among the pegs and eventually lands in different multiplier slots to earn corresponding points. After reaching the stage goal score, players can enter the shop to purchase cards. By combining different cards strategically, players can achieve higher scores.
+
+1#(00:03:47): Here is the basic gameplay flow of my game. The first step is launching the marble. Then you earn points from the multiplier slots. Once you reach the passing score, you can open the shop to buy cards. Let me explain some of the game mechanics I designed. First, if there are unused marble launches left in a stage, they are preserved and accumulated to the next stage. This encourages players to conserve resources early on so they can push to higher stages later.
+
+1#(00:04:17): Second, I set up a low-probability event in the game: there's a 0.1% chance that a colored marble will appear. The value of a colored marble is 100 times that of a normal marble. Regarding the economic system, I set the initial coin amount to 10. Each time you pass a stage, you earn 5 coins as a base reward. For every 10 coins earned, the next stage grants an additional 1 coin as interest.
+
+1#(00:04:46): Fourth, regarding the card system: each stage allows purchasing at most one card, and a game can have at most 10 cards. You cannot replace cards you already own, and cards you already have won't appear in the shop again. I divided cards into beginner, intermediate, and advanced tiers. Different tiers appear at different stages—for example, beginner cards appear in stages 1-3, intermediate cards in stages 4-9, and advanced cards from stage 9 onwards.
+
+1#(00:05:14): Another point I want to summarize is the feedback experience of this game, which mainly involves three aspects. First, the pinball machine itself is inherently random. Second, there's immediate audio-visual feedback from the marble collisions. Third, through card combinations—for example, amplifying numerical values—you get positive feedback experiences. Regarding the third point about card design, there are roughly 60 cards in total, which can be divided into four main effect categories.
+
+1#(00:06:06): The first category is cards that increase the base score multiplier. The second category is cards that increase the number of marbles launched per stage. The third category is cards that modify the probability of colored marbles appearing. The fourth category is cards that provide special effects, such as temporarily freezing the board or resetting the multiplier. Each card has a cost in coins, and the cost increases with the card's power level.
+
+1#(00:06:31): In terms of the visual design, I used a relatively simple and clean aesthetic. The main visual elements are the pinball board, the marbles, the pegs, and the multiplier slots. I used bright colors to make the game visually appealing and easy to understand. The UI displays the current score, stage number, remaining marbles, coins, and available cards in the shop.
+
+1#(00:06:53): For audio design, I added sound effects for marble launches, collisions, and scoring. I also added background music that loops throughout the game. The sound effects provide immediate feedback to the player about their actions, making the game feel more responsive and engaging.
+
+1#(00:07:10): Regarding the technical implementation, I used HTML5 and JavaScript to develop this game. I leveraged AI tools to help with certain aspects of development, such as generating code snippets and debugging. The game runs in a web browser and doesn't require any installation.
+
+1#(00:07:35): In terms of the design philosophy, I wanted to create a game that combines luck and strategy. The randomness of the pinball machine provides an element of chance, while the card-building system allows players to make strategic decisions. This balance between luck and strategy makes the game engaging and replayable.
+
+1#(00:08:05): I also incorporated progression mechanics where players gradually unlock more powerful cards as they advance through stages. This creates a sense of progression and keeps players motivated to continue playing. The difficulty gradually increases as players reach higher stages, requiring more strategic card combinations.
+
+1#(00:08:31): One challenge I faced was balancing the game's difficulty. If the game is too easy, players lose interest quickly. If it's too hard, players get frustrated. I spent considerable time tuning the probabilities and card effects to achieve a good balance.
+
+T1(00:08:45): I see. That's a good design. Do you have any questions about your work?
+
+1#(00:09:07): No, I think I've covered the main points of my game design. I'm satisfied with how it turned out.
+
+1#(00:10:50): I used AI tools like ChatGPT and Gemini to help with code generation and debugging. For the visual assets, I used AI image generators to create some of the graphics. This significantly sped up the development process and allowed me to focus more on game design and mechanics.
+
+T1(00:11:22): Right.
+
+1#(00:11:28): The main challenge was integrating all these AI-generated components into a cohesive game. Sometimes the AI output didn't perfectly match my vision, so I had to manually adjust and refine the code and graphics.
+
+T1(00:11:31): That makes sense. Overall, your game design is solid, and the use of AI tools is appropriate. Keep up the good work!
+
+1#(00:11:36): Thank you, Teacher T!
+
+T1(00:11:37): Do you have any other questions or concerns?
+
+1#(00:11:48): Right.
+
+T1(00:11:48): Alright then. Let's wrap up here. Great job on your presentation!
+
+1#(00:11:49): Right.
+
+T1(00:12:02): Excess coins are one issue, but my direct feeling is that in the later stages, there are fewer places where players can interact. This is quite different from Texas Hold'em. In Texas Hold'em, each round you can choose which cards to play or develop combination strategies. For example, if I have more diamonds in my hand, I can choose buff skills that give additional bonuses to diamond-type cards, similar to joker cards. So the actions players can perform can form certain combos or synergistic effects.
+
+1#(00:12:43): I understand.
+
+T1(00:12:53): However, in your current work—and the quality is indeed very high—the juicy effects of the interface are impressive. There are many special effects, including sound effects and visual effects from the marble bouncing off pegs, as well as the physics collision effects and vivid sound effects. I think it's a very qualified game, at least a qualified game.
+
+T1(00:13:20): What it lacks is how to introduce more combo actions. I think there's a slight shortcoming in this aspect. This results in, for example, as you mentioned, possibly reaching stage 17 and then stopping. This means your numerical system can only support up to stage 17. Unlike joker cards, if you find the right strategy—if your hand cards and joker cards form a very good synergistic relationship—it could create exponential or hundreds, thousands, or even tens of thousands of times the score difference. In your game, all strategies lead to a relatively fixed expected score even with the optimal solution. The variance isn't particularly large, which leads to the problem you mentioned.
+
+T1(00:14:41): My suggestion is to find ways to create combo and synergistic effects through gameplay mechanics. What I can think of now is, for example, as the marble falls, can you create a very large, exaggerated distortion in the multiplier? I want to ensure that player agency can influence your score while also increasing the variance. Since your marbles have different colors, perhaps certain joker cards could give additional multipliers to marbles of certain colors, or perhaps the slots below that collect the marbles could also be freely combined or modified. For example, you could make certain slots have exaggeratedly large score multipliers, but perhaps related to color—only red balls falling in would have an exaggerated multiplier, while blue balls would keep the original multiplier. Additionally, regarding the marble's trajectory, could you also make some improvements? For example, certain trajectories might attract red marbles with some kind of gravitational force, pulling certain colored balls over.
+
+1#(00:15:38): Right.
+
+1#(00:15:55): Thank you, Teacher T!
+
+T1(00:16:06): If you could also add such mechanisms or designs to the pegs that block the ball, you might be able to break through stage 17 or make the score variance much larger, making your scores more exaggerated. Overall, I think your approach is excellent—having roguelike cards combined with a probabilistic base gameplay is sound.
+
+T1(00:16:42): No problem. Is there anything else you'd like to discuss? We have enough time.
+
+1#(00:16:46): I'm curious—do you think the game industry is currently in a downturn? Or is it a good time for people like us who want to enter the industry?
+
+T1(00:17:02): I think it's a good time. When I entered the industry, there was no AI. Back then, the barriers were more rigid. Established producers in mature pipeline workflows were very entrenched. Only after AI appeared did it become possible to put the old guard from previous-generation pipelines and newcomers like us on the same starting line. If you ask a producer who's spent many years in mobile games to use AI, they might not be able to create gameplay like yours or such lively and vivid effects, because their system might still be stuck in the mobile game paradigm. So I think that while the industry overall is experiencing what might be called oversupply rather than a downturn, the early entrants don't actually have much accumulated advantage. For young people, I think it's relatively favorable. A downturn might not even reach newcomers.
+
+1#(00:18:22): Because indeed, I feel AI is developing very quickly. Regardless of whether you have art skills or programming abilities, you can use AI to create games.
+
+T1(00:18:31): Right, so for university students who have time and active ideas, I think it's very good. Now it's not just games—I think the broader entertainment industry has opportunities for young people.
+
+T1(00:18:45): When we were young, if we wanted to make a game, we'd get stuck on assets for a long time. So much of our time was spent finding assets with proper copyright. But now young people can spend more time training themselves in game design.
+
+1#(00:19:02): That's true.
+
+T1(00:19:05): Alright, any other questions?
+
+1#(00:19:08): No other questions. Thank you, Teacher T. I found your suggestions particularly helpful.
+
+T1(00:19:13): Keep up the good work!
+
+1#(00:19:16): Thank you!
+
+T1(00:19:16): Let's wrap up here. Goodbye, goodbye!
+
+1#(00:19:19): Goodbye.
+
+T1(00:19:20): Bye-bye.
+
+1#(00:19:22): Bye-bye.

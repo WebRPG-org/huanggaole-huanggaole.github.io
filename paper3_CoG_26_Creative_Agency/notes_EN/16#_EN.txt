@@ -1,0 +1,119 @@
+T1(00:00:06): Hello, can you hear me?
+
+16#(00:00:09): Teacher, can you hear me?
+
+T1(00:00:13): You can share your screen, but the audio is a bit intermittent.
+
+16#(00:00:17): A bit intermittent, you mean? Now?
+
+T1(00:00:19): It's fine now.
+
+16#(00:00:22): OK, then I'll share my screen.
+
+T1(00:00:22): Good. Thank you.
+
+16#(00:00:27): Hello, Teacher. I'm student #16. Next, I'll share the web-based music rhythm mini-game I made. The core of Rhythm Brister is to let users experience the joy of making milk tea to the beat, using simple operations and a lively rhythm!
+
+16#(00:00:46): Is my audio normal on my end? Why?
+
+T1(00:00:48): Are you asking if there's background music now?
+
+16#(00:00:51): I can hear myself too.
+
+T1(00:00:57): No worries!
+
+16#(00:01:01): Then I'll continue!
+
+T1(00:01:01): Then let's continue.
+
+16#(00:01:05): The core experience of playing the game is mainly divided into four points. First, the operation is very simple. There are only two keys: pressing the 'A' key or the left arrow key on the keyboard represents adding milk tea, and pressing the 'D' key or the right arrow key on the keyboard represents shaking the milk tea. The second experience point is that my game can be played infinitely. It doesn't have fixed level content; instead, each round is generated in real-time, and the rhythm and action combinations are different each time. The third experience point is that there will be a chef on the screen accompanying you to make milk tea, providing a sense of companionship. The fourth experience point is that the feedback is very direct. Not only are there pleasant sound effects when you press a key, but there are also some positive facial expressions. If you press the wrong key, there will also be a corresponding sound effect and expression.
+
+16#(00:01:58): Plus, at the end, the AI will make a sarcastic comment based on your total score, which makes people want to keep playing and challenging themselves. Now, let's watch the demo video of this game.
+
+16#(00:02:29): What.
+
+16#(00:03:30): Good. Due to time constraints, I won't play it repeatedly. It has three levels of different difficulty. The only difference is that it will later give you a score. For example, in the second level, I didn't perform very well, and the score was relatively low. The final animation will be slightly different; it will show a frustrated expression!
+
+16#(00:04:02): Including the comments below, which are also some perhaps critical remarks.
+
+16#(00:04:12): Next, I'll talk about how I designed a storyline at the very beginning of this game to introduce it. The player walks down the street and sees a little girl's milk tea fall to the ground. She cries uncontrollably because she lost her milk tea. So, you comfort her and take her hand to a milk tea shop, wanting to make a cup of milk tea for her.
+
+16#(00:04:41): Then, we move on to the milk tea making segment. Each round is a small four-beat loop. In the first few beats, the chef performs actions and makes sounds. Then, it's the player's turn to press either the A key or the D key on the keyboard, following the prompts at the top of the screen. For example, in the simplest mode, the chef pours water three times, and the player pours once.
+
+16#(00:05:08): Press the keys in rhythm. For the visual design, we used a high-saturation color scheme, employing vibrant lemon yellow, bright pink, and cyan as backgrounds to complement the high-contrast black and white characters. The visuals feature extensive use of thick outlines, creating a visual tone similar to stickers or American comics. The characters are constructed from simple rounded rectangles and circles, without complex textures, to emphasize exaggerated deformations in their actions.
+
+16#(00:05:43): In terms of audio, sound effects will provide feedback to the player on whether they pressed the correct button at the correct rhythm. If the rhythm is incorrect, there will be a sound indicating a mistake.
+
+16#(00:05:57): The AI evaluation calculates a total score based on the accuracy of rhythmic presses and then generates a review using Gemini's API. The system divides scores into four tiers: one for above 90 points, one for between 70 and 90 points, one for between 40 and 70 points, and one for below 40 points. The AI's tone is set according to these score tiers, and it generates unique sarcastic comments based on specific performance, such as a low score in a round possibly indicating too many misses. The challenges encountered and their solutions primarily involve three points. The first issue was that in the initial design, the top part of the screen did not have note prompts. Without these prompts, players might not know when to perform an action.
+
+16#(00:06:56): And because the game notes are randomly generated, there's no fixed rule for alternating between computer and player button presses, so players couldn't determine which beat was theirs to press. Even if players understood they needed to fill in missing notes in a 4/4 rhythm, the uncertainty of whether it was their turn often led to premature or delayed actions. My solution was to add a note rhythm prompt at the top, so players would know when to press the button. However, the drawback is that it also significantly reduced the game's difficulty.
+
+16#(00:07:35): The second problem was that while the visuals were cute, it was hard to immediately grasp the game's theme. The UI leaned towards a flat, cartoon style. You could tell they were milk tea cups, but why were there two milk tea cups in front?
+
+16#(00:07:53): What was the purpose of pouring and shaking milk tea in the game? The meaning was unclear, leading to insufficient theme recognition and weakening emotional immersion. My improvement method was to add a narrative introduction at the beginning of the game. Given my game's difficulty and original intention to create a relatively simple, lightweight web mini-game, I chose a flatter visual and character style.
+
+16#(00:08:22): By helping a little sister who lost her milk tea get a new one, the story naturally transitions into the game. In this, I leveraged AI, primarily AIGC, to generate multiple rounds of visual style descriptions and UI layout drafts. Finally, I chose an American comic art style, with character designs also referencing The Powerpuff Girls and Cuphead.
+
+16#(00:08:46): The third challenge was that new players didn't know what the A and D keys represented or how to operate them.
+
+16#(00:08:57): Traditional teaching methods, such as directly overlaying text explanations and hints in the main levels, would actually disrupt the immersive rhythm. However, without teaching, players would be very confused. So, my solution was to set up a separate tutorial level to briefly explain what the A and D keys represent, and then remove these explicit guides in the main levels. For the AI part, I mainly used ChatGPT to generate the game script, Gemini to generate the game code, and Jimeng AI to generate the visual style, character style, and pre-game narrative videos, and also used Jimeng AI to further optimize the UI layout.
+
+16#(00:09:45): Then, the problem summary is that current game music is relatively simple. The system randomly generates 4/4 time signature notes in each round, but this results in a single note popping out, making the listening experience poor. The question is how to find good background music or create background music, then segment the music into beats, and synchronize these beats with the rhythm of the game's visuals. This is one problem.
+
+16#(00:10:11): The second problem is game difficulty. Currently, I've placed a visual prompt at the top of the screen indicating which button the player needs to press, but this makes the game too easy. I actually want to remove that prompt based on a rich musical rhythm and guide the player to press buttons through a smoother musical rhythm. At the same time, I also need to add more visual cues, such as the potential visual elements of "roadside milk tea" as prompts. Combined with the strong rhythmic music I generate, this can make it clearer for players when to press buttons. The main problem now is still how to integrate my music with the actions in the game, because I don't know whether to generate music first, or visuals first, or both simultaneously. I'm a bit confused about this aspect because I lack music theory knowledge.
+
+T1(00:11:10): It's a bit difficult. In this situation, there are two main approaches for music. One is to hire someone to create many libraries. For example, a library of notes for four beats, and you require that any two elements within this library sound good together. This indeed requires very strong arranging skills. The other way is to simply find a pleasant piece of music where each beat is pre-set. You just make your levels adapt to its rhythm. This way, although the levels will be the same every time you play, you can ensure that the music heard during gameplay is always what you've pre-set. Personally, I might choose the second option because it's more economical. You only need to complete all the music once, and then design the levels according to that sequence, turning it into a rhythm game.
+
+16#(00:12:29): Initially, I also wanted to make something more like a rhythm game, but as I worked on it, I felt it was really hard to integrate, so it became this simpler 4/4 time signature random note generation. That's actually what happened.
+
+T1(00:12:40): What I'm more interested in is why you chose such a theme. Is it because you're a fan of rhythm games yourself?
+
+16#(00:12:48): I play rhythm games relatively little, but I especially enjoy watching streamers play them.
+
+16#(00:12:55): And they often watch those, whether it's rhythm games with visible note tracks or those more like Nintendo's Rhythm Heaven. I find them all very interesting, especially Rhythm Heaven. It actually has a flat art style, and each round is quite different. Some rounds might have an NPC who plays the rhythm first, and then the player repeats the musical rhythm. Others directly give you visual information elements, for example, three people dancing with you simultaneously. Then it has both rhythmic guidance and visual guidance within the screen. And watching streamers play those is very interesting. It makes me feel quite interested in these audio-based games.
+
+T1(00:13:47): Did you study programming back then? Or do you have a programming background?
+
+16#(00:13:52): I have some basic programming knowledge; I've taken some introductory courses in front-end development.
+
+T1(00:14:02): OK. What was your undergraduate major?
+
+16#(00:14:05): My undergraduate major was intelligent interaction design, also at [Institute Name].
+
+T1(00:14:06): OK, so what's your current focus?
+
+16#(00:14:14): My current focus, because I'm with my advisor, is mainly in human-computer interaction.
+
+T1(00:14:21): Interaction-related, OK. Your work itself doesn't have any issues. Could I see some of the materials from your production process? For example, the prompts you used when interacting with the AI.
+
+16#(00:14:46): The AI prompts are more script-based. My whole process is roughly like this: first, I say I want to make a rhythm game based on Rhythm Heaven, then it helps me write a game script. After feeding this script to Gemini, it will actually produce an initial version of the game based on my script. However, there might be many places where it doesn't fully understand the content of my script; it might have some biases, which leads to the presented effect being different.
+
+16#(00:15:08): Then, based on the current initial version it has generated, I will ask it about issues I find, for example, problems with the gameplay logic, or unclear visual elements, or if I feel I didn't find the rhythm during gameplay. After I tell it these issues, it will continuously improve, and this is the version it has improved to.
+
+T1(00:15:31): Do you have records of either the Gemini page or the page used to generate prompts for Gemini?
+
+16#(00:15:57): Yes, I have records, but please wait a moment, I need to search for them.
+
+16#(00:16:05): First, let me get past the firewall!
+
+16#(00:17:14): Can you see it?
+
+T1(00:17:16): I saw it, it was generated using AI Studio.
+
+16#(00:17:17): Right, using AI Studio.
+
+16#(00:17:33): Actually, this is already a script generated by ChatGPT, but the original version would be a bit longer.
+
+T1(00:17:53): It's very complete. I have almost no further questions about your assignment. Do you have any other questions?
+
+16#(00:18:08): Not at the moment.
+
+T1(00:18:09): That's great, keep up the good work, because I see you're participating in a competition, right?
+
+16#(00:18:20): Yes, but at the time, I did the assignment quite hastily, so I just submitted it.
+
+T1(00:18:21): No worries, keep it up! I wish you good results!
+
+T1(00:18:30): No problem, goodbye!
+
+16#(00:18:30): Thank you! Goodbye, Teacher!

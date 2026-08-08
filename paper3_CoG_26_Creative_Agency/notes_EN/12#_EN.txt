@@ -1,0 +1,163 @@
+T1(00:00:23):Hello!
+
+12#(00:00:44):Hello, Teacher.
+
+T1(00:00:48):We can begin.
+
+12#(00:00:55):Teacher, can you see this on my side?
+
+T1(00:00:59):I saw your screen sharing.
+
+12#(00:01:02):OK, I will mainly introduce the game background here. I primarily use a demo game as the main method of introduction. When developing the game, I referred to the visual novel type of ADV games from Japanese games. The idea was to create an interactive game similar to a visual novel, which overall would be relatively lightweight. Generally, a visual novel advances the story through dialogues with characters on the screen. However, during the design process, I considered that this purely dialogue-based interaction might cause the game to lack some interactivity and fun. So, I thought about designing a visual novel similar to a detective suspense story, incorporating some interactive features like collecting clues or using clues.
+
+12#(00:02:00):The game's general background is inspired by something like "And Then There Were None." In the story, there is a wealthy family that holds a family meeting on a small island to announce their new heir. During this meeting, the heir apparent is murdered, and the player takes on the role of a detective who must interview each character to uncover the true culprit. This is the basic premise.
+
+12#(00:02:31):Then later there will be a demonstration of the game. Does the teacher have any questions about this part so far?
+
+T1(00:02:37):I think it's pretty good.
+
+12#(00:02:40):Thank you, Teacher!
+
+12#(00:02:43):Then, for the basics, I didn’t create this cover because the time was probably quite limited. I mainly focused on the start of the game, beginning right from the very beginning, and loading the game to access the save files in the visual novel. For example, I prepared several save files in advance for the upcoming demonstration. The clue section is where, during the dialogue process, we obtain some clues for subsequent reasoning. Right now, since it’s just the beginning, there are no clues yet.
+
+12#(00:03:17):Then we assume that after entering, there is a background music with a rather suspenseful atmosphere generated using Suno AI.
+
+12#(00:03:30):Then you enter and have a conversation with this character. This character is part of the design; one of the characters is a murdered victim, his sister.
+
+12#(00:03:42):Below, I am a police officer, and at the beginning, the player talks to him. This character has multimodal materials: one is his character's motion switching, and the other is the Japanese voiceover corresponding to the text. These are the two main aspects. When we talk to him, we receive purple text, which indicates that we have obtained a new clue. After getting the clue, a magnifying glass-like function appears on the right. When the mouse hovers over it, an eye icon appears, meaning that as a police officer, I am scrutinizing what you say, giving that kind of feeling.
+
+12#(00:04:40):At the beginning, since it appears for the first time, there will be a simple tutorial explaining what this clue is used for. When you are chatting with other characters, if you find some of their statements illogical, you can use this clue to point out and say, "What you said contains a misunderstanding."
+
+12#(00:05:04):Then the game uses blue text to indicate which lines might be unreasonable, prompting players to use this clue, but some of the text may not actually be unreasonable and could be misleading. So, we won’t look at this part of the dialogue.
+
+12#(00:05:23):I'll jump to here first. When interacting with the second character, you can use some of the clues collected earlier.
+
+12#(00:05:40):This is the second character. Since the voice part has not been fully completed here, this character currently has no voice.
+
+12#(00:05:58):This character was mentioned in the previous role as having had an argument with the deceased at dinner. So that earlier incident becomes a clue. Then, when chatting with this character, it is mainly learned that he is someone who likes painting, and that although he enjoys painting, his family does not support him investing a lot of money in it.
+
+12#(00:06:33):I'll quickly skip through this part mainly to demonstrate the use of clues. Here, it says that during dinner everyone chats about daily topics, nothing special, which aligns with what the previous character said about them having a quarrel or conflict during dinner. Then, this is where the identification function can be used. The identification function allows the use of this clue.
+
+12#(00:06:59):The clue includes its cover title and description, and after the accusation, there is a jump function. It has a logical judgment in the code that determines whether using this clue is correct, and here it indicates that your accusation is effective.
+
+12#(00:07:19):Then the character feels a bit embarrassed when you accuse them, and their expression changes. They start to explain things. Right, that's roughly it. The entire game logic is that there are four characters in total, and after talking to each character, the main task is to use the clues you have collected to point out the inconsistencies in what all the characters say. In the end, it leads to the part where you find out who the final culprit is. I think that alone might be a bit monotonous, so for the final confrontation with the culprit, a small additional segment was designed. Let me find it.
+
+12#(00:08:07):He’s here. I created a new save file; I’ll skip ahead first.
+
+12#(00:08:15):Here's the situation: I want to design a climax segment at the end, and add a more intense suspenseful background music, which is also generated by Suno AI. In this final segment, you have already collected all the clues, then you point out all the inconsistencies, and after that, you choose who you think the culprit is. Then it enters this chain reasoning phase. I'll turn the music down a bit.
+
+12#(00:08:46):Chain reasoning means the culprit will pose questions to you multiple times, and you need to answer them correctly. If you answer incorrectly, your credibility will decrease—something like that. Here, it explains that the culprit has entered a state of panic, but you need to keep your logic clear and choose the correct options. For example, it’s set to require choosing 5 correct options. For instance, it says, based on earlier clues, we found that the culprit left through this window using a rope, but this suspect claims that at that time, he was in his own room, which contradicts our clue. Then he throws a question at us. At this point, the game provides several options, and we need to select the one that matches the facts. For example, the second option here is correct. If we choose incorrectly, say the first option, it will respond with something like, "Officer, are you confused?"—meaning our reasoning is incorrect. Then I think, "Oh no, did I miss something? How could I make such a mistake?" and my reasoning fails. Right, it’s roughly like this. If correct, we’ll demonstrate it again.
+
+12#(00:10:00):If the choice is correct, then you continue to select the next option. For example, I correctly chose that he had other criminal accomplices, which explains why some people were outside and some were inside. Then he continued to ask us questions, like who used the murder weapon, and we would select another correct option accordingly. He asked what I used to strangle the person and what evidence I had. The overall process is roughly like this, similar to the beginning and the end.
+
+T1(00:10:46):What game engine did you use for the text adventure game in Blizzard Mountain mode?
+
+12#(00:10:55):Teacher, I used the Renpy engine.
+
+T1(00:10:57):Alright.
+
+T1(00:11:01):Is it based on Python?
+
+12#(00:11:01):Renpy. Right, it is based on Python.
+
+T1(00:11:05):OK, so the next question is, the points where AI is used here are character artwork and music, right?
+
+12#(00:11:15):There are mainly multimodal elements like the scene background and character materials. I think, for visual novels, AI can really support aspects such as character movements and expression changes. I believe this is much more convenient compared to manually creating materials. That's the second point. The third is the music, and also a bit of character voice acting.
+
+T1(00:11:41):What image materials were used?
+
+12#(00:11:44):Teacher, what did you say?
+
+T1(00:11:47):I asked, what tool is used for AI-generated images?
+
+12#(00:11:51):I used Stable Diffusion for the images; I deployed it locally.
+
+T1(00:11:57):OK.
+
+T1(00:11:58):Did you use any LoRA?
+
+12#(00:11:59):Right, there are websites online, I remember one called c Civitl or something? It's stable diffusion, and it has some publicly open-source lora model sites. I would go there to download a few and see which style might be more suitable.
+
+T1(00:12:20):How to meaningfully control the multimodal aspects of a character's actions and expressions.
+
+12#(00:12:30):The main thing is to ensure consistency with the text semantics, but I originally intended to have a large language model judge it, like having it tell me, for example, after I finish writing the script, I would check it. For instance, originally, these lines were meant to have the language model correspond to the emotions, but when I manually checked, I found that the correspondence wasn't very accurate. So, deciding which emotion matches which action is still something I have to judge myself.
+
+T1(00:13:02):In the end, we didn't actually use more advanced control methods like ControlNet, but only relied on semantics.
+
+12#(00:13:08):Yes, there is. The open pose in Control Net switches actions, and the expressions use Impact for partial repainting.
+
+T1(00:13:21):OK, that's reasonable. The next question is, during the process of working on this project, was there a fixed script?
+
+T1(00:13:31):Is this script the same experience every time you play it, whether you wrote it yourself or adapted it from a novel?
+
+12#(00:13:41):I know, Teacher, you might be thinking that it would be better if it were more dynamic.
+
+T1(00:13:41):Actually, I want to hear your thoughts on preset scripts versus AI-generated or real-time responsive scripts. For example, why choose the current form of preset scripts, or have you tried setting specific plot points first and then determining what people say?
+
+T1(00:14:13):Or if responses to your questions are all handled by AI, and you can input custom text as feedback, that kind of thing. Currently, that doesn’t exist. So, if you were to do it, would you be willing to try such an approach? If not, what aspects would you consider? And if you were to do it, what kind of conflicts do you think it might have in terms of complexity or with your current production process?
+
+12#(00:14:50):OK, Teacher T, I'll organize it.
+
+12#(00:14:58):Teacher, I think the issue you're raising is a sticking point I encountered while working on this. In my game, there is a phase involving the use of clues. At first, I actually didn’t write a well-prepared script. I wanted to try using AI, assuming we only gave it minimal constraints—just telling it the truth of the story—but what about the clues in the middle, or how to use those clues?
+
+12#(00:15:24):I just wanted the model to freely generate, but when using this language large model to generate, I’m not sure if it’s because the language model generates based on probability distribution, but it seems that in terms of logic, especially for this type of script which has some suspense and reasoning, the model doesn’t seem to understand the logical points of the clues very well. I think that might be a bit challenging.
+
+T1(00:16:01):I understand. This is based on the effect—for example, the performance of its large model is not very OK, so you feel it's still better for a person to grasp the main logic.
+
+12#(00:16:24):Currently, this is the feeling: previously, including playing the "Turtle Soup" game with friends, which is a riddle-guessing game called "Turtle Soup," I also tried playing it with a large language model and found that the model may actually lack logical reasoning in this regard.
+
+T1(00:16:31):The second question is, assuming AIGC can respond to your question with relatively logical, long-chain thinking done well, how do you plan to incorporate it into your current work? How would you use it?
+
+12#(00:17:08):I think if it can handle long-chain thinking well, it might be useful for brainstorming. For example, regarding the type of script I just introduced, since suspense works aim to shock the audience and also require a relatively tight logic, if the large model has long-chain capabilities and can ensure that, allowing it to generate several different possible endings for us to manually choose from, wouldn’t that be better?
+
+T1(00:17:47):Actually, preset generation means it gives you a bunch of suggestions, and then you do a round of control. Have you ever played or written a script for a murder mystery game before?
+
+12#(00:18:07):No, but I have played murder mystery games!
+
+T1(00:18:07):OK, I understand. This question might be a bit difficult for you. Suppose you were asked to write an SOP—standard operating procedure—which is like an assembly line. The first step is to have the AI do something, the second step is to have the AI do something else, and after the entire assembly line runs through, it can roughly generate a playable game. Yes, this is what we are currently researching. It might be a bit challenging for you. We can use game works or narrative methods to find patterns or to summarize and deduce. Essentially, I don’t know if you have read any screenwriting books, but there is one called Save the Cat, or the Metronome, which analyzes similar works, such as detective-style mystery stories. Then it looks for what kind of production formulas these works generally have. If you run through this formula once, it can produce a fairly generic game. For example, when we interview newcomers or look for creators in this area, we usually first check if they have their own insights regarding this methodology. This is no longer a requirement for this assignment; we’re just chatting. OK, actually, I have no issues with your assignment part. This is just a casual conversation to see if you have any thoughts in this area. If not, you can try to reflect on it. Because I believe that since you were able to complete your current work, it means you have your own methodology or understanding, but you just haven’t formalized or summarized it yet. Right?
+
+12#(00:20:06):I think that although he can roughly achieve this effect, as you mentioned, Teacher T, the SOP may still not be very systematic, and there might still be some points that can be optimized.
+
+T1(00:20:07):Right.
+
+T1(00:20:20):I think you have your own methodology; you just don't realize that it's an SOP. Otherwise, you wouldn't be able to complete the work step by step like this.
+
+T1(00:20:29):I have no other questions. Do you have anything you want to ask me?
+
+12#(00:20:45):How should I put it. You just mentioned, for example, when creating a game generation SOP. I was thinking about a question: when we make a new game, of course, we will refer to some successful games of the same type, but isn’t it sometimes necessary for us to distill some unique advantages so that players who have played similar games will feel that our game is more special?
+
+T1(00:21:23):This is certain; all creation involves innovation, but there are some conventions. For example, our current films still borrow the classical three-act structure from ancient Greek drama, which must have a cause for the event, then development and climax, followed by a conclusion.
+
+T1(00:21:43):The three-act structure in films has become a conventional rule: half an hour, one hour, half an hour, forming a 1:2:1 ratio. I think this is based on feedback from human audiences, and many generations of filmmakers or playwrights have summarized this narrative pattern, which people probably prefer. Right. That’s one point. The second point is, we often summarize this SOP to quantify production. For example, in the anime Detective Conan, if I want to keep up with each episode, since each episode is very short and sometimes they need to release an episode every one or two weeks, in such cases, there isn’t much time for everyone to come up with a lot of new content, so the production...
+
+T1(00:22:36):It tends to become formulaic, for example, usually starting with a very everyday event, then introducing a few new characters, followed by discovering that someone has died in the middle, and then the latter half involves various deductions. Finally, they use a sedative to anesthetize a main character and use a voice changer for the deduction. This is the SOP they created; once the format is set, the content inside can be continuously changed. Current American TV dramas, as well as Disney or Marvel productions, basically still use a very high-level SOP and then fill it with innovative content, working with this approach.
+
+12#(00:23:07):Understood.
+
+T1(00:23:27):I originally wanted to hear what conclusions you had drawn. I believe you do have an SOP; it's just that you haven't figured out how to summarize it yet.
+
+12#(00:23:29):Right.
+
+12#(00:23:41):Perhaps Teacher T just mentioned that if we want AI to generate more real-time scripts, I might not quite understand this part, that is, if it can be done.
+
+T1(00:23:52):What we have now is that after the SOP is created, what AI can actually do is polishing and filling in. It's quite difficult to have AI generate a complete suspense game right from the start just based on your prompt.
+
+T1(00:24:10):It is still quite difficult, but I hope, for example, that among Teacher T's students in the coming years, there will be a student who can work on this—that is, they establish an SOP, then use AI to repeatedly generate diverse games based on this SOP, with each game having solutions, being playable, and featuring certain highlights and interactivity. I have always looked forward to a student being able to do such a thing.
+
+12#(00:24:47):I think it's quite interesting.
+
+T1(00:24:50):Alright, no problem. If there are no other questions, we'll end here for today.
+
+12#(00:24:51):Thank you very much, Teacher T! OK.
+
+12#(00:24:58):I have nothing more for now.
+
+T1(00:24:59):Thank you for your hard work!
+
+12#(00:25:01):Thank you, Teacher. Thank you, Teacher!
+
+T1(00:25:01):No problem, see you!
+
+12#(00:25:06):Goodbye, Teacher.
+
+T1(00:25:07):Goodbye.

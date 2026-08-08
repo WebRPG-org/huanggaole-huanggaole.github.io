@@ -1,0 +1,155 @@
+T1(00:00:09): Hello.
+
+23#(00:00:32): Can the teacher see it?
+
+T1(00:00:35): Yes, we can.
+
+23#(00:00:41): My game is called "Orange 1999." It's a time-trial, point-and-click puzzle game. The story is set in...
+
+T1(00:00:51): Okay.
+
+23#(00:00:57): ...China's millennium year. You play as a rebellious teenager who breaks into a building slated for demolition, encounters a ghost, has their backpack stolen, and then completes a long-overdue farewell. This is the game's promotional poster.
+
+23#(00:01:12): This is also the background for the rumored game. The core experience is that the game has a countdown; you only have two minutes to explore. As time decreases, the red border around the screen will intensify, becoming redder and redder, and your heartbeat will quicken. Additionally, there's fragmented exploration, where you have to search for puzzle elements in various scenes to obtain passwords and finally enter the last room.
+
+23#(00:01:45): There's also multi-ending narration. I've designed three endings for this game, and different choices will lead to different CGs at the end—these three CGs. For the design style, I chose pixel art to recreate the typical architectural style of the millennium era: blue glass and white mosaic tiles, as well as some interior elements. This is my character design: blue hair, carrying a heavy bag, and some expression differentiations in the three-view drawing. These are some references for my architectural style; I found some online images of buildings from that period, as well as references for interior decoration. This is the final render of the game; these are the scenes that will be in the game.
+
+23#(00:02:38): Next is my game development process. During development, I had four versions. Initially, I wanted to create a game similar to "Rusty Lake," or rather, a room escape game, a sandbox-style game. This is a record of my previous AI conversations. It runs a similar countdown, with three screens switching horizontally.
+
+23#(00:03:02): Later, I gradually added more elements: a countdown system that triggers different reactions, and some trap elements where if you click on them, you die immediately and the game ends. There are also dialogue box UIs and reserved animation playback times. Here, I fixed some bugs, and there are fixed scenes with button switching, which sometimes affects both sides here.
+
+23#(00:03:26): I reminded it that switching scenes are not persistent. Also, I conceived of the puzzles, distributing the clues across various scenes, and added some mini-games to certain scenes—for example, you might need to play a game to obtain a particular clue. There were also some interaction optimizations, like being able to view clues. Then, I had it run a game script. This was the first version of the game's demo, which was actually in portrait mode.
+
+23#(00:03:52): It had a countdown, various exploration interactions, scene switching, and so on, and finally, entering the password. The password Gemini gave was to frantically click and scrape a metal ball, which would reveal an '8'.
+
+23#(00:04:09): Finally, if your time runs out, resetting to zero triggers a death effect and leads to a specific ending. If you successfully enter the password and complete the operation, I felt that this version, considering it would later be displayed on a web page, should ultimately be in landscape mode. Also, I thought the original narrative lacked depth. Since I wanted to make a horror game, I thought about making the content surpass the beginning of "Spirited Away," where the parents turn into pigs. It could perhaps subtly criticize things like the "original family" concept in China, and I wanted to add more in that direction.
+
+23#(00:04:53): Later, I re-conceived some of the protagonist and setting details. This led to the character of a rebellious girl, and I also gave her a reason for coming to the tenement building. At the time, it suggested she had witnessed a murder or something. I wondered if it could be more family-oriented, so I steered it towards a family theme, adding plot twists and pacing elements—for instance, discovering that the shadow is actually her grandmother's ghost.
+
+23#(00:05:31): I also improved the rationality of some props and the coherence of scene transitions. Some props it suggested didn't really advance the plot, so I optimized those. I also previously tried to add an elevator scene to switch between floors. Before, once you entered the elevator, you would go all the way down, like a journey through hell.
+
+T1(00:05:36): And.
+
+23#(00:05:57): So, scene transitions were handled via the elevator, moving between each floor, eventually reaching the very bottom, which was the rooftop—the final floor. The rooftop, in this design, felt very much like hell. I also added a time mechanism and conceived of some bad endings.
+
+T1(00:05:58): Support it. What does this small text include? You chose something very simple. Yes. Yes.
+
+23#(00:06:15): Previously, I also considered making the time progressive, where each completed level would consume a portion of the time. The time setting was precisely 11:50 PM on December 31, 1999, so by the end of the game, it would just be the turn of the millennium, 2000.
+
+23#(00:06:36): Then, it provided a plot outline, including characters and scenes. This is the second version of the demo. I had it run a web version, and this is how it turned out.
+
+23#(00:06:49): Then the elevator, then the dining table, then the orange greenhouse, and the rooftop. This version actually felt quite unsuccessful because I had too many ideas for the content, which led to a lot of bugs. So, in the end, I cut the elevator. Also, it felt a bit too dark later on, so I abandoned that idea. The third version was a process of decluttering.
+
+23#(00:07:15): I wanted to deepen the emotional core. So, I brought the character back to her hometown, giving it a feeling of self-redemption, letting go of the past, and looking forward.
+
+23#(00:07:29): Then, I had him design the scene and background first, and then I gradually added content, step by step. I set up four scenes: the living room, kitchen, a bedroom, and the rooftop.
+
+23#(00:07:45): There were some UI optimizations, and I also summarized the strengths of the previous two versions, incorporating the good parts into the game. I originally wanted to add four more scenes, because I felt four scenes were too few, but there were too many bugs. So, I later abandoned this idea because of some black screen issues. Afterward, I also screened and fixed some minor bugs.
+
+23#(00:08:11): There were also some ideas for hidden endings, like how to trigger them. This included the design of the final scene, interactive areas, and so on.
+
+23#(00:08:24): This also laid the foundation for the final version. For material replacement, I listened to Teacher T talk about the placeholder method in class. Then I had Gemini run something similar to a placeholder. Finally, based on the general interactive area layout, I reverse-engineered the scene layout and then made some fine-tuning details, for example, making it look more like a 2000s style, replacing the lock.
+
+23#(00:08:53): I also encountered a problem because I had never written HTML code.
+
+23#(00:08:59): I didn't quite understand it, and at first, things didn't align. Then I asked it how to adjust it and found that, for example, I could find the coordinates. Later, I learned that this referred to the distance from the border, so I modified it. The result shown later is the adjusted effect. This can correspond to the interaction points. Then, I added some optimizations, such as the interactive areas. For example, I removed all hidden elements and added some hover displays so they wouldn't be permanently visible. Also, some UI elements, like parts that require unlocking, won't be displayed until they are unlocked, showing an entry icon. I also fixed some issues, for example, the cover. I had originally placed an MP4 loop animation generated by Jiemeng, but it wasn't displaying. I directly asked it, and it helped me fix some auto-looping issues and the problem of why the avatar UI was shifting to the right.
+
+
+
+23#(00:09:59): And it was quite funny, after I expressed my gratitude, it started asking me if I wanted to implement a sound effect system. Because I was also considering whether to add sound effects at the time, as I was worried it would be difficult. Then it said it seemed possible, so I tried it, and then set up the sound effects. It also prepared some materials downloaded from the internet and suggested some fine-tuning for effects like fade-in and fade-out. I looked it up, and it was quite useful.
+
+23#(00:10:26): Next was the optimization of the balcony plot presentation. For example, some text-based interactive games I've played before might have some CGs, but they also have plot demonstrations, such as masks or screen shakes. Later, I also optimized some unnecessary text. This is the demo version that I showed to Teacher T. Teacher T later suggested optimizing the text. This version has almost no bugs, and this is the final version that will be presented shortly. I will then deepen the text, emphasizing the protagonist's self-redemption, which I felt was lacking before.
+
+23#(00:11:04): I felt the protagonist relied too much on others; the redemption process wasn't highlighted enough. Also, for interactions, we need to add more anti-misoperation mechanisms, screen vibration feedback, and smoother transitions. We also re-rendered the CG animations for the three endings, and finally, used Suno to generate a unique background music track.
+
+23#(00:11:26): We also added some features, such as double-clicking to view item descriptions. This feature was previously removed during development but has now been re-added.
+
+23#(00:11:35): There are also keyword prompts; for example, essential items will be displayed in orange to reduce the difficulty of understanding the text. This is because when my roommate played it, they found it quite intense after just two minutes, so we added these prompts. For the plot, we might draw inspiration from "Rural China," where the elderly often have a sentiment of "returning to one's roots." This would motivate the protagonist to take the urn back to her hometown and scatter the ashes into the sky.
+
+23#(00:12:00): Finally, we added four new CGs for different endings. Ending A is falling from a building, Ending B is being arrested by the police after the time limit, and Ending C is the true ending after achieving self-redemption. The BGM made by Suno and other assets needed for the game are all here.
+
+23#(00:12:23): There are also some interactive optimizations that are still pending, such as deselecting items, and adding fade-in/fade-out effects and screen shake. For the final scene, we'll add BGM, pause the countdown, and increase the display time for the text.
+
+23#(00:12:39): Other optimizations include limiting the inventory to a maximum of five items per row. Now, for the actual demonstration.
+
+23#(00:12:53): Can you hear the sound?
+
+T1(00:13:03): Is the lack of sound because the screen mirroring isn't picking up your audio?
+
+23#(00:13:09): Is it working now? It seemed to be before.
+
+T1(00:13:11): I didn't hear any sound. Is it because when sharing the screen, I also need to share the computer's audio?
+
+23#(00:13:22): Let me see.
+
+T1(00:13:25): Tencent Meeting screen sharing has a sharing setting, and sharing computer audio. OK, yes.
+
+23#(00:13:27): Alright.
+
+23#(00:18:28): Teacher, this is the entire game flow.
+
+T1(00:18:34): Broadly, I think the creative approach is correct. It starts with gameplay and theme, then develops the design top-down. Each module is largely self-consistent, and there's a clear expression of design philosophy and methodology.
+
+23#(00:18:40): Right.
+
+T1(00:18:53): Overall, it's good. If I were to offer suggestions, I'd point out two minor details.
+
+T1(00:19:01): First, the background sound includes bird calls and quite noisy traffic/commuter sounds. It doesn't sound like night; it sounds like daytime.
+
+T1(00:19:15): My suggestion would be that since this is a horror game, it would be better to use background sound effects (BGS) like insect chirps or more eerie sounds. That would be more effective. Bird calls don't really suit your current atmosphere. Second, since your game is set in 1999, the popular BGM styles back then were different. The music style you're using now is too modern.
+
+23#(00:19:39): Alright.
+
+T1(00:20:03): His musical style is clearly 10 years ahead of its time. I don't know how old you are.
+
+23#(00:20:10): I was born in 2001.
+
+T1(00:20:12): Regarding the musical style of the 90s, electronic synthesizers were used. If you listen to pop songs from the 90s or watch TV dramas from that era, you'll find that to create an urban-style BGM, they often used sounds like bells, or more dreamy and warm tones. It didn't have such clear, distinguishable sounds like a music box. The music box sound is clearly from the digital age, or when our sound cards improved. And given your pixel-art style, I think you could use MIDI music. You could use MIDI-style music and then convert it to MP3 or WAV formats that web browsers can parse.
+
+T1(00:21:15): When I heard the final piece of music, it did feel a little out of place. It wasn't the kind of music with strong period characteristics that we heard in games, TV shows, or even shopping malls in the 90s. These are my two points. Overall, though, this work is a very good game, and in this report, it's currently quite...
+
+23#(00:21:37): Good.
+
+T1(00:21:40): From the perspective of his production philosophy, I think it can be maintained.
+
+23#(00:21:44): Thank you, teacher!
+
+T1(00:21:46): No problem. Any other questions?
+
+23#(00:21:50): Not at the moment, because it's my first time making a game. I hadn't tried it before, so I just kept going.
+
+T1(00:21:55): Did you major in a game-related field during your undergraduate studies?
+
+23#(00:21:59): No, even though I majored in computer science, I hadn't considered this aspect before, so this is my first time doing something like this independently. Before, when there was no AI, it felt very difficult to write.
+
+T1(00:21:59): You studied computer science in your undergraduate degree; you can program.
+
+23#(00:22:11): I'm not very good at programming, not very good at all.
+
+T1(00:22:11): So your undergraduate major was digital media?
+
+23#(00:22:18): Computer Science and Technology.
+
+T1(00:22:22): Computer Science and Technology, but you can't program? That's a big problem!
+
+23#(00:22:26): But it was more like I only knew how to ace exams, not really how to write code. We had very little practical experience back then, I feel.
+
+T1(00:22:27): And your current direction?
+
+23#(00:22:36): I am currently studying Digital Media Art and Design.
+
+T1(00:22:37): Right. Okay, no problem, let's leave it at that for now. Because you come from a computer science background, I think your thinking tends to be more like an engineering student. Using this mindset for creative work actually aligns with... at least it's quite consistent with mine.
+
+23#(00:22:48): It feels like things are constantly being added, and I'm not sure if this is the right approach. That's what a revision feels like.
+
+T1(00:22:56): Okay. It's a bit like an architect, because even within programming, architects first build the large framework, and then they refine the functions and each class and so on. So your thinking is very logical, and I think you have an advantage in large companies or when collaborating with others, because you can clearly present the logic and reasoning behind your ideas. This is a huge advantage.
+
+23#(00:23:32): Okay, thank you, teacher. I have no further questions.
+
+T1(00:23:33): Alright, good luck! We'll end it here then.
+
+T1(00:23:39): Okay, bye bye.
+
+23#(00:23:40): Ha, goodbye.
+
+T1(00:23:41): Goodbye.

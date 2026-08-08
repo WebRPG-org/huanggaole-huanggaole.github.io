@@ -1,0 +1,157 @@
+3#(00:01:27):Hello, Professor. Can you hear me?
+
+T1(00:01:29):Can you hear my voice?
+
+T1(00:01:36):Can you hear my voice?
+
+3#(00:01:39):Can you hear me?
+
+T1(00:01:40):Okay, okay. Then let's start now. You can share your screen first. Your work.
+
+3#(00:01:51):Okay, got it.
+
+3#(00:02:04):This is a game design I came up with, called "Echoes of the Lost Buddhist Kingdom: A Fragmented Dream." Its game concept is probably a Chinese story-driven adventure game centered on Eastern philosophy and memory inheritance, but personally, I imagine it more as a type of interactive game that combines film and video.
+
+3#(00:02:31):Here's its game concept: It's a journey undertaken for the sake of forgetting. On this stormy night, the protagonist, Lu Xun, carrying a warm bronze fragment, ventures into the mountains, becoming the last inheritor of the lost Glazed Buddhist Kingdom. The Buddhist Kingdom once sealed the memories of all beings within glazed artifacts, but due to obsession, it sank into the earth's veins. In this game, you will explore ancient temples, dark rivers, and magnificent altars, piecing together a truth in the middle of the story through dynamic environments or event points and memory flashbacks. Along the way, you will also encounter a world of strange shadows formed by obsessions.
+
+3#(00:03:19):Ultimately, you will face a choice: to reassemble the fragments and master the power of memory, or to release them, allowing everything to return to oblivion.
+
+3#(00:03:34):This is the game's promotional video. Can I have sound, professor?
+
+T1(00:03:41):No, I can watch with subtitles, if you think his voice is important.
+
+3#(00:03:47):Then I'll play it.
+
+3#(00:03:49):I think I'll play the sound.
+
+3#(00:05:00):So, it's like a conceptual trailer for a game I made.
+
+3#(00:05:10):And, some of the games I'm referencing might be like Detroit: Become Human and a recently released game, but it only has a demo called Hordes of Men. These types of games, their core experience is that the player is not just a third person; they might participate in the game in a first-person way. Through choices in branching storylines, or the timing of each memory touch, players can independently choose the direction of the story and thus achieve different endings. And then, in this kind of cinematic visual or narrative, players can immerse themselves more deeply in the game.
+
+3#(00:06:08):Okay, so the core gameplay might involve designing the compositional scenes to lean as much as possible towards cinematic aesthetics, making the overall environmental soundscape, sound effects, and visual effects more immersive. Then, in dialogue and decision-making, key information will guide players to make choices and direct the story. Next, regarding retrospection and empathy, players can experience the story from a first-person perspective, and they might also be able to participate in the memories of various supporting characters. This could enrich their overall worldview and the different character arcs they encounter, allowing for a better experience of the story.
+
+3#(00:07:05):Finally, a central theme will be presented, possibly by allowing players to make autonomous choices, not just within the game, but also to reflect on their own inner selves within their personal worldview.
+
+3#(00:07:24):Then, regarding this narrative revolution using AI, I'm thinking of using AI to write character personalities, to enrich them further, and to continuously enhance the realism of the entire world by developing the background and identity of secondary NPCs. Furthermore, could AI assistance be applied to the protagonist's memory choices or even their gaming preferences? This could make certain parts of the story a unique emotional anchor for the player.
+
+3#(00:08:07):Additionally, AI could be incorporated into certain scene designs, allowing for real-time rendering. This could make every time a scene is accessed, it presents a different, unique feeling.
+
+3#(00:08:26):This was my initial vision for the game screen. This large screen would likely be the main interface for the story progression. Then, on this side, there would be the character's image, their name, and some dialogue. This would connect the entire story. I think it's actually more like an interactive film game, a blend of film and game.
+
+3#(00:08:55):I'm done, professor.
+
+T1(00:08:59):Is there a Minimum Playable Demo?
+
+3#(00:09:04):I only made a concept trailer for the game.
+
+T1(00:09:05):Then play your concept video again!
+
+3#(00:09:14):Okay.
+
+T1(00:09:23):I might not be able to see your video now.
+
+3#(00:09:28):I can't see it.
+
+3#(00:09:30):The new share is working now, is it working now?
+
+T1(00:09:45):It's working now!
+
+3#(00:09:47):So I didn't see it just now, let's try again. Hey, why is there no sound?
+
+T1(00:10:00):No problem, I can just look at your text. Okay.
+
+T1(00:10:55):I have a few questions now. This work is already an interactive narrative film-game, my understanding is correct, right? So, based on this gameplay, how do you plan to design its narrative?
+
+3#(00:11:10):I think we can, besides the first-person perspective narrative, also introduce other characters into this game.
+
+T1(00:11:30):No, let me ask this way: can you tell me in under a minute what story your interactive narrative film-game tells?
+
+3#(00:11:47):It tells the story of a nation that was destroyed, but there were reasons for its destruction. The protagonist, with a unique identity, goes to uncover these reasons and ultimately finds the truth.
+
+T1(00:12:06):Okay. It's a treasure hunt film.
+
+3#(00:12:13):I think it's good, if the world were bigger, I might not have conceived it as fully, but I think this film might also have some philosophical concepts, a relatively open ending and worldview, where in this game, you can be anyone.
+
+T1(00:12:34):So what is the philosophy you want to convey?
+
+3#(00:12:40):All living beings... how to put it? Everyone! Has a different appearance. What you truly are and what's in your heart, or what others see you as, are all different.
+
+T1(00:13:02):Approximately how many chapters are in the story?
+
+3#(00:13:06):How many chapters? Probably around 10.
+
+T1(00:13:13):What does each chapter cover?
+
+3#(00:13:14):I haven't thought about each chapter yet; I've only considered the broad concept and world-building.
+
+T1(00:13:24):The report is due by 5:30. Before 5:30, can you quickly outline what problem each chapter of your story aims to solve, and how the chapters are connected through choices?
+
+3#(00:13:45):Because I haven't thought it through in detail, Professor.
+
+T1(00:13:51):Because it's an interactive narrative, it should evolve with your progress, potentially leading to different branches, right?
+
+3#(00:14:01):Right.
+
+T1(00:14:05):Okay, so this will be a small test. You have 18 minutes. You can take out a piece of paper or open a Word document on your computer. Then, you can start listing the chapters—it doesn't matter how many. But I need, for example, Chapter One. What event might it describe? It should have at least one branching option, which could lead to two different choices. Choosing different options might then lead to different Chapter Twos. In Chapter Two, you can consider how it might extend. Besides the official ending you've envisioned, I need to see at least four other different endings.
+
+3#(00:15:03):Okay, I'll try.
+
+T1(00:26:48):Five minutes left.
+
+3#(00:26:51):Okay, me too. I've written a part of it.
+
+T1(00:26:55):Alright, tell me about it!
+
+3#(00:27:00):But this is something I might not have fully thought through yet. So, perhaps in Chapter 1, it's set on a stormy night, as I just described. He might discover a relic, perhaps a fragment left by an ancient kingdom, and gradually gets drawn into the story. Then, in Chapter 2, he might encounter an old monk who tells him he is a descendant of the "Soul-Falling Paste" (Zhui Hun Jiang).
+
+3#(00:27:25):And this fragment holds a clue to the reason for the demise of that ancient Buddhist kingdom. He might then follow this clue to gradually uncover the truth behind that event. At this point, he enters an underground river. However, within this underground river, there might be two passages, and these two passages diverge into two different plot directions. For example, Passage 1 might have three chapters, and Passage 2 might have Chapters 4, 5, and 6, and so on. And perhaps in Passage 1, he goes to an underground altar, where he might search for memory fragments of beings that were exclusively controlled by the king of the ancient Buddhist kingdom. During this process, he might experience, or rather, travel back in time and view events from the perspective of one of the characters from that Buddhist kingdom era. There are three perspectives he can experience, and this can lead to three different storylines. For example, the princess of the Buddhist kingdom, the king's minister, and a commoner, like a dancer. By using figures from different social strata, this allows us to reconstruct the ancient kingdom that once disappeared. This way, the world of that time can be presented through three social classes and three perspectives.
+
+3#(00:29:03):But these three characters are all connected back to this fragment and these pieces; they are all drawn into this story, all implicated. They all stumbled into this event, and they might all have been victims of that era. However, one of these three characters can be linked to someone the protagonist met in the first two chapters, though I haven't fully worked that out yet. Anyway, they are all connected. And this is Passage 1. There's also Passage 2. Passage 2 might lead him to another kingdom, the ancient kingdom of Loulan.
+
+3#(00:29:29):The king of this ancient Buddhist kingdom seized a portion of these memory fragments, and then, naturally, other nations might also steal these memory fragments from him, plundering such things. Then, perhaps, he encountered something else, and in between, we could add something that connects these two nations, forming an even grander worldview dimension. Then, as we think further, by the end, he might face some choices.
+
+3#(00:30:00):Does he continue to maintain this memory cage to preserve the current state of the world, or does he distribute these memory fragments? So, this is an ultimate decision. And perhaps, these memory fragments represent the trajectories of all living beings, yet they might also be attested by only a few words in history.
+
+3#(00:30:25):So, the downfall of this entire kingdom or its entire history might be due to conflict, or a natural plundering, or someone's greed. But perhaps it's also the burden carried by each vivid character. In this context, it might involve traversing through different eras and experiencing different characters, as I envision it.
+
+3#(00:30:52):So, throughout this entire process, who did you see, who did you meet, and who did you ultimately become?
+
+3#(00:30:56):It's similar to that; it probably needs a more detailed look, which is quite complex. I think it requires a lot of thought.
+
+T1(00:31:03):I think your assignment might be incomplete. The main reason is that the narrative approach you've adopted is overly grand.
+
+T1(00:31:16):You've used a lot of high-concept, stacked vocabulary, and I don't think you can make it concrete. I suggest that for an assignment, even if an interactive film/game only has one or two options, you should be able to generate the videos.
+
+T1(00:31:37):But you can't explain it now. How should I put it, the details are actually unclear. For example, you just mentioned that after a certain option, memory fragments among the three might be linked to a character encountered in the first two chapters. However, the only character you actually presented in the first two chapters is an old monk. Yes, that's right.
+
+T1(00:32:11):How should I put it, is it possible for you? To use video, for example. You show me a video, and after it finishes, an option pops up. If I choose A, you play the A video you made. If I choose B, you play the B video you made. And then make a few such segments, because in the first chapter, it might branch into two videos, and then each of these two videos branches into two more. We can actually calculate that you might only need to make one plus two plus four, which is seven videos. You could actually create four endings. Right? Is it possible for you to have fewer options, but create a few segments with two choice points and four endings, and then combine them? If you can't program, you can manually play them. If I choose A, you play the A segment. Then, after the A segment, there are two more options. Which option do I choose? You then play the corresponding segment. You don't need such a grand narrative, or you just need to use narration to tell the story. Then, when it comes to the "dark river Buddha head," I need to choose between two directions. Whichever direction I choose, you then play the next branch under that direction. And after that direction is played, it goes to the next option. Once I make a choice, I can basically see the ending. This way, I'll have four endings.
+
+T1(00:33:43):I estimate that your assignment needs to reach at least this level for me to give you a relatively high score, because as it is now, I can't evaluate it. Because I think it might just be a pipe dream.
+
+T1(00:33:59):This is quite serious. When is your last exam?
+
+3#(00:34:07):We don't have exams, only final assignments.
+
+T1(00:34:07):Can you finish most of your other assignments and then come back to this one? Is that okay? The main thing is that I can't determine how many points to give you for this right now.
+
+3#(00:34:25):Because at the time, Teacher T said a conceptual video would also be acceptable.
+
+T1(00:34:32):I understand, but what I mean by "conceptual" is that its details are clear to me. It's like, if you're making a conceptual drawing of a building, for example, you need to tell me which area of the building is for what. But right now, it's as if you've used AI to generate something that couldn't possibly be built in the physical world, something with a lot of hallucinations, and you're showing that to me. In that case, I can't give you a grade.
+
+T1(00:34:59):Because while the projects of the previous two students were relatively rudimentary, at least they were genuinely playable. Yes, whereas yours is essentially a PPT project. In our company experience, it would likely only exist in your beautiful imagination and descriptions. If it were to be developed, first, it might not even be possible to develop it. Second, even if it were developed, it might not be as wonderful as you imagine. For such projects, we typically give a very low rating.
+
+T1(00:35:41):Right, so this also depends on whether you want to try making something that can truly be implemented and at least run. Even if you don't use programming, just like playing a board game, you could show me a video, and then I'd choose based on your two options, and then you'd play a second video. That would also be playable, and thus implementable. I could then find a programmer to refine it for you, and expand all the narrations with more shots. Yours would then be something that could be realized. But right now, many details are vague, ambiguous, and unclear, so it's not implementable. Can you understand this suggestion?
+
+3#(00:36:24):Yes.
+
+T1(00:36:30):Because time is up, if you submit what you have now, I can still grade it, but the score might not be very high. If you want to enrich it further to get a higher score, yes, we can schedule another time, okay?
+
+3#(00:36:50):Ok. Ok.
+
+T1(00:36:51):Alright, thank you for your hard work. Let's leave it at that for now.
+
+T1(00:36:56):Alright, all the best!
+
+3#(00:36:58):And then.
+
+T1(00:37:00):Goodbye. From my side.

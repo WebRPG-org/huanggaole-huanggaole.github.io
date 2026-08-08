@@ -1,0 +1,142 @@
+T1(00:00:40): Can you hear me?
+
+T1(00:00:59): Is #8 muted?
+
+T1(00:01:09): Who wants to share their screen and speak first?
+
+T1(00:01:13): Right.
+
+8#(00:01:19): How about I go first?
+
+T1(00:01:22): Then #8, you go first!
+
+8#(00:01:22): Share it.
+
+T1(00:01:27): Okay.
+
+8#(00:01:29): I'll play a video first. When ice and fire lose their balance, the world begins to crumble!
+
+8#(00:02:11): You are the last Guardian, with the ability to freely switch between ice and fire. The Guardian travels between ice and fire, enduring the dual trials of flame and snow. Change the environment, and change your fighting style. Facing the avatar of imbalance, can you maintain the final balance? I'm done.
+
+8#(00:03:08): And what I want to do is something like what was shown in the video, which is element switching.
+
+8#(00:03:23): You can hear me, right?
+
+T1(00:03:24): I can hear you, keep going.
+
+8#(00:03:26): So, overall, I want to make a 2D exploration game similar to Hollow Knight, where the protagonist can switch between ice and fire factions, using elemental interaction for combat and puzzles, most importantly to restore the unbalanced ecosystem. The overall references are Hollow Knight, plus Fireboy and Watergirl, and then for the boss, it's referenced from the phased boss fights of La Signora in Genshin Impact. So that's roughly the situation. And my story setting can also be seen from the video just now. This is my character design, which has ice and fire forms, and these two forms can be switched. I also designed some enemies, meaning enemies in different map scenes will have some related obstacles. Enemies are some small monsters. And health is displayed using a blood-drop UI bar. The main gameplay is primarily the elemental switching mechanism, and puzzles. These are the two main types. And by stacking elements, the map's state can be changed. Its main abilities are actually similar to the jumping elements in Hollow Knight, and through these skills, the map can be altered to create some observations.
+
+8#(00:05:15): And in the process, it can also collect some special items or skills, such as increasing the snow limit, attack range, other weapons, and enhancing elemental power, etc.
+
+8#(00:05:29): And. Finally, there's the boss battle design. This boss has three forms. The first form is pure ice. In this state, the entire ground is walkable, meaning the whole ground can be stepped on and survived. At this time, the boss's skills are also only ice-based. In the second form, it will transform into a fire form.
+
+8#(00:05:57): Fire form, and in this form, its fire will melt the ground, and its living space will be relatively reduced, with only the central platform being walkable. The living space is also greatly compressed. Then, in the third state, it's a state where ice and fire coexist, meaning the boss can simultaneously trigger both skills, requiring the player to constantly switch and adapt to fight the boss. That's the overall idea.
+
+T1(00:06:26): There isn't a playable demo, right?
+
+8#(00:06:31): Just a video, because it couldn't be implemented.
+
+T1(00:06:36): Student, what was your undergraduate major?
+
+8#(00:06:40): Product. Product design.
+
+T1(00:06:44): Product. OK, I understand. In the process of doing this, have you ever tried, for example, using AI to generate a gameplay demo?
+
+8#(00:06:46): I tried it, and because the things involved are, first, quite numerous, and second, completely different from what I imagined, it was difficult to get started, so I finally decided to make a video.
+
+T1(00:07:19): What is your graduate major? Your direction?
+
+8#(00:07:22): Digital Media Art!
+
+T1(00:07:28): OK, in that case, I think I need to. Go further, meaning your current design is still too high-concept. This high-concept might mean that if it were to be implemented, I might have a question mark. Let's go a little lower, so I want you to go up.
+
+T1(00:07:52): For example, this paragraph, you talk about puzzle design, where players can use fire elements to raise magma, and then use fire elements to melt frozen doors or obstacles to open passages, ice plus fire, ice plus water. So, ice plus... can use water element names. Is there a specific map?
+
+T1(00:08:26): Right, just explain it according to this. For example, where is its starting point, and how does it use the mechanisms you just mentioned in this map?
+
+8#(00:08:31): For example, if it needs to move forward from here, and its only path forward, for example, if there is magma here, it cannot pass. It needs to use elements to first freeze it with ice, and then break it to pass.
+
+T1(00:08:57): This is fire plus ice. And, right, let's look at other mechanisms, right.
+
+T1(00:09:17): Is this the only place on the map where fire plus ice is used? There should be other places where it's used, right?
+
+8#(00:09:30): Indeed, the scene is a bit too conceptual.
+
+T1(00:09:37): Or can you now manually design another map? No need to use AI to generate images, just use, for example, hand-drawing or sketching a concept map, and then explain how your game uses ice and fire switching and what abilities are needed to pass the level. If you don't use them, you can't pass the level; you can only pass if you use them. Can you come up with one or two such designs?
+
+8#(00:10:06): Now?
+
+T1(00:10:07): Right, when the next student presents, can you think about this question? Right, otherwise, I will always consider this a plan that exists only in a PPT. Compared to, for example, other students' plans that have already produced demos, it has significant flaws and uncertainties.
+
+T1(00:10:26): I might not be able to give a very high score.
+
+8#(00:10:32): Understood.
+
+T1(00:10:34): So, if you can use your own wisdom, your own human ability, rather than AI's ability, to design one or two levels that I find quite promising, then I can consider giving a relatively good score. Right!
+
+8#(00:10:52): Understood.
+
+T1(00:10:54): OK, you think about it first, let's look at the next student.
+
+T1(00:28:48): Alright, how about this, let me see how another student's design is? And student #8, can you show me your implementable design? Let me see.
+
+8#(00:29:04): Because I only have a computer at hand right now, I used the computer to draw, and I used the keyboard to draw.
+
+T1(00:29:08): Introduce it! I can see what you've drawn.
+
+8#(00:29:17): The first one is fire plus fire. When I walk onto it, it's not high enough, so I need to raise it first and then freeze it.
+
+8#(00:29:32): This is a pool of lava. Then I need to freeze it, and it becomes a platform. I can't jump up here, so I need to raise it first, using fire plus fire to raise it, then freeze it, and then I can jump across like this.
+
+T1(00:29:41): I've seen your other designs, I understand this one!
+
+8#(00:29:53): I need to jump onto the platform, and I can't jump up here. Then there will be water columns here. I need to freeze them first. Then there's a platform, and I jump up again.
+
+T1(00:30:10): This is in the water and ice level, as I understand it.
+
+8#(00:30:11): Ice plus water. Right, ice plus water. Then I need to go up here, I can't get through here, I can only go from the right. And this is rotating flowing water on a rotating fan. If it rotates, I can't get through, I'll get hurt, so I can only make it stop. Because it has an opening, and if it stops in the wrong position, I'll need to melt it again with fire.
+
+8#(00:30:40): Let it turn into flowing water and rotate, then freeze it at the right time, so I can walk across here and then go up.
+
+T1(00:30:48): Okay, okay, anything else? Basically, it's all about freezing, right, fire plus fire.
+
+8#(00:30:55): There's more. Right, this has fire and ice.
+
+T1(00:31:00): Above is flowing lava.
+
+8#(00:31:06): Right, then you need to freeze it to pass, and then go up. This place is actually a fusion of fire and ice, meaning you need both ice and fire. Fire is fire, plus fire is.
+
+T1(00:31:17): Basically. Basically, your spell switching is equivalent to having only two basic operations: one is freezing, which is the most commonly used operation, and the other is adding fire. Adding fire can make the flame pillars higher.
+
+T1(00:31:40): Okay, I understand! Alright.
+
+8#(00:31:46): Like the student just now, neither of us has any programming or computer background, that's true.
+
+T1(00:31:53): I know, if there's no demo, it's basically this situation. It's okay, you guys.
+
+8#(00:31:55): Thank you, teacher!
+
+T1(00:32:04): Rest assured, there won't be too many problems.
+
+8#(00:32:08): Okay.
+
+T1(00:32:08): Alright, then let's leave it at that for today. Do you have any questions you'd like to ask?
+
+8#(00:32:14): For example, if I wanted to, because at the time I was also thinking about how to do this course, because once you want to do some things, those are applications, and I really don't understand the code, so when it gives us something, it's really hard for us to adjust it. Also, when it involves some complex things, I don't know how to start dealing with this part.
+
+T1(00:32:45): I personally feel that your future employment will not be in the game industry.
+
+T1(00:32:53): I have a feeling that your future employment might be, for example, working for special effects companies, or drama companies, or advertising companies, or becoming a product manager for a certain product in a large company, controlling its interface or some of its rich special effects. If this is the kind of job you're looking for, it means that it's indeed quite difficult for you to implement this code for this assignment. Yes, it feels a bit difficult, so I might just determine your potential future career direction based on your previous video presentations, for example. And if I were the entrepreneur of this kind of app shown in your video, or your colleague, I would give you a score. So actually, you don't need to worry about not truly making a game demo. Yes, I don't think the score for that will be very large. I will still look at your creativity, and your use of AI, and how you utilize AI, rather than just generating an AI video and submitting it. Yes, as long as you don't have that kind of attitude, I don't think there will be any major problems.
+
+8#(00:34:15): And Teacher, I also want to ask, even if it's in some industries, it doesn't necessarily involve the implementation part. Aren't there many other positions, such as user experience, and intelligent interaction? These interconnected things.
+
+T1(00:34:33): Actually, you need to judge it this way: will your interactions ultimately be implemented by a program? Let me give you an example. If all the animations on your app are just a video playback, and there's no interaction with the user, the user just clicks in, watches your screen, and then clicks a button to go to another page. In this case, I think this form in your assignment is okay. But anything that involves user interaction, such as a UI or UX related element, it will always need to be concretely implemented with some form of interaction. At this point, humans, or rather, programmers, will need to do this work. For example, if you want to put a pet in your app, what interaction should it have every time we touch it? Should it collide with other elements in the app? Is there interaction between elements? You can't just present it through a video. It ultimately has to be implemented in code. In this case, the situations that your assignment can cover will be much fewer.
+
+8#(00:35:55): Understood.
+
+T1(00:35:57): Right, you must judge, for example, whether the thing you will do in the future requires this kind of extra AI interaction or programming implementation. Because I think if a certain section or module in an app doesn't require a program to do it, and you can do it well yourselves, then you can also perceive that this module is indeed just for display, and it's not a part for interacting with users or other elements in the app. Yes, its use is still quite limited.
+
+T1(00:36:38): Okay, keep up the good work. It's okay, you're all still very young, and you'll have greater growth when you start working in the future.
+8#(00:36:47): Thank you, Teacher!
+
+T1(00:36:48): No problem, then we'll end here for today. Bye-bye.

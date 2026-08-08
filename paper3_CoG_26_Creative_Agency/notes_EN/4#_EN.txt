@@ -1,0 +1,139 @@
+T1(00:00:18): Hello, can you hear me?
+
+4#(00:00:21): Teacher, can you hear me?
+
+T1(00:00:23): Let's take a look at your work. The previous student took a bit longer, sorry about that.
+
+4#(00:00:24): I might also take a bit longer, Teacher, sorry.
+
+T1(00:00:33): No problem.
+
+4#(00:00:35): How should I show it to you, just directly?
+
+T1(00:00:36): Why. Just share your screen!
+
+4#(00:00:43): Let me see. How about this, because I'm currently on Tencent Meeting on my phone, it can't show the gameplay on my computer. Should I exit and switch to this?
+
+T1(00:01:00): Computer is OK, that works.
+
+4#(00:01:01): Right, but I haven't downloaded Tencent Meeting on my computer.
+
+T1(00:01:04): You can download it first, right. After downloading, when you enter, it will directly kick your phone off, and then you can use yours.
+
+4#(00:01:16): OK, then are we moving to the next student?
+
+4#(00:01:19): Will it delay their time too much? Oh man, sorry I didn't prepare well.
+
+T1(00:01:21): No problem.
+
+4#(00:01:23): Have you done your work?
+
+T1(00:01:23): Your computer. Do you have Feishu or something similar on your computer right now?
+
+4#(00:01:28): No.
+
+T1(00:01:29): Then just download one.
+
+4#(00:01:31): OK.
+
+T1(00:01:31): Tencent Meeting is fine, no worries.
+
+4#(00:01:33): Sorry, sorry. Then I'll talk about how I did it while we wait. To ease the waiting time!
+
+4#(00:01:51): Isn't everyone running it with code? I used DeepSeek to make the game at that time. I just asked DeepSeek to provide the code. Initially, I wanted to make a relatively simple experience, a game similar to Mario. I didn't expect that even a Mario game could have bugs. I thought, since even Mario can have bugs, I might as well make a 3D one. Then I made a game similar to the solar system. As for the gameplay, it's hard to present, so I only made a solar system that can run normally, and didn't make anything else.
+
+T1(00:02:34): Ah, that's okay. Do you have a PPT or something?
+
+4#(00:02:39): No.
+
+T1(00:02:41): If you don't have a PPT, can you use your phone to take a picture of the solar system you made?
+
+4#(00:02:51): Teacher, how about this? Aren't I downloading Tencent Meeting right now? I've finished downloading it, so I'll just directly demonstrate the gameplay process to you.
+
+T1(00:02:53): OK, OK, OK.
+
+4#(00:02:59): I've downloaded it.
+
+T1(00:05:25): I see your screen! The drawing style on your desktop right now? This relatively flat tarot card style, does it have a scientific name? What is its drawing style?
+
+4# typed on the screen: (Teacher, it seems my voice can't go through!)
+
+T1(00:06:10): Check if it's because? See if it's because you muted your microphone, at the bottom of the meeting? Have you unmuted?
+
+4# typed on the screen: (Not muted, I unmuted.)
+
+T1(00:06:35): OK. Then you type, and I'll take a look at yours. Let me see your project.
+
+T1(00:07:26): Operate it first, and then I'll take a look at the content on your screen. Current mode: orbit observation mode. The current planet is Earth, altitude is this many meters. This speed indicates that you are currently a spacecraft roaming in space. Health is 100%, fuel is infinite, which means you have unlimited energy. Use the tab key or navigation panel to switch planets. All planets have gravity, and the spaceship will be attracted. All planets are perfect spheres; collision will cause a crash, and high-speed impact will cause an explosion. Be careful of damage to the spaceship from extreme environments. All planet radii have been magnified 10 times, and planet orbit radii have also been synchronously magnified 10 times.
+
+4# typed on the screen: (Yes, I keep crashing into the sun.)
+
+T1(00:08:36): Infinite fuel, explore the universe to your heart's content with the new feature: orbit observation mode. Head-up orbit mode. Full-planet multi-celestial body gravity system. I roughly understand what you want to make. You can open Notepad, and then I'll ask questions, and you just need to answer yes or no. If yes, just type yes.
+
+4# typed on the screen: (OK)
+
+T1(00:09:19): You want to make a game about roaming and exploring in space? Main goal. Safely crossing the solar system?
+
+4# typed on the screen: (Right! Pretty much. I wanted it to use limited resources to travel from Earth to other planets, but I didn't manage to make it.)
+
+T1(00:09:59): Right, because its fuel is actually infinite right now.
+
+4# typed on the screen: (Right, if I needed to keep flying initially to check for bugs, setting it to limited at the beginning would be inconvenient for me to check for bugs.)
+
+T1(00:10:36): Now assume there are no bugs, and your spacecraft can soar freely in space. Because we are in space, your spacecraft has... theoretically, it has variable thrust, so you can change the spacecraft's flight orbit. How to get more fuel.
+
+4# typed on the screen: (Right, the setting is that going to different planets yields different energy sources, just like No Man's Sky.)
+
+T1(00:11:29): There are different energy sources. What do you think are the distinguishing points of these energy sources?
+
+4# typed on the screen: (Just like oxygen and chlorine in reality, corresponding to the replenishment of different equipment.)
+
+T1(00:11:54): What equipment do you have on your spaceship right now? If you were to design it, what equipment would you design?
+
+4# typed on the screen: (Currently nothing. I would design a launcher, propulsion energy, a spacesuit, a heat retainer, and oxygen. Just these few basic pieces of equipment.)
+
+T1(00:12:36): If oxygen counts as equipment, then does water count too? Now that you have equipment and resources, assuming you can make an economic system, is your goal to survive as long as possible, or do you have other goals, like finding another Earth-like planet? Survive as long as possible? Are there any missions assigned by Earth?
+
+4# typed on the screen: (Yes, if it's just surviving for a long time, the game might feel a bit monotonous. The initial story setting is that the energy on the protagonist's planet is already depleted, and they need to go outside to find new sources of life, like Interstellar. I hope it's a game about continuing life, which is essentially building a base.)
+
+T1(00:14:18): OK. I... I see there's a game mode in the upper right corner of your screen: flight mode, orbit observation mode, and head-up orbit mode. Let me see these words of yours. Head-up orbit mode is fine, just let me see the words in your game. I'm looking at your UI. It's okay, I'm looking at your text settings. Just let me see this head-up orbit mode: you can follow the planet closely to observe the details of the planet's surface and appreciate the planet from different angles. Press the ESC key to exit the head-up orbit, press the spacebar to pause or continue the orbital movement. OK, then let me look at the orbit observation mode.
+
+4# typed on the screen: (There's a bug with the orbit.)
+
+T1(00:15:47): So it's observing the orbit. You used a top-down view, and then you watch how these planets rotate. Why are these planets currently not regular spheres? I roughly understand what kind of game you want to make. I think it's interesting, indeed. Now I'll ask you a question. Suppose you don't use programming now, but remake the game you want to make in the form of a board game. Do you think it's possible?
+
+4# typed on the screen: (The implementation method of a board game is similar.)
+
+T1(00:17:02): Not a board game, for example, you draw a chessboard on the table. This chessboard uses many discrete grids to represent... maybe the sun is stationary on this chessboard, but there will be a few pieces representing each planet in your current top-down view. This planet will move along a specific orbit every turn. Right. It's just that the orbital radius and distance from the sun are different. Then the planets might have some resources, for example, the oxygen you wrote above, or the launcher propulsion energy you wanted to write. Right, and then you... will control a spacecraft piece. It also requires you to consume energy, for example, by rolling dice or some other way to determine roughly how many steps you can take each turn. Your goal might be to chase these planets to find the resources on them.
+
+4# typed on the screen: (Eh)
+
+T1(00:18:14): Until I think!... This chessboard might be... assemblable and disassemblable. Your spacecraft flies in one direction, and then the board behind it can be removed and put into the discard pile. Then you fly to a new place, and draw from a face-down deck of cards, and you might draw, for example, a new galaxy or new resources. Then you just keep playing this board game in a single-player way, seeing how many turns you can last. A design similar to this. Right, it wouldn't be called multiplayer, it would be called a board game. A tabletop game paper prototype. For... I think students who don't know how to program can actually quantify and discretize your ideas, and then play it in a way that can be presented on paper. So now I feel that your idea can constitute a game, because it has the basic operating rules of a game.
+
+4# typed on the screen: (I think it's very plausible. I feel this mode just extracts the gameplay, it's very fun... and this gameplay can also be played multiplayer with others. Fun.)
+
+T1(00:19:45): You have a goal to survive as long as possible, and there are also some... dynamic, interactive elements that can be played with, for example, these constantly rotating planets. There might be... resources existing on these planets! I suggest you write a PPT, because you definitely have to submit a PPT. The PPT can extract what we are talking about now in your Notepad document. Then, as for whether you want to use screenshots of the webpages you've implemented now to express your gameplay, or sketches, for example, what I just talked about... I can accept expressing the gameplay in the form of this board game. What you might be missing now is just a PPT. Write your gameplay more clearly. Then there will be no problem.
+
+4# typed on the screen: (Question 1. If it becomes a board game, then some of the finer details I want to implement, like controlling the spaceship to approach a planet or land, would I have to delete them? Losing this exploration aspect.)
+
+T1(00:21:18): If you want to do exploration, exploration can actually be done using event cards. That is, when your piece catches up to a planet and lands on it, you can draw a card from the event deck. This event card might contain various events of you landing on this planet. But because it's shuffled and face-down, it actually replaces your exploration of the planet. What resources you can get or what dangerous battles you can trigger in the process, letting you... right.
+
+4# typed on the screen: (Or if the spaceship is mishandled and gets sucked in by the sun when flying to a planet closer to the sun, this feels hard to express with cards.)
+
+T1(00:22:23): Actually, it can be reflected by rolling dice. For example, you have a thruster, and you can roll a die every time you act. Then the result of this die might be whether your thruster has enough thrust. For example, your sun has an attraction of three grids, meaning spaceships within three grids will be sucked in. But the die you roll, for example, if it's greater than three, greater than or equal to three, then you successfully escape and aren't sucked in. But if you roll a one to three, then you might be sucked in, so you need to stay further away from the sun. My understanding is that you want to experiment with such an effect.
+
+4# typed on the screen: (Oh oh, what a genius idea.)
+
+T1(00:23:06): Theoretically, using cards, pen and paper, and dice, you can write down your ideas and the detailed rules of operation in detail. That's what I think, and I feel that if your orbits are all circular orbits, your cards are this map, maybe even ring-shaped map grids one by one, and not necessarily quadrilateral grids.
+
+T1(00:23:37): Right! Right, and then you can have many maps, each map is a different sun, a different star and its planetary orbits. Then initially, maybe each planet has its own position, each planet has its own speed, meaning every turn each planet might move a different number of grids according to its own speed. Right, and then you control your spaceship among these grids, using dice rolling to... just move. If you need to change direction, you need a thruster. If you don't need to change direction, then every turn might just be a concept of rolling dice... to move. Without a thruster, it can only move in one direction.
+
+4# typed on the screen: (Currently no other questions.)
+
+T1(00:24:51): OK, right. After finishing the PPT, you can send it again. With this PPT, the score should be a bit higher. If not, I'll just submit it according to your current score for now. See if you have time to submit it, and then I can tell Teacher T that if your PPT is submitted, it can be a bit higher.
+
+T1(00:25:36): I think your current program isn't running perfectly, and actually many rules haven't been given very completely. So if I were to score it now, it would be around 88 points. Then if you submit a PPT, you can get about five more points. Right, basically that's the idea. Because I score very high, my lowest score right now is 80 points. Right, the lowest score I've given so far is 80 points. But this score is actually just a reference for Teacher T. He might do a normalization, meaning he might uniformly scale it. I can only say that without a PPT right now, you are actually at a lower-middle level. Right, you basically just provide a set of board game instructions, right, write them in this PPT, and then clearly write the goal of the game you want to make now, and then how to win or how to lose. I think that would be enough to give a score with five extra points.
+
+4# typed on the screen: (It's so good to talk to the teacher earlier. Thank you, teacher, for providing the perfect idea.)
+
+T1(00:27:14): OK, OK, no problem. Then we'll stop here for today. Wish you all the best! Bye-bye, keep it up!

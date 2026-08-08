@@ -1,0 +1,111 @@
+T1(00:00:06): Hello, can you hear me?
+
+17#(00:00:09): Teacher T1, can you hear me? I can hear you on my end.
+
+T1(00:00:11): I can hear you.
+
+17#(00:00:13): Right. Should we wait for Teacher T, or does Teacher T not need to come over?
+
+T1(00:00:21): Teacher T is out, no problem. You all came to see me, it’s nothing serious.
+
+17#(00:00:25): Understood. I will share my screen directly.
+
+T1(00:00:27): Right. OK.
+
+17#(00:00:39): Hello Teacher T1. What I have developed is a 2D top-down bullet hell shooting game. As shown in this image, it resembles a typical bullet hell shooter. My initial idea was to create a bullet hell game featuring a powerful attack that can be triggered occasionally during normal attacks, with the key aspect being that this super attack activates randomly.
+
+17#(00:01:08): Based on this idea, I decided to try implementing a gameplay style centered around a powerful ultimate attack combined with bullet-hell shooting mechanics. I then wrote a mock operation sequence, feeling that the ultimate activation was largely unrelated to player input since the focus was on the attack itself, which was random. Often, players could get lucky and activate the ultimate repeatedly, while at other times, it might take a long time before it triggered again. After having this idea, I proceeded to expand on it. To realize the ultimate activation scenario, I thought the best current approach was to use bullet-hell shooting games. Initially, I looked at tower defense games where machine gun shooters could trigger powerful ultimates. These ultimates were probabilistic in nature, and since tower defense games do not require players to actively control the main character to shoot, the concept was relatively mature. Building on this foundation, I then considered whether it would be feasible to develop an ultimate-based game directly within the bullet-hell shooting genre.
+
+17#(00:02:22): Then later I was thinking, since it was the end-of-term week at that time—and it is the end-of-term week now—there might have been more pressure. Later on, I considered designing a game that looks visually satisfying and plays smoothly on the cognitive level. It would seem like activating a powerful skill requires skillful operation, but in reality, it’s triggered probabilistically. The mid-game might be quite challenging to endure, but if you manage to activate the ultimate skill, it feels extremely rewarding, as if you are highly skilled, even though it’s all probability-based. So I decided to make the ultimate skill activation probability-based, without requiring complex input commands—just a one-click experience that makes the player feel powerful. After a strong attack, I also thought that if the player can’t use a cannon to swat mosquitoes, then the enemies must also become stronger. Because many times, to truly enjoy the satisfaction of activating the ultimate skill, the opponents can’t be too weak; otherwise, you could just defeat them without using the ultimate. That would greatly reduce the sense of feedback.
+
+17#(00:03:24): Based on this, I roughly implemented a simple demo using code and HTML. The demo allows control of movement and direction with the mouse, where the tank shoots bullets to attack enemies. As the number of enemies killed increases, the tank randomly becomes stronger. Meanwhile, the enemies also progressively become stronger. However, the growth curve ultimately became somewhat unbalanced; by the mid to late stages, the gameplay mostly involved repeatedly using a powerful area-clearing ability. Next, I will demonstrate this with a video. When I recorded it, I captured my mouse pointer because the pointer controls the tank’s movement. If the tank is close enough to the mouse pointer, it stops moving; if it is farther away, it moves toward the pointer. The enemy AI was also iterated on: initially, enemies moved randomly, but later they were designed to behave in a roaming state, where they unpredictably burst out and rapidly move toward the player-controlled tank.
+
+17#(00:04:30): The time enemies lock onto the protagonist increases as the score above rises, and their aggressiveness also intensifies. Their size and speed become progressively faster. The parameters displayed above include health and other attributes. Every time five points are scored, a random buff is triggered, such as increasing the number of bullets, reducing reload time, boosting firing rate, or increasing the chance of critical hits.
+
+17#(00:04:56): Additionally, a certain probability of consecutive attacks causing health reduction was introduced. At the bottom, there is an increase in the expanded angle of the ultimate skill. After playing for a while, it was found that the enemies’ health gradually became higher, while the main character’s development was not as strong, making combat more challenging. At this point, using the ultimate skill becomes significantly more powerful.
+
+17#(00:05:19): My crowd control ability will also be relatively strong. As the game progresses, the console's own attacks will become increasingly powerful, and the ultimate skill will have a wider angle of effect. Initially, it only covers 90 degrees, but over time, the angle expands until eventually it covers the entire screen.
+
+17#(00:05:36): Let's jump directly to this part. At 150 points, the enemy already has around ten health bars. At this stage, the enemy's size, movement speed, and aggression toward the protagonist have significantly increased. However, in this recorded session, I was quite fortunate to consistently obtain skills that enhance basic attacks. Therefore, by the later stages, the firepower remains relatively strong, as shown above.
+
+17#(00:06:02): The buffs are random. Each round actually offers a slightly different experience. Towards the later stages, you can see the ultimate ability activated across the entire screen. At that point, I just went out to pick up a delivery and stopped playing. When stacking continues to that extent, the visual effect looks like this—by the end, when the growth values become quite broken, you can simply rely on the full-screen attack without any further input. This is roughly the demo I have developed so far.
+
+T1(00:06:33): Right, it ultimately turned into an idle clicker game.
+
+17#(00:06:37): At the end, it’s because of what comes later. Initially, I wanted to evoke a strong, intense feeling. Then, as the game progresses, it’s about the growth curve. I’ve done some tuning so far and found that no matter what happens in the late stage, as long as the battle lasts long enough, our team’s stats become very high. At that point, I think instead of further optimizing the late-stage experience, it’s better to make the late stage visually spectacular and satisfying—something like a screen-clearing effect. Usually, by this stage, players don’t really need to perform many actions anymore.
+
+17#(00:07:14): At the beginning, when I was thinking about iterating on this gameplay, my initial design and setup involved simply creating a tank shooting demo. The setup included only one upgrade that increased the number of bullets. At the same time, I needed to use the mouse to click for shooting, and there was a limit on the shooting speed. So I kept clicking repeatedly, which became very tiring. Even when I triggered a special move, I didn’t experience that satisfying feeling of finally unleashing a powerful attack—it was just exhausting to keep clicking because using the mouse for shooting was very tiring.
+
+17#(00:07:43): Then I thought about it further and realized there was no need to use mouse click operations at all. Simply using automatic firing could take more control away from the user, thereby further reducing the user's operational burden. At the same time, it would allow for more growth elements to be added, making the later stages more enjoyable. For example, the increased firing rate and spread were added later, as well as the ultimate ability, which was integrated into the growth curve to enhance both the probability and effectiveness of the ultimate.
+
+17#(00:08:10): In other words, if the probability is high later on, the ultimate ability can be continuously activated. Ultimately, I feel that the growth system still needs to incorporate some additional elements. If nothing is added, then in the mid-game phase, since triggers are random, having fewer attributes actually accelerates growth. Therefore, I introduced a new linked attribute with a probability trigger, which allows for an additional attack upon activation, thereby optimizing the mid-game experience. Triggering the linked attribute in the mid-game also works—it grants an extra attack, which not only activates the ultimate effect but also extends the development curve.
+
+17#(00:08:39): Later on, the enemies also have a health system. As the game progresses, the enemies’ health, movement speed, size, and aggressiveness all increase. Although this is not explicitly shown later, the number of enemies generated also increases. However, when the values become unbalanced in the later stages, this effect is not noticeable because the enemies are instantly killed upon appearing.
+
+17#(00:08:59): Over the past few days while debugging, I kept thinking about the core idea behind this project. From the beginning, my goal was to create something enjoyable because the final exam week is really exhausting. So, I planned to make it visually impressive, keep the imprisonment time short, but still maintain a slight sense of confinement. After the imprisonment ends, the player would be able to move around, and by activating the ultimate ability, there would be a sudden screen-clearing effect, delivering that satisfying feeling.
+
+17#(00:09:33): After iteration, I felt that in the early stage, the enemies have low health, and the protagonist has low performance. Then, in the middle stage, the protagonist’s abilities gradually become insufficient, requiring the use of special functions, such as ultimate skills or continuous attacks, to continue developing. Finally, in the late stage, the protagonist essentially ascends, while the enemies do not ascend. This is the current balance of strength. Moving forward, I have some further ideas. First, currently, there is only one ultimate skill mode, which is the scatter shot state.
+
+17#(00:10:02): Regarding this form of expression, initially, I wanted to implement rapid-fire shooting. However, I felt that rapid-fire in this context might result in a somewhat clunky or unsatisfactory performance. So, I first modified the initial implementation to use scatter shots. Later on, I considered creating oversized bullets or sniper-type projectiles. I also drew inspiration from watching videos of small ball fighting games, where various types of bullets are used, including more controllable enhancement paths.
+
+17#(00:10:37): Later on, I was thinking that the enhancement system is still too random. After testing a few rounds, I found that sometimes the attacks feel more solid because, in the early stages, you often don’t get those smoother, ordinary attack enhancements. This makes the early gameplay quite frustrating. So, I considered consolidating it into a state where the player can choose from multiple options. For example, when the score reaches a certain point, a three-choice selection would appear. However, the problem is that if an enhancement is added every 5 points, the prompts might appear too frequently, which could negatively affect the user experience. Therefore, I am thinking of having these choices appear only at significant key milestones, allowing the player to select some crucial enhancements. This is the current idea.
+
+17#(00:11:05): Finally, I was considering whether to add a boss character who just takes hits—a sort of punching bag. If this punching bag were always just a regular enemy, it might inevitably become somewhat monotonous. So later on, I thought about whether it would be possible to add a sufficiently large boss unit that could really absorb my firepower, making it quite satisfying. This way, players could experience a certain sense of cathartic joy throughout the game. That's roughly my current idea.
+
+T1(00:11:42): It is already quite complete. If I were to offer a suggestion, for example regarding the numerical value inflation in the late stages of certain areas, you might consider something like the mechanics in Joker or Galaga. I’m not sure if you played Galaga on the FC when you were younger, but it employed a method where it reset your buffs between stages. For instance, although you might become very powerful within a single round, by the late game it essentially becomes more of a spectacle. However, you could divide it by levels—for example, in the second level, the initial enemies might be slightly stronger than those in the first level, and when you reach the second level, you start from zero again in terms of enhancements.
+
+T1(00:12:30): Then, in the third level, the initial enemies are even stronger than those in the second level. This approach is used to construct an interest curve or, in other words, a flow experience.
+
+T1(00:12:42): Because currently there are no distinct levels, you do experience a kind of numerical inflation in the later stages of gameplay. So my suggestion is to consider the approach used in classic shooting games, such as Joker Brand, which follow this concept: they have multiple levels, and although your score might become very high toward the end of a particular level, when you advance to a new level, the score resets to zero.
+
+17#(00:12:42): I did not divide it into separate levels.
+
+T1(00:13:10): There can be some inheritance between sessions. For example, the Joker card actually has an inheritance relationship across each playthrough, but the points or accumulated resources that the player has already earned will be reset when they switch stages.
+
+17#(00:13:19): I understand, because I also play with small hands.
+
+T1(00:13:30): Right, so I think this is something you can use to solve the problem. The later stages become less difficult and less uninteresting. However, I believe your work now appears quite complete. As a single level or a demo presentation, this assignment is actually very well done. May I take a look at the prompt interface in your AI tool? Yes!
+
+17#(00:14:01): Let me open the prompt interface and activate the VPN.
+
+17#(00:14:11): Let me start. I used Gemini to do it.
+
+T1(00:14:15): Everyone is basically using Gemini. At first, I kept mispronouncing it as Gemerny.
+
+17#(00:14:22): Actually, Teacher T often misreads things during class as well, but let me see, it should be this one, I am.
+
+17#(00:14:32): The above examples show some optimizations I made. These are the current requirements I have set for it. However, sometimes, since I didn’t have a pro account when I was working on this, I used the “deep thinking” mode, which produces more output. But when using the “fast” mode, the code output sometimes had issues. I also ran some minor adjustments through ChatGPT. I was reading the code myself and fixing some parts during the writing process because the fast mode might cause errors. So, I made some corrections here as well. These are roughly the AI tools I used.
+
+T1(00:15:21): That's great. Do you have any other questions? Is there anything you would like to ask me?
+
+17#(00:15:23): I haven’t prepared much on my end, just some thoughts on this topic. Also, I’ve been considering whether I should create a demo myself. When working with Unity, I often feel that the code generated by AI tends to be quite cluttered, even though my own coding skills are admittedly very weak—especially weak.
+
+T1(00:15:49): What was your undergraduate major?
+
+17#(00:16:02): Studying design.
+
+T1(00:16:07): So you actually don't come from a pure coding background.
+
+17#(00:16:09): No, that's not the case. Currently, I am working on some gesture-related features in Unity. Personally, if I want to integrate the direction from our advisor, it is actually possible to incorporate it into game development as well. When I was working on the advisor’s project, using Unity to run those AI-related tools often felt somewhat disjointed. Many times, I encountered issues that required me to frequently debug and troubleshoot on my own.
+
+17#(00:16:39): I feel that this is a relatively significant pain point for me recently. As for other aspects, I have mostly been brainstorming and haven't developed many concrete ideas.
+
+T1(00:16:52): OK, if you didn't study programming during your undergraduate years and are now working with Unity-related tasks, it can indeed be quite challenging. This is because programming involves more than just writing code; it also includes unit testing concepts and an understanding of algorithmic principles, which may not be easily replaced by AI.
+
+T1(00:17:19): My suggestion is to take a look at some computer science courses, such as discrete mathematics, data structures, and algorithms.
+
+T1(00:17:27): With this knowledge, when using AI, there may be some technical terms that you previously did not know how to phrase in prompts. Now, you can craft prompts more precisely to generate an algorithm. Then, you can utilize these algorithms accordingly.
+
+T1(00:17:48): In terms of AI-driven efficiency improvements, what it actually enhances is the final mile. If you don’t understand the preceding processes, even with AI, you wouldn’t know what kind of prompts to provide to achieve your desired outcome. Therefore, the real benefit lies in having a clear direction—knowing that moving in a certain direction will accomplish the goal. For example, if I’m somewhat lazy, prone to making coding errors, or simply don’t have time to write code myself, I can assign a task to the AI, let it complete it, then test it a few times. If the code it generates proves robust, I can integrate it into my workflow. In reality, this approach is most suitable for architects.
+
+T1(00:18:38): So we can observe many young users, especially in this assignment, where many students who do not know how to code use AI. However, they are unable to implement their ideas effectively because if they have no understanding of coding at all, the assistance AI provides is limited. This kind of situation does occur.
+
+17#(00:18:58): When I use it, it's quite obvious that if I am working on a project and encounter areas I completely don't understand, I also feel quite lost with AI—I don't even know what questions to ask.
+
+T1(00:19:11): But it’s alright; I think your homework is still OK. Alright, any other questions?
+
+17#(00:19:18): No problem at all, thank you very much, Teacher!
+
+T1(00:19:22): Thank you very much. That will be all for now. Goodbye, take care, and see you!
+
+17#(00:19:24): OK. Goodbye, Teacher!

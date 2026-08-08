@@ -1,0 +1,95 @@
+T1(00:00:21):Hello, can you hear my voice?
+
+5#(00:00:25):Hello, Teacher, can you hear me?
+
+T1(00:00:26):Alright, let's begin now!
+
+5#(00:00:30):Let me share my screen.
+
+5#(00:00:36):Teacher, I have created a mini-game where you can make cakes. Let me demonstrate the game first!
+
+T1(00:00:42):OK.
+
+5#(00:00:46):First, he received an order, then he started making a cake, cracking the eggs into a bowl.
+
+5#(00:00:54):The first step is to sift the flour and mix it evenly.
+
+5#(00:01:01):Then place it in the oven to adjust the temperature.
+
+5#(00:01:05):Start baking!
+
+5#(00:01:18):After baking, I started frosting the cake.
+
+5#(00:01:25):Then add some of his small decorative items.
+
+T1(00:01:26):I wonder if this decoration is reversed—like when you click to the right?
+
+T1(00:01:42):There is a bit of lag, but I understand it.
+
+T1(00:01:46):OK.
+
+5#(00:01:46):So you can take a photo of it? Like a camera filter.
+
+5#(00:01:51):After filming, you can share it.
+
+T1(00:01:52):But the final footage seems to be slightly different from what you just did.
+
+5#(00:02:00):Right, I don’t know why either.
+
+T1(00:02:00):Right. OK, I understand. It can be considered a gamified operation.
+
+T1(00:02:09):Can I modify the shape of the cake?
+
+5#(00:02:14):It cannot, and the area where it is smoothed in front is separated; the facade and the top surface are distinct.
+
+T1(00:02:16):Right.
+
+5#(00:02:22):At that time, I asked him to revise it for me, but the more he revised, the larger the scores became. I didn’t understand why, and in the end, the scores became exceptionally high, so I reverted it back.
+
+T1(00:02:32):Your approach is OK. This is indeed a... let me think about how to put it. My suggestion to you is this: for a small game that aims to have a certain degree of viral potential, what people really care about is a WYSIWYG (what you see is what you get) appearance.
+
+T1(00:02:58):Because your game actually involves, at the very beginning, processes like shaping, then putting it into the oven, and then applying color to it, right?
+
+T1(00:03:10): These are interactions, or rather, operational elements. If your game is based on interaction or some form of scoring through operations—for example, the better you perform, the more points you earn, or the more precisely you control the timing and temperature, the more successful a cake you can make—then if that is the goal, all the steps you have before are perfectly fine, and you could even make them more complex.
+
+T1(00:03:39):In this context, the specific cake can only be baked within a certain temperature range for a set amount of time. If the baking time is too long or too short, the cake’s score will be lower. Yes, your initial operations—actually, in my view, they resemble more the kind of games that test techniques, procedures, or skills. However, when this work reaches the latter half...
+
+T1(00:04:07):When starting to do decoration, photography, and sharing, the idea instantly transformed into something like Miracle Nikki or a previous mini-game by NetEase called "Sleeping Pose Battle." I’m not sure if you have seen it, but it became a dress-up game. If it is a dress-up game, then what we need to consider is the shape of the cake—the initial choice of the cake’s shape—and then the patterns or textures of the icing flowers I want to pipe. Also, whether the variety of fruits I can place is richer. In fact, dress-up games and action-based games involve fundamentally different design approaches.
+
+T1(00:04:59):From your results, I think what you want to create is a dress-up style game.
+
+5#(00:05:13):At the beginning, I wanted the game to lean more towards an operational style—for example, having the mouse fully control the piping, so that the piping might not be perfectly smooth and could be somewhat distorted. Or when stirring, there would be a more realistic sense of resistance. However, since the game’s code was written with the help of AI, I found that it couldn’t really achieve that highly realistic feeling. As a result, the final effect ended up being more childish and cartoonish. The elements inside were also quite simple. Earlier, I had the AI generate several game interface images that I wanted to include, but I didn’t know how to insert them. After struggling for a while without success, I ended up reverting to this version.
+
+T1(00:06:04):No problem. Do you have any design documents or similar materials? For example, how you initially designed the gameplay of this game and what kind of experience you aimed to achieve—do you have a document like that?
+
+5#(00:06:16):It seems to be within my communication records with the AI.
+
+T1(00:06:21):That won’t work. When using AI to develop games, the approach I recommend is to first solidify in your mind the experience or gameplay you want to present to players. Only after that should you use AI to assist in realizing the design blueprint you have envisioned. Otherwise, during the interaction with AI, you risk being influenced by it and losing your original direction. In the end, you might create something incoherent—neither matching your initial concept nor achieving the best possible effect AI can offer. This leads to inefficiency and suboptimal results. Therefore, I suggest you write a document outlining your ideas, whether in the form of a PPT or a Word document.
+
+T1(00:07:19):In any case, it is necessary to clarify whether your game is an action-oriented game or a dress-up game. If it is an action-oriented game, my suggestion is that at the start of the game, you provide a clear objective—for example, the appearance you want to achieve. For instance, the cake needs to be baked to a certain color and for a specific amount of time, which may require the player to control the process.
+
+T1(00:07:44):Or what kind of base dough they want to shape, and what kind of shape foundation to use—you need to have the player first select the correct shape, then control the timing accurately so that the fluffiness or the color matches. The easiest to control is actually the color, ensuring it reaches exactly the color I need for the cake. Then, how should the fruit be arranged, and where should it be placed? There is a design blueprint as the target, and after the user finishes, they can compare what they made with the target blueprint and receive a score. This is an operational approach.
+
+T1(00:08:21):What you are doing now is actually OK; it is playable. However, there are some specific operations earlier on that become a bit disconnected later. This kind of dressing-up approach is actually more suitable for players who just want to click and select options—for example, choosing the shape of the cake base, deciding what kind of frosting to decorate it with, selecting the color of the sauce or cream, and then arranging the type of fruit on top. Yes, this is the dressing-up style of design.
+
+T1(00:08:54):Right, because it was developed using Google's AI Studio, its level of completion is actually high among all the games.
+
+5#(00:09:00):Right.
+
+T1(00:09:05):So the advice I can offer is to clarify the gameplay more explicitly and make your documentation clearer. Don’t just let the AI assist you in doing what you want; make sure you’re not being led astray or influenced by the AI.
+
+5#(00:09:05):OK.
+
+T1(00:09:21):Right. Are there any other questions?
+
+5#(00:09:21):There are no other questions.
+
+T1(00:09:27): Alright, let's leave it at that for now.
+
+5#(00:09:34):OK, I will go back and make some revisions.
+
+T1(00:09:35):Keep it up, no worries, keep going!
+
+5#(00:09:37):Thank you, Teacher. Thank you, Teacher. Goodbye!
+
+T1(00:09:48): No problem, goodbye.

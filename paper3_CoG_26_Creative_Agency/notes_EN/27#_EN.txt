@@ -1,0 +1,124 @@
+T1(00:00:23): Hello, can you hear me? Hello, can you hear my voice?
+
+27#(00:00:42): Hello, Teacher.
+
+T1(00:00:43): You can share your screen now!
+
+27#(00:00:43): OK, just a moment.
+
+27#(00:01:03): Teacher, can you see my screen?
+
+T1(00:01:06): Yes, I can see it. You may start!
+
+27#(00:01:08): OK. Hello, Teacher, my name is 27#. My game is called Kuafu Chasing the Sun Energy Parkour. This is the cover of my game. The inspiration for this game comes from Temple Run and Subway Surfers. It is based on the classic parkour gameplay but themed around the ancient Chinese myth of Kuafu chasing the sun. The game’s worldview is deeply rooted in the original myth of Kuafu chasing the sun, so the running carries a sense of mission. Kuafu’s running is for the purpose of saving all living beings.
+
+27#(00:01:55): Regarding the game scenes, they are not limited to a single track.
+
+27#(00:02:02): The environment is based on ancient topography from our mythology, featuring various changes. There is the Loess Plateau, mountain ranges, and diverse scene variations. The running starts in one place and then gradually changes as the game progresses.
+
+27#(00:02:26): Besides running, there are also obstacle designs. Natural obstacles include cracked earth,
+
+27#(00:02:39): mountain ranges, and so forth. There are also monster obstacles. For the monster obstacles, I designed some demons or earth spirits. Later, I will show some character images.
+
+27#(00:02:55): As for item design, it is rooted in our mythology and centers around water sources. Besides the main water source, there are different kinds of water sources, such as river water, spiritual springs, and celestial water, each with different functions.
+
+27#(00:03:14): The auxiliary items are also mythological, including peach wood sticks and similar items. There is also a mask that can reduce the rate of energy consumption caused by high temperatures.
+
+27#(00:03:29): Regarding character design, this is my design of Kuafu. I prepared a three-view drawing. Then there is one of the demons, the Flame Demon Guard, who is a major obstacle on Kuafu’s running path. There is also the Red Flame Giant Spider, another obstructive demon beast. The Flame Demon Guards have different attack effects or varying degrees of hindrance.
+
+27#(00:04:15): This is a rather cute Skeleton Spirit. It does not attack actively; it only serves as a danger signal. The core of this game is not merely about emotional transmission or simply pursuing high scores. It embodies a spiritual core of saving all living beings, running for the sake of salvation.
+
+27#(00:04:46): During the process, Kuafu may experience endurance depletion, drink from water sources, or encounter monsters, each triggering different sound effects. If the player’s endurance runs out midway, a tragic ending is triggered where Kuafu falls to the ground. Compared to my inspirations, Temple Run and Subway Surfers, the core difference lies in cultural depth and emotional resonance. Whether in scenes, characters, or items, everything revolves around Kuafu chasing the sun.
+
+27#(00:05:35): Some of its scenes also feature expressions of Chinese aesthetic style. To summarize the core experience of this game, it is an immersive survival parkour driven by a mythological mission. These are some of the game scenes I generated.
+
+27#(00:05:58): This is a holy water spring, and this is an ordinary water source. If the character runs through it, they can draw water and gain energy.
+
+
+27#(00:06:10): The same character, generated in different scenes. These are some concept videos I made.
+
+27#(00:06:19): This is ordinary running, and after drawing from the holy spring, the character gains a brief invincibility effect, meaning monster attacks are ineffective. The character also gains energy. This is a scene where the character collapses after running out of energy.
+
+27#(00:06:45): This is my response regarding how AIGC can participate in this game. I think AIGC can greatly help with the efficient generation of Chinese-style art in this game.
+
+27#(00:07:01): For example, it can also provide answers around the core positioning of the mission participants. In terms of gameplay dynamics, it can help with some optimizations. Also, for cultural research and content calibration, I can seek assistance from these AIs.
+
+27#(00:07:28): That concludes my report, teacher.
+
+T1(00:07:31): So there isn’t a specific demo, right?
+
+27#(00:07:36): Are you referring to a video demo?
+
+T1(00:07:39): No, a playable game demo?
+
+27#(00:07:45): Due to time constraints, I didn’t generate one, but I did create a fairly ordinary running scene.
+
+T1(00:07:58): Based on your report, how does your game embody Kuafu’s running as not just simple running, but also involving the concept of recording events or saving all living beings? How does your game convey this?
+
+27#(00:08:17): Right. I have thought about this, but I haven’t integrated it yet. I first generated the character, then the scenes. I want to express things like props or the character’s beliefs, which I may incorporate into my visual materials after generation, then turn into videos. Due to time constraints, I haven’t done much of this yet, but I do have the idea.
+
+T1(00:08:48): Let’s just imagine it now without any physical materials! Suppose you actually took this step. Suppose Jimeng could realize your game. I want to ask, what is the player’s goal?
+
+27#(00:09:11): Besides the sense of belief, the player’s goal is definitely similar to conventional parkour games, which usually involve accumulating some points.
+
+T1(00:09:29): He is trying to earn more points. How does he earn points?
+
+27#(00:09:30): It’s like this: I was thinking about Kuafu’s peach wood staff. While he is running in the parkour game, he can pick up a prop. After picking it up, Kuafu can turn the withered trees around him into a peach forest. During his run, besides the points from the distance he covers, he also gains points from saving these wastelands. These wastelands also count as points, psychologically as well.
+
+T1(00:10:11): Regarding the cultural connection, have you researched whether Kuafu’s running path actually turns wasteland into peach wood forests? Are you certain this is culturally accurate? Which anthology or classic text contains such a description?
+
+27#(00:10:22): Right. In mythology, Kuafu, after he dies, throws his peach wood staff, which then turns into a peach forest. But I didn’t say that only after his death does the staff become a peach forest. I made a slight modification. During his run, the peach wood staff he picks up allows him to turn the withered trees around him into a peach forest.
+
+T1(00:11:04): Let’s assume your game includes a collection element where the player gathers points along the running path. What obstacles does the player face?
+
+27#(00:11:16): The player’s obstacles are suddenly appearing monsters and the like. The player has health points, which get consumed, and also energy is consumed.
+
+T1(00:11:33): So hitting a monster once doesn’t cause instant death but reduces health.
+
+27#(00:11:33): Right. Also, there are natural terrain obstacles, like cracks opening in the ground or ground rising up. The player needs to avoid these, similar to obstacles in Subway Surfers or other typical parkour games.
+
+T1(00:12:02): What actions can the player perform?
+
+27#(00:12:06): The player’s controls are quite simple, with no major changes: move left or right, slide down, and jump high, similar to conventional parkour games. That’s all I can think of.
+
+T1(00:12:28): My evaluation of your assignment is that it is a Kuafu chasing the sun version of a parkour game, but you haven’t produced an actual demo. Judging from the video demo alone, many elements seem incomplete.
+
+27#(00:12:44): Right, I’m still in the process of creating it.
+
+T1(00:12:48): OK. Actually, I think the theme is fine; the main issue is the low level of completion.
+
+27#(00:12:57): Yes, indeed, but I’m working hard on it. Teacher, I’m still working on it.
+
+T1(00:12:57): Right. Keep it up. There are three minutes left. Do you have any questions you want to ask me?
+
+27#(00:13:10): Besides what the teacher just mentioned, may I ask if you have any other suggestions or ideas for my game?
+
+T1(00:13:24): If I were making a themed game, it should at least allow changing directions. The first thing that comes to mind is Temple Run.
+
+27#(00:13:38): Right, I had a similar idea.
+
+T1(00:13:38): Mm-hm.
+
+27#(00:13:43): Like that.
+
+T1(00:13:46): Also, because current parkour games actually include an attack element, where you can pick up weapons, then merge and upgrade them. Using these weapons, you might be able to eliminate some enemies so you don’t collide with them.
+
+27#(00:14:06): Right.
+
+T1(00:14:06): If you take that approach, it would incorporate some tower defense attributes, so Kuafu himself would become a kind of tower defense.
+
+T1(00:14:14): To align with the cultural theme, the game would have more and more monsters, becoming increasingly difficult. Eventually, the player will die, and upon death, for example, their accumulated points could transform into what you just mentioned—their body, their hair—turning into elements like mountains or trees, or veins turning into rivers. Something along those lines. If the score is high, it might be divided into different tiers. A very high score could become a magnificent mountain; a lower score might be a less impressive mountain. This kind of cultural gene could be integrated into the game.
+
+27#(00:15:08): Indeed. That would definitely be more beautiful.
+
+T1(00:15:11): Actually, the theme you chose is very easy to expand on, but it requires more… how to say, serious thought. Right!
+
+27#(00:15:23): OK, thank you, teacher!
+
+T1(00:15:25): Alright, no problem. Let’s leave it at that for now. I’ll check in the group.
+
+T1(00:15:32): I’ll ask in the group if the next student has arrived. Keep it up, bye!
+
+27#(00:15:38): Goodbye, teacher! Take care, bye!
+
+T1(00:15:42): Bye. Right.

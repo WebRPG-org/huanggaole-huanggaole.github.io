@@ -1,0 +1,149 @@
+18#(00:00:30): Hello teacher, can you hear me?
+
+T1(00:00:36): can be heard.
+
+18#(00:00:37): I am classmate #18. Let me demonstrate my game to you.
+
+18#(00:00:48): Let me first take a look at my exhibition board to introduce my game mechanism. I am making an adventure game. The player is a witch. Her entire game is divided into day play and night play. The following is a rough example of a play mechanism. The main task of the day witch is to collect medicines, refine medicines and sell them. However, because her medicines are magical, they may arouse the suspicion of villagers in this small town and those churches under extreme religious beliefs. So he sells medicine during the day, and at night he needs to use the information obtained from selling medicine during the day to conduct a search to find out who is the potential whistleblower. After identifying the whistleblower, the witches will frame him at night to divert the trouble eastward and avoid the punishment of being burned at the stake. This is a rough example of how the game is played and the overall style. Next I will show you my demonstration video.
+
+18#(00:03:31): This is a sample video of one of the levels I made, because the code I made for the AI ​​was really hard to understand.
+
+T1(00:03:31): Let’s review the logic of your game’s design. What is its core gameplay?
+
+18#(00:03:52): This game is divided into day and night. Its central system is the suspicion value system, which is the behavior of witches, and the public opinion caused by the medicine it sells will affect the witch trial. For example, if everyone thinks you are a real wizard, they will send you to the stake, and the player will face death, so it needs a balance between selling medicine for profit and planting evidence at night. This is the daytime gameplay, which is a system for refining medicine. In short.
+
+T1(00:04:25): First of all, the doubt value system is a numerical system.
+
+18#(00:04:33): Yes.
+
+T1(00:04:33): What is its value range? Assume it ranges from zero to 100.
+
+T1(00:04:40): What impact will this larger value have?
+
+18#(00:04:41): First of all, when the index of the suspicion value system is relatively low, your movement may be limited. For example, when you are refining medicine during the day, there will be people patrolling or peeping outside your window. When the suspicion index reaches a certain level, you will be sent to the stake for trial.
+
+T1(00:05:01): Under what circumstances does suspicion become greater?
+
+18#(00:05:02): For example, during the production process of the medicine made by this player, you can determine whether its efficacy is strong through the selection of the medicinal materials. However, if it is too strong, it will arouse suspicion, because what you are selling is obviously a magic medicine, and you are responsible for refining the medicine.
+
+T1(00:05:25): Your game, so this game is actually somewhat similar to potion crafting, in that you have to prepare potions and sell them to other people, right?
+
+18#(00:05:32): Yes.
+
+T1(00:05:38): If you don't wipe it, it will become a death certificate against you.
+
+18#(00:05:45): For example, the stains left by witches during the operation, or some of the animal bones you used to grind medicines will be collected by interested people. If you do not process them in time, when your suspicion index reaches a certain level and you are sent to the stake for confrontation, these will be evidence to identify you.
+
+T1(00:06:04): Isn’t your game just for making medicine?
+
+T1(00:06:07): Doesn’t everyone know that witches are making medicine?
+
+18#(00:06:10): But this is its background. It is a kind of religion that is relatively strong. Everyone allows you to sell medicine as a normal person, but it does not allow real witches to exist.
+
+T1(00:06:27): Between making medicine and being a witch. How to tell if she is making medicine normally or if she is a witch making medicine?
+
+18#(00:06:37): Wait a minute, let me adjust that document. Normal judgment or not, the medicine we usually buy in the drugstore is a conventional medicine. When your medicine is too effective, it is a bit like that. Panacea. Yes, it’s the difference between medicines.
+
+T1(00:07:08): OK, this is this witch. If she was making medicines for daily livelihood, for example, medicines that are sold to others normally, then her suspicion value would not increase. Then why would she make taboo medicines and auditing medicines?
+
+18#(00:07:14): right.
+
+T1(00:07:31): What is her motivation?
+
+18#(00:07:31): Because ordinary medicine can actually only provide a minimum guarantee of life.
+
+T1(00:07:33): Then let me ask you.
+
+18#(00:07:40): itself it does.
+
+T1(00:07:42): Assume that I am a player of the game. As long as I can maintain my daily livelihood, I will only make concealing drugs. Can this also promote your game?
+
+18#(00:07:45): Indeed, if you do the next two categories, you can unlock more levels in the game. For example, you can cure some characters by selling this elixir, or make huge profits.
+
+T1(00:08:00): You need to put pressure on the player to choose, so that he has to take the more powerful medicine below.
+
+18#(00:08:12): good.
+
+T1(00:08:14): He couldn't do this medicine to get more money. It must be part of the plot. For example, if you don’t take the following two medicines, someone will die, and some good people will die.
+
+18#(00:08:24): right.
+
+T1(00:08:25): That’s why the witch wants to make the following forbidden medicines. In the process of making the forbidden medicines, she can’t let others discover that she is making the forbidden medicines. In this case, the logic of your report is correct. However, your signboard is still too uncertain, that is, you actually have many ideas and logics in the game process that you have not explained clearly.
+
+T1(00:08:50): It's okay, let's continue looking at the background panel behind you.
+
+18#(00:08:52): good.
+
+T1(00:08:56): Good for you going down.
+
+18#(00:08:57): It's night time!
+
+T1(00:09:01): This witch who stalks at night is a law-abiding witch. If she only makes this kind of normal medicine, does she need to skip sneaking at night? Then she would not be suspected and would not be burned to death.
+
+18#(00:09:18): That's right, only if you add the pressure you just mentioned to force her to take the latter two types of medicine, will she get to this point.
+
+T1(00:09:32): There's a bit more of a Werewolf feel here, if you want it. It's just that except for the witch, everyone else here is AI. Or are they all NPCs?
+
+18#(00:09:40): Yes. Yes.
+
+T1(00:09:42): How to judge who should be the scapegoat? Is this a progressive design that you have preset, or does the player have a certain degree of emergence and a certain degree of freedom.
+
+18#(00:09:53): There is a degree of freedom. For example, when he is selling medicine during the day and communicating with this NPC, who may come to pick up medicine, he will say that the carpenter next door has been asking about you recently, and then the player will collect these clues to determine who may be the secret informant.
+
+T1(00:10:10): This script will be huge for you. Do you have an idea on how to write a script?
+
+18#(00:10:14): No.
+
+T1(00:10:19): Then continue reading below.
+
+18#(00:10:24): It was he who carried out the frame-up at night.
+
+18#(00:10:30): There are a total of these methods, you can carry out physical frame-up, you can secretly investigate, or you can establish a good image when you sell drugs, and let them automatically defend you, or you can bundle interests and exchange interests with those officials, so they will protect you. The last one is reporting interception.
+
+18#(00:10:52): There are a total of these types of night action options.
+
+T1(00:10:53): There are too many mechanisms set up. Let me take a look at it slowly because you have designed a lot of mechanisms. If there are too many mechanisms, it will actually be more difficult to achieve a harmonious overall design. I'll check to see if there are any logical problems, flue release, and target infiltration.
+
+T1(00:11:14): You want to make an open world or a sandbox world, because you may also need to add a lot of NPCs.
+
+18#(00:11:20): Yes, this game will be really big if it is made. I have only made an example of one of the levels now.
+
+T1(00:11:27): The cost may be unreliable. If you design like this in real life, assume that we are not defending, but assuming that we are working and discussing. Your plan pays too much attention to its grand narrative, and it pays too much attention to its appearance. There is a lot of investment, but it ignores the structure of its gameplay. For example, the rationality of logic or gameplay. An organic combination, because I now feel that these physical methods, such as adding smoke to flues and poisoning wells, each one is an independent system if it is done by a program. In fact, it is not very organic and elegantly designed together.
+
+18#(00:12:21): Right indeed.
+
+T1(00:12:22): Let me take another look!
+
+T1(00:12:25): You are going to make an Assassin's Creed with a witch as the protagonist. Or a Red Dead Redemption kind of feeling, and then investigate. Investigating and grasping the facts about the mayor and bishop are all the work of copywriters and planners. It all needs to be implemented in the workforce.
+
+18#(00:12:54): right.
+
+T1(00:12:55): Still too high concept.
+
+T1(00:13:02): The imagination is beautiful, but I think the implementation is weak. Your work, this student, has a very similar aspect in that the description or imagination is very good and perfect, but the difficulty of putting it into practice may be even greater than that of "Black Myth: Wukong". You have to first tell me that if I want to believe that you can make this project, you may be richer than Feng Ji. Only then can I dare to give you a particularly high score. This is the case. Fortunately, what is your undergraduate major?
+
+18#(00:13:41): I also have an undergraduate degree in digital media.
+
+T1(00:13:46): Have you ever learned programming in digital media?
+
+18#(00:13:50): I learned it, but I didn’t learn it.
+
+T1(00:13:52): OK Current direction, what is your research direction now?
+
+18#(00:14:08): In fact, the research direction is currently focused on traditional cultural digital cultural museums.
+
+T1(00:14:16): Understood, then my advice to you is this, try not to conceive of a specific physical space first, but conceive the movements first.
+
+T1(00:14:26): For example, if you want to use AI to generate your current work, don't just want to make it a 3D one, or an embodied space with various entities that can move. Let’s not think about this aspect first. Let’s consider how to do it first. For example, your game is turn-based. At night, then you will be given a few buttons to let the player choose between "flue injection", "well poisoning", "forgery contract", bala bala, etc. Yes, after you select it, there is a secondary page. Then you can be specific in this action, such as to whom the flue will be released, or who you want to forge the contract, whose contract is forged, or who you want to investigate, etc. You first use this more abstract one, just like writing the planning copy in a movie, first use words to express your idea.
+
+T1(00:15:25): You need to understand it clearly so that you can explain it clearly to others. When you work in the future, you will most likely have to go deep into the design details instead of writing a lot of superficial things in a very broad way, because you are like this document of yours. From our company's perspective, it is an unqualified document. He can only be regarded as the kind in brainstorming. That kind of small inspiration with many alternatives cannot be regarded as an organic gameplay planning document. It is such a problem now. I have no other questions. In fact, if your idea is OK, the general direction is OK.
+
+T1(00:16:22): But when it comes to details, it feels like I have almost no experience in the industry. That’s right, that’s the problem. And it would be better if there was a demo. It doesn’t mean the demonstration video. If there is one that can really make people play and see your specific conception logic, it would be better if there is this. You arrive first. This is the next student. Can you get him online?
+
+18#(00:16:49): Then I'll call him.
+
+T1(00:16:52): OK, OK!
+
+18#(00:16:53): Thank you teacher!
+
+T1(00:16:55): fine. good.
