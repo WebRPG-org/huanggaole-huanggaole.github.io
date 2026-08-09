@@ -27,6 +27,102 @@
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
+    <style>
+        .paper-card-grid {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            border-left: 5px solid #ff4a57;
+            position: relative;
+        }
+        body.dark .paper-card-grid {
+            background: #1e1e2d;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            border-left-color: #ff4a57;
+        }
+        .paper-card-grid:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(255, 74, 87, 0.15);
+        }
+        .paper-badge-grid {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 15px;
+            background: rgba(255, 74, 87, 0.1);
+            color: #ff4a57;
+            margin-bottom: 12px;
+            align-self: flex-start;
+        }
+        .paper-title-grid {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .paper-meta-grid {
+            font-size: 0.85rem;
+            color: #6c757d;
+            margin-bottom: 12px;
+        }
+        body.dark .paper-meta-grid {
+            color: #a0a5b5;
+        }
+        .paper-abstract-grid {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #495057;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        body.dark .paper-abstract-grid {
+            color: #c0c5d5;
+        }
+        .btn-paper-grid {
+            padding: 7px 18px;
+            font-size: 13px;
+            border-radius: 25px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-paper-outline-grid {
+            border: 2px solid #ff4a57;
+            color: #ff4a57;
+            background: transparent;
+        }
+        .btn-paper-outline-grid:hover {
+            background: #ff4a57;
+            color: #ffffff;
+        }
+        .btn-paper-primary-grid {
+            background: #ff4a57;
+            color: #ffffff;
+            border: 2px solid #ff4a57;
+        }
+        .btn-paper-primary-grid:hover {
+            background: #e03e4b;
+            border-color: #e03e4b;
+            color: #ffffff;
+        }
+        .special-paper-card {
+            border-left-color: #28a745 !important;
+        }
+        .special-badge-grid {
+            background: rgba(40, 167, 69, 0.15) !important;
+            color: #28a745 !important;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target="#scrollspy" data-offset="61">
 
@@ -86,6 +182,9 @@
                                     </li>
                                     <li class="list-group-item">
                                         <a href="#portfolio"><span class="nm">04.</span>Portfolio</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#publish"><span class="nm">05.</span>Publications</a>
                                     </li>
 
                                 </ul>
@@ -470,6 +569,18 @@
                                 </div>
                             </div>
                         </a>
+                        <!-- Item 08 -->
+                        <a href="https://www.66rpg.com/game/1692687">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-content box">
+                                    <img src="assets/img/portfolio/portfolio-08.jpg" alt="/">
+                                    <div class="box-content">
+                                        <h6 style="color: white;" data-i18n="portfolio_item8_meta">2026 by 橙光游戏</h6>
+                                        <h4 style="color: white;" data-i18n="portfolio_item8_title">契约爱情</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -477,6 +588,100 @@
     </section>
 
     <!-- ==================== End Works ==================== -->
+
+    <!-- ==================== Start Publications ==================== -->
+
+    <section id="publish" class="publish pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-left">
+                        <h2 class="sub-title" data-i18n="publish_title">发表文章集锦</h2>
+                        <h4 class="mt-4" data-i18n="publish_subtitle">我的发表成果</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <!-- Paper 1 Card -->
+                <div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-duration="0.8s">
+                    <div class="paper-card-grid">
+                        <div>
+                            <span class="paper-badge-grid">Paper 01 &bull; 2021</span>
+                            <h3 class="paper-title-grid" data-i18n="paper1_title">说服设计在科普游戏中的应用</h3>
+                            <div class="paper-meta-grid">
+                                <i class="lni-user"></i> <span data-i18n="paper1_authors">黄高乐</span><br/>
+                                <i class="lni-book"></i> <span data-i18n="paper1_venue">《科学与博物馆》2021年第3期</span>
+                            </div>
+                            <p class="paper-abstract-grid" data-i18n="paper1_abstract">
+                                探讨了说服设计（Persuasive Design）在科普游戏中的应用机制与实证思考，解析如何通过游戏机制与系统设计有效传递科学知识与引导认知转变。
+                            </p>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2 pt-2">
+                            <a href="paper1_persuasive%20design/21-3-.pdf" target="_blank" class="btn-paper-grid btn-paper-outline-grid">
+                                <ion-icon name="document-text-outline"></ion-icon> <span data-i18n="btn_preview_pdf">预览 PDF</span>
+                            </a>
+                            <a href="paper1_persuasive%20design/21-3-.pdf" download class="btn-paper-grid btn-paper-outline-grid">
+                                <ion-icon name="download-outline"></ion-icon> <span data-i18n="btn_download_pdf">下载 PDF</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 2 Card -->
+                <div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                    <div class="paper-card-grid">
+                        <div>
+                            <span class="paper-badge-grid">Paper 02 &bull; 2024</span>
+                            <h3 class="paper-title-grid" data-i18n="paper2_title">生成式人工智能技术赋能科普内容创作</h3>
+                            <div class="paper-meta-grid">
+                                <i class="lni-user"></i> <span data-i18n="paper2_authors">黄高乐</span><br/>
+                                <i class="lni-book"></i> <span data-i18n="paper2_venue">《科学与博物馆》2024年第1期</span>
+                            </div>
+                            <p class="paper-abstract-grid" data-i18n="paper2_abstract">
+                                分析生成式人工智能（GenAI / AIGC）在科普内容创作中的应用前景、潜在挑战与人机协同机制，提出了面向未来科普创作的实践框架。
+                            </p>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2 pt-2">
+                            <a href="paper2_GAI/GenerativeArtificialIntelligencetechnologyempowerssciencepopularizationcontentcreation%20(1).pdf" target="_blank" class="btn-paper-grid btn-paper-outline-grid">
+                                <ion-icon name="document-text-outline"></ion-icon> <span data-i18n="btn_preview_pdf">预览 PDF</span>
+                            </a>
+                            <a href="paper2_GAI/GenerativeArtificialIntelligencetechnologyempowerssciencepopularizationcontentcreation%20(1).pdf" download class="btn-paper-grid btn-paper-outline-grid">
+                                <ion-icon name="download-outline"></ion-icon> <span data-i18n="btn_download_pdf">下载 PDF</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 3 Card (With Dedicated Materials Link) -->
+                <div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <div class="paper-card-grid special-paper-card">
+                        <div>
+                            <span class="paper-badge-grid special-badge-grid">Paper 03 &bull; IEEE CoG 2026</span>
+                            <h3 class="paper-title-grid" data-i18n="paper3_title">Agency and Creativity in GenAI-based Game Development and Design Education</h3>
+                            <div class="paper-meta-grid">
+                                <i class="lni-user"></i> <span data-i18n="paper3_authors">Gaole Huang, Jian Tan, Max Chen</span><br/>
+                                <i class="lni-book"></i> <span data-i18n="paper3_venue">IEEE Conference on Games (CoG) 2026</span>
+                            </div>
+                            <p class="paper-abstract-grid" data-i18n="paper3_abstract">
+                                生成式人工智能（GenAI）的快速发展正在重塑游戏设计与开发教育。本文对研究生课程《AIGC游戏开发》中的30个项目与反思报告进行了定性研究。
+                            </p>
+                        </div>
+                        <div class="d-flex flex-wrap gap-2 pt-2">
+                            <a href="paper3_CoG_26_Creative_Agency/CoG_26_WIP__Creative_Agency_in_GenAI_Game_Development.pdf" target="_blank" class="btn-paper-grid btn-paper-outline-grid">
+                                <ion-icon name="document-text-outline"></ion-icon> <span data-i18n="btn_preview_pdf">预览 PDF</span>
+                            </a>
+                            <a href="Agency_and_Creativity.html" class="btn-paper-grid btn-paper-primary-grid">
+                                <ion-icon name="folder-open-outline"></ion-icon> <span data-i18n="btn_paper3_materials">查看研究材料与专页</span> &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End Publications ==================== -->
 
     <!-- ==================== Start  Contact ==================== -->
 
